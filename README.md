@@ -9,6 +9,7 @@ MMAP (https://www.nexusmods.com/stardewvalley/mods/28423)
 
 Alpha Release v 1.1
 Fixes
+
 Town:
 - Fixed issue where clipping would occur in front of buildings in some places
 - Fixed issue where Choco wanted to be behind the barrel

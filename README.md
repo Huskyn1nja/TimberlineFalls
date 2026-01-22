@@ -7,6 +7,30 @@ MMAP (https://www.nexusmods.com/stardewvalley/mods/28423)
 
 ** Mod is not yet compatible with any recolors ** 
 
+Alpha Release v 1.2
+
+Town:
+- Added the ability to get closer to edges
+- Built out the interior of the Biscuit Drum
+- Fixed various layering issues
+
+Arden:
+- Fixed issue where they would get mad and walk into the void
+
+Roxy
+- Fixed issue where she would stay in bed all day (I think. She kinda does what she wants)
+
+Jett
+- Fixed issue where animations weren't always triggering
+
+**NEW**
+Added Cassidy
+- Added apartment living space in apartment 1B
+- Added Cassidy Dialogue and schedule
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Alpha Release v 1.1
 Fixes
 

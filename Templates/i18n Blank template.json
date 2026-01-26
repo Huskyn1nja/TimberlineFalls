@@ -1,16 +1,18 @@
 {
-// --- Replace NPCNAME with the name of your NPC
-  "NPCNAME.Name": ""
+  // --- Replace NPCNAME with the name of your NPC
+  "NPCNAME.Name": "",
   "NPCNAME.Introduction": "",
 
+  // --- DAILY DIALOGUE ---
   "NPCNAME.Mon": "",
   "NPCNAME.Tue": "",
   "NPCNAME.Wed": "",
-  "NPCNAME.Thu": ".",
+  "NPCNAME.Thu": "",
   "NPCNAME.Fri": "",
   "NPCNAME.Sat": "",
   "NPCNAME.Sun": "",
 
+  // --- HEART LEVEL DIALOGUE ---
   "NPCNAME.Mon2": "",
   "NPCNAME.Tue2": "",
   "NPCNAME.Wed2": "",
@@ -18,15 +20,13 @@
   "NPCNAME.Fri2": "",
   "NPCNAME.Sat2": "",
   "NPCNAME.Sun2": "",
-
   "NPCNAME.Mon4": "",
   "NPCNAME.Tue4": "",
   "NPCNAME.Wed4": "",
   "NPCNAME.Thu4": "",
   "NPCNAME.Fri4": "",
-  "NPCNAME.Sat4": "",
+  "NPCNAME.Sat4": "", 
   "NPCNAME.Sun4": "",
-
   "NPCNAME.Mon6": "",
   "NPCNAME.Tue6": "",
   "NPCNAME.Wed6": "",
@@ -34,7 +34,6 @@
   "NPCNAME.Fri6": "",
   "NPCNAME.Sat6": "",
   "NPCNAME.Sun6": "",
-
   "NPCNAME.Mon8": "",
   "NPCNAME.Tue8": "",
   "NPCNAME.Wed8": "",
@@ -42,7 +41,6 @@
   "NPCNAME.Fri8": "",
   "NPCNAME.Sat8": "",
   "NPCNAME.Sun8": "",
-
   "NPCNAME.Mon10": "",
   "NPCNAME.Tue10": "",
   "NPCNAME.Wed10": "",
@@ -51,6 +49,7 @@
   "NPCNAME.Sat10": "",
   "NPCNAME.Sun10": "",
 
+  // --- SEASONAL SPECIFIC ---
   "NPCNAME.spring_1": "",
   "NPCNAME.spring_12": "",
   "NPCNAME.spring_23": "",
@@ -68,6 +67,7 @@
   "NPCNAME.winter_24": "",
   "NPCNAME.BeachNightMarket": "",
 
+  // --- SEASONAL DAYS ---
   "NPCNAME.summer_Mon": "",
   "NPCNAME.summer_Tue": "",
   "NPCNAME.summer_Wed": "",
@@ -80,34 +80,106 @@
   "NPCNAME.fall_Wed": "",
   "NPCNAME.fall_Thu": "",
   "NPCNAME.fall_Fri": "",
-  "NPCNAME.fall_Sat": "",
+  "NPCNAME.fall_Sat": "", 
   "NPCNAME.fall_Sun": "",
   "NPCNAME.winter_Mon": "",
   "NPCNAME.winter_Tue": "",
-  "NPCNAME.winter_Wed": "",
+  "NPCNAME.winter_Wed": "", 
   "NPCNAME.winter_Thu": "",
   "NPCNAME.winter_Fri": "",
   "NPCNAME.winter_Sat": "",
   "NPCNAME.winter_Sun": "",
 
+  // --- SEASONAL HEART ---
   "NPCNAME.summer_Mon4": "",
   "NPCNAME.summer_Tue4": "",
   "NPCNAME.summer_Wed6": "",
   "NPCNAME.summer_Thu4": "",
   "NPCNAME.summer_Fri4": "",
-  "NPCNAME.summer_Sat4": "",
+  "NPCNAME.summer_Sat4": "", 
   "NPCNAME.summer_Sun4": "",
+  
   "NPCNAME.fall_Mon4": "",
-  "NPCNAME.fall_Tue4": "",
+  "NPCNAME.fall_Tue4": "", 
   "NPCNAME.fall_Wed4": "",
+  
   "NPCNAME.winter_Mon4": "",
   "NPCNAME.winter_Tue4": "",
   "NPCNAME.winter_Wed4": "",
   "NPCNAME.winter_Thu4": "",
-  "NPCNAME.winter_Fri4": "",
-  "NPCNAME.winter_Sat4": "",
+  "NPCNAME.winter_Fri4": "", 
+  "NPCNAME.winter_Sat4": "", 
   "NPCNAME.winter_Sun4": "",
 
+  // --- GIFT TASTES ---
+  "NPCNAME.Gift.Love": "",
+  "NPCNAME.Gift.Like": "",
+  "NPCNAME.Gift.Dislike": "",
+  "NPCNAME.Gift.Hate": "",
+  "NPCNAME.Gift.Neutral": "",
+
+  // --- GIFT REACTIONS ---
+  "NPCNAME.AcceptBirthdayGift_Positive": "",
+  "NPCNAME.AcceptBirthdayGift_Negative": "",
+  "NPCNAME.AcceptBirthdayGift_Loved": "",
+  "NPCNAME.AcceptBirthdayGift_Liked": "",
+  "NPCNAME.AcceptGift_StardropTea": "",
+  "NPCNAME.AcceptGift_Positive_category_greens": "",
+  "NPCNAME.AcceptGift_Positive_category_fish": "",
+  "NPCNAME.AcceptGift_Book_Trash": "",
+  "NPCNAME.AcceptGift_FrogEgg": "",
+  "NPCNAME.AcceptGift_BasiliskPaw": "",
+
+  // --- ANIMATIONS ---
+  "NPCNAME.Animation.CustomBubble": "",
+
+  // --- ENGAGEMENT & MARRIAGE ---
+  "NPCNAME.Engagement.Day0": "",
+  "NPCNAME.Engagement.Day1": "",
+  "NPCNAME.Engagement.Generic": "",
+  "NPCNAME.married_SpouseName": "",
+
+  // --- ROMANCE & RELATIONSHIP STATUS ---
+  "NPCNAME.breakUp": "",
+  "NPCNAME.divorced": "",
+  "NPCNAME.dumped_Guys": "",
+  "NPCNAME.dumped_Girls": "",
+  "NPCNAME.secondChance_Guys": "",
+  "NPCNAME.secondChance_Girls": "",
+  "NPCNAME.dating_Name": "",
+  "NPCNAME.dating_Name_memory_oneday": "",
+  "NPCNAME.dating_Name_memory_oneyear": "",
+  "NPCNAME.dating_OtherNPC": "",
+
+  // --- MISC RESPONSES ---
+  "NPCNAME.Dialogue.AcceptBouquet": "",
+  "NPCNAME.Dialogue.RejectBouquet": "",
+  "NPCNAME.Dialogue.FlowerDance_Accept": "",
+  "NPCNAME.Dialogue.FlowerDance_Decline": "",
+  "NPCNAME.Dialogue.SpouseStardrop": "",
+
+  // --- MOVIE REACTIONS ---
+  "NPCNAME.Movie.Spring0.Before": "",
+  "NPCNAME.Movie.Spring0.During": "",
+  "NPCNAME.Movie.Spring0.After": "",
+  "NPCNAME.Movie.Summer1.Before": "",
+  "NPCNAME.Movie.Summer1.During": "",
+  "NPCNAME.Movie.Summer1.After": "",
+  // Add other movies as needed
+
+  // --- MAIL ---
+  "NPCNAME.Mail.WelcomeLetter": "",
+  "NPCNAME.Mail.RecipeMail": "",
+
+  // --- LOCATION & ACTIVITY SPECIFIC ---
+  "NPCNAME.DumpsterDiveComment": "",
+  "NPCNAME.firstVisit_Railroad": "",
+  "NPCNAME.houseUpgrade_1": "",
+  "NPCNAME.pamHouseUpgrade": "",
+  "NPCNAME.pamHouseUpgradeAnonymous": "",
+  "NPCNAME.mineArea_80": "",
+
+  // --- RESORT ---
   "NPCNAME.Resort_Entering": "",
   "NPCNAME.Resort_Leaving": "",
   "NPCNAME.Resort_Leaving_2": "",
@@ -122,9 +194,10 @@
   "NPCNAME.Resort_Wander_2": "",
   "NPCNAME.Resort": "",
 
-  "NPCNAME.FlowerDance_Accept": "",
-  "NPCNAME.FlowerDance_Decline": "",
-  "NPCNAME.FlowerDance_Accept_Spouse": "",
+  // --- FESTIVALS & WEATHER ---
+  "NPCNAME.GreenRain": "It's so green...",
+  "NPCNAME.GreenRain_2": "",
+  "NPCNAME.GreenRainFinished": "",
   "NPCNAME.wonEggHunt": "",
   "NPCNAME.wonEggHunt_memory_oneyear": "",
   "NPCNAME.wonGrange": "",
@@ -132,45 +205,7 @@
   "NPCNAME.MovieInvitation": "",
   "NPCNAME.movieTheater_memory_oneweek": "",
 
-  "NPCNAME.GreenRain": "It's so green...",
-  "NPCNAME.GreenRain_2": "",
-  "NPCNAME.GreenRainFinished": "",
-
-  "NPCNAME.AcceptBirthdayGift_Positive": "",
-  "NPCNAME.AcceptBirthdayGift_Negative": "",
-  "NPCNAME.AcceptBirthdayGift_Loved": "",
-  "NPCNAME.AcceptBirthdayGift_Liked": "",
-
-  "NPCNAME.AcceptGift_StardropTea": "",
-
-  "NPCNAME.AcceptGift_Positive_category_greens": "",
-  "NPCNAME.AcceptGift_Positive_category_fish": "",
-
-  "NPCNAME.AcceptGift_Book_Trash": "",
-  "NPCNAME.AcceptGift_FrogEgg": "",
-  "NPCNAME.AcceptGift_BasiliskPaw": "",
-
-  "NPCNAME.breakUp": "",
-  "NPCNAME.divorced": "",
-  "NPCNAME.dumped_Guys": "",
-  "NPCNAME.dumped_Girls": "",
-  "NPCNAME.secondChance_Guys": "",
-  "NPCNAME.secondChance_Girls": "",
-
-  "NPCNAME.dating_Name": "",
-  "NPCNAME.dating_Name_memory_oneday": "",
-  "NPCNAME.dating_Name_memory_oneyear": "",
-
-  "NPCNAME.married_SpouseName": "",
-  "NPCNAME.dating_OtherNPC": "",
-
-  "NPCNAME.DumpsterDiveComment": "",
-  "NPCNAME.firstVisit_Railroad": "",
-  "NPCNAME.houseUpgrade_1": "",
-  "NPCNAME.pamHouseUpgrade": "",
-  "NPCNAME.pamHouseUpgradeAnonymous": "",
-  "NPCNAME.mineArea_80": "",
-
-  "NPCNAME.Mon_inlaw_RelativeName": "",
-  "NPCNAME.Sat_inlaw_RelativeName": ""
+  // --- IN-LAWS / FAMILY ---
+  "NPCNAME.Mon_inlaw_[RelativeName]": "",
+  "NPCNAME.Sat_inlaw_[RelativeName]": ""
 }

@@ -1,0 +1,15 @@
+{
+    "GreenRain": "610 Custom_Munitions 18 4 3/2400 Custom_Munitions 18 4 3 Vance_sleep",
+    "rain": "610 Custom_Munitions 6 8 0/900 Custom_Munitions 5 10 2/1400 Custom_Munitions 6 8 0/1800 Custom_Munitions 18 4 0 \"Characters\\Dialogue\\{{ModId}}_Vance:Schedule.Bunker\"/2300 Custom_Munitions 18 4 3 Vance_sleep",
+    
+    "spring": "610 Custom_Munitions 6 8 0/900 Custom_Munitions 5 10 2 \"Characters\\Dialogue\\{{ModId}}_Vance:Schedule.Work\"/1700 Custom_TimberlineFalls 44 38 2 \"Characters\\Dialogue\\{{ModId}}_Vance:Schedule.Patrol\"/2100 Custom_Munitions 18 4 3 Vance_sleep",
+    
+    "Inspect_BusStop": "610 Custom_Munitions 6 8 0/900 Custom_Munitions 5 10 2/1600 BusStop 12 10 2 \"Characters\\Dialogue\\{{ModId}}_Vance:BusStop\"/2000 Custom_Munitions 18 4 3 Vance_sleep",
+    
+    "Tue": "610 Custom_Munitions 6 8 0/900 Custom_Munitions 5 10 2/1700 Custom_TimberlineFalls 7 90 0 \"Characters\\Dialogue\\{{ModId}}_Vance:Schedule.Spying\"/2100 Custom_Munitions 18 4 3 Vance_sleep",
+    "Wed": "610 Custom_Munitions 6 8 0/900 Custom_Munitions 5 10 2/1700 Custom_TimberlineFalls 33 14 2 \"Characters\\Dialogue\\{{ModId}}_Vance:Schedule.Hiking\"/2100 Custom_Munitions 18 4 3 Vance_sleep",
+    "Thu": "610 Custom_Munitions 6 8 0/900 Custom_Munitions 5 10 2 \"Characters\\Dialogue\\{{ModId}}_Vance:Schedule.Work\"/1400 Custom_JettGarage 12 8 1 \"Characters\\Dialogue\\{{ModId}}_Vance:Schedule.Inspection\"/1800 Custom_Munitions 18 4 3 Vance_sleep",
+    "Fri": "610 Custom_Munitions 6 8 0/900 Custom_Munitions 5 10 2/1700 Custom_Cemetery 10 10 2 \"Characters\\Dialogue\\{{ModId}}_Vance:Schedule.Cemetery\"/2100 Custom_Munitions 18 4 3 Vance_sleep",
+    "Sat": "610 Custom_Munitions 6 8 0/900 Custom_Munitions 5 10 2/1800 Custom_Munitions 6 8 0 \"Characters\\Dialogue\\{{ModId}}_Vance:Schedule.Bunker\"/2200 Custom_Munitions 18 4 3 Vance_sleep",
+    "Sun": "GOTO Sat"
+}

@@ -1,0 +1,26 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_Munitions",
+            "Entries": {
+                "{{ModId}}_VanceIntro/\\GameStateQuery MINE_LOWEST_LEVEL_REACHED Current 40": "none/5 10/farmer 5 13 0 Vance 5 8 2/skippable/pause 500/speak Vance \"{{i18n:Vance.Event.Intro.1}}\"/pause 500/emote farmer 16/jump farmer/pause 500/speak Vance \"{{i18n:Vance.Event.Intro.2}}\"/move Vance 0 1 2/speak Vance \"{{i18n:Vance.Event.Intro.3}}\"/pause 1000/speak Vance \"{{i18n:Vance.Event.Intro.4}}\"/pause 500/speak Vance \"{{i18n:Vance.Event.Intro.5}}\"/end",
+                "{{ModId}}_Vance8Heart/f {{ModId}}_Vance 2000/t 2000 2400/O {{ModId}}_Vance_PerimeterBreach": "none/-1000 -1000/farmer 5 13 0 {{ModId}}_Vance 5 8 2/skippable/pause 500/speak {{ModId}}_Vance \"{{i18n:Vance.Event.8Heart.1}}\"/pause 500/move {{ModId}}_Vance 0 2 2/speak {{ModId}}_Vance \"{{i18n:Vance.Event.8Heart.2}}\"/pause 800/speak {{ModId}}_Vance \"{{i18n:Vance.Event.8Heart.3}}\"/pause 500/speak {{ModId}}_Vance \"{{i18n:Vance.Event.8Heart.4}}\"/quickQuestion {{i18n:Vance.Event.8Heart.Q}}#{{i18n:Vance.Event.8Heart.A1}}#{{i18n:Vance.Event.8Heart.A2}}(break)speak {{ModId}}_Vance \"{{i18n:Vance.Event.8Heart.R1}}\"\\friendship {{ModId}}_Vance 50(break)speak {{ModId}}_Vance \"{{i18n:Vance.Event.8Heart.R2}}\"\\friendship {{ModId}}_Vance 20/pause 500/speak {{ModId}}_Vance \"{{i18n:Vance.Event.8Heart.Final}}\"/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{ModId}}_Vance4Heart/f {{ModId}}_Vance 1000/w sunny/t 1000 1400": "none/-1000 -1000/farmer 45 55 2 {{ModId}}_Vance 45 50 2/skippable/pause 500/speak {{ModId}}_Vance \"{{i18n:Vance.Event.4Heart.1}}\"/pause 500/speak {{ModId}}_Vance \"{{i18n:Vance.Event.4Heart.2}}\"/quickQuestion {{i18n:Vance.Event.4Heart.Q}}#{{i18n:Vance.Event.4Heart.A1}}#{{i18n:Vance.Event.4Heart.A2}}#{{i18n:Vance.Event.4Heart.A3}}(break)speak {{ModId}}_Vance \"{{i18n:Vance.Event.4Heart.R1}}\"\\friendship {{ModId}}_Vance 50(break)speak {{ModId}}_Vance \"{{i18n:Vance.Event.4Heart.R2}}\"\\friendship {{ModId}}_Vance -20(break)speak {{ModId}}_Vance \"{{i18n:Vance.Event.4Heart.R3}}\"\\friendship {{ModId}}_Vance 20/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_TimberlineFalls",
+            "Entries": {
+                 "{{ModId}}_Vance6Heart/f {{ModId}}_Vance 1500/t 1800 2200": "none/-1000 -1000/farmer 20 65 2 {{ModId}}_Vance 22 65 3/skippable/pause 500/speak {{ModId}}_Vance \"Get down! Incoming!\"/shake {{ModId}}_Vance 1000/jump farmer/speak {{ModId}}_Vance \"They're in the trees... I can hear them chittering...\"/pause 1000/speak {{ModId}}_Vance \"...Wait. No. Just wind.\"/. . ./speak {{ModId}}_Vance \"...You didn't see that. Clear out, civilian.\"/end"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "Changes": [
+        {
+            "LogName": "Shop Definitions",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "Custom_MunitionsShop": {
+                    "Currency": 0,
+                    "OpenHours": "0900 1700",
+                    "MapLocations": [ "Custom_Munitions" ],
+                    "StorePosition": { "X": 5, "Y": 5 },
+                    "Owners": [
+                        {
+                            "Name": "{{ModId}}_Vance",
+                            "SalutationMessage": "{{i18n:Vance.Shop.Greeting}}",
+                            "Dialogues": [
+                                {
+                                    "Id": "Refusal",
+                                    "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModId}}_VanceIntro",
+                                    "Text": "{{i18n:Shop.Vance.Refusal}}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [
+                        { "Id": "CherryBomb", "ItemId": "(O)286", "Price": 300, "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_VanceIntro" },
+                        { "Id": "Bomb", "ItemId": "(O)287", "Price": 600, "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_VanceIntro, PLAYER_SKILL Current Mining 4" },
+                        { "Id": "MegaBomb", "ItemId": "(O)288", "Price": 1000, "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_VanceIntro, PLAYER_SKILL Current Mining 8" },
+                        { "Id": "LifeElixir", "ItemId": "(O)773", "Price": 500, "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_VanceIntro" }
+                    ]
+                },
+                "{{ModId}}_ArdenShop": {
+                    "Currency": 0,
+                    "OpenHours": "0900 1700", 
+                    "MapLocations": [ "Custom_Antiquary" ],
+                    "StorePosition": { "X": 9, "Y": 19 },
+                    "Categories": [ "Artifact", "Mineral" ],
+                    "Owners": [
+                        {
+                            "Name": "{{ModId}}_Arden",
+                            "SalutationMessage": "{{i18n:Shop.Arden.Greeting}}",
+                            "Dialogues": [
+                                {
+                                    "Id": "Purchase",
+                                    "Condition": "PLAYER_HAS_ITEM Current (O)454",
+                                    "Text": "{{i18n:Arden.Shop.Buy}}"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "AnyOrNone",
+                            "ClosedMessage": "The shop is closed. Preservation hours."
+                        }
+                    ],
+                    "Items": [
+                        { "Id": "Geode", "ItemId": "(O)535", "Price": 5000 },
+                        { "Id": "ArtifactTrove", "ItemId": "(O)590", "Price": 2000 },
+                        { "Id": "RareSeed", "ItemId": "(O)347", "Price": 2000, "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ArdenIntro" }
+                    ]
+                }
+            }
+        }
+    ]
+}

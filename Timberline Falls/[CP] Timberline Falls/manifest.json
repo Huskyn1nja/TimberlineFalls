@@ -1,0 +1,22 @@
+{
+   "Name": "Timberline Falls",
+   "Author": "Huskyn1nja",
+   "Version": "1.2.0",
+   "Description": "",
+   "UniqueID": "Huskyn1nja.TimberFalls",
+   "MinimumApiVersion": "4.0.0",
+   "UpdateKeys": ["Nexus:38055"],
+
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+  "Dependencies": [   
+  
+   {
+        "UniqueID": "DaisyNiko.Tilesheets",
+        "IsRequired": "True"
+     },
+  ]
+}
+
+

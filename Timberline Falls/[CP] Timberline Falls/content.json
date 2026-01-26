@@ -1,0 +1,82 @@
+{
+    "Format": "2.8.0",
+    "Changes": [
+
+        { "Action": "Include", "FromFile": "world/locations.json" },
+        { "Action": "Include", "FromFile": "world/shops.json" },
+		{ "Action": "Include", "FromFile": "world/items.json" },
+		//{ "Action": "Include", "FromFile": "world/SpecialOrders.json" },
+		
+		        {
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_Timberline_Items",
+            "FromFile": "assets/maps/Timberline_Items.png"
+        },
+
+		
+{
+    "LogName": "Load Blank Dialogue Files (Crash Prevention)",
+    "Action": "Load",
+    "Target": "Characters/Dialogue/{{ModId}}_Jett, Characters/Dialogue/MarriageDialogue{{ModId}}_Jett, Characters/Dialogue/{{ModId}}_Cassidy, Characters/Dialogue/MarriageDialogue{{ModId}}_Cassidy, Characters/Dialogue/{{ModId}}_Blaise, Characters/Dialogue/MarriageDialogue{{ModId}}_Blaise, Characters/Dialogue/{{ModId}}_Clark, Characters/Dialogue/{{ModId}}_Roxy, Characters/Dialogue/MarriageDialogue{{ModId}}_Roxy, Characters/Dialogue/{{ModId}}_Remy, Characters/Dialogue/MarriageDialogue{{ModId}}_Remy, Characters/Dialogue/{{ModId}}_Silas, Characters/Dialogue/MarriageDialogue{{ModId}}_Silas, Characters/Dialogue/{{ModId}}_Arden, Characters/Dialogue/MarriageDialogue{{ModId}}_Arden, Characters/Dialogue/{{ModId}}_Bea, Characters/Dialogue/{{ModId}}_Orson, Characters/Dialogue/{{ModId}}_Mabel, Characters/Dialogue/{{ModId}}_Drexel, Characters/Dialogue/{{ModId}}_Bernard, Characters/Dialogue/{{ModId}}_Julius, Characters/Dialogue/{{ModId}}_Vance, Characters/Dialogue/{{ModId}}_Elara, Characters/Dialogue/MarriageDialogue{{ModId}}_Elara, Characters/Dialogue/{{ModId}}_Dion, Characters/Dialogue/{{ModId}}_Mara, Characters/Dialogue/MarriageDialogue{{ModId}}_Mara",
+    "FromFile": "assets/blank.json"
+},
+
+        // CHARACTERS
+        { "Action": "Include", "FromFile": "characters/Jett/Jett.json" },
+        { "Action": "Include", "FromFile": "characters/Vance/Vance.json" },
+        { "Action": "Include", "FromFile": "characters/Arden/Arden.json" },
+        //{ "Action": "Include", "FromFile": "characters/Mara/Mara.json" },
+        { "Action": "Include", "FromFile": "characters/Roxy/Roxy.json" },
+        //{ "Action": "Include", "FromFile": "characters/Bea/Bea.json" },
+		//{ "Action": "Include", "FromFile": "characters/Blaise/Blaise.json" },
+        //{ "Action": "Include", "FromFile": "characters/Dion/Dion.json" },
+		//{ "Action": "Include", "FromFile": "characters/Drexel/Drexel.json" },
+        //{ "Action": "Include", "FromFile": "characters/Orson/Orson.json" },
+        //{ "Action": "Include", "FromFile": "characters/Mabel/Mabel.json" },
+        //{ "Action": "Include", "FromFile": "characters/Bernard/Bernard.json" },
+		//{ "Action": "Include", "FromFile": "characters/Silas/Silas.json" },
+        //{ "Action": "Include", "FromFile": "characters/Elara/Elara.json" },
+		{ "Action": "Include", "FromFile": "characters/Cassidy/Cassidy.json" },
+        //{ "Action": "Include", "FromFile": "characters/Clark/Clark.json" },
+		//{ "Action": "Include", "FromFile": "characters/Julius/Julius.json" },
+        //{ "Action": "Include", "FromFile": "characters/Remy/Remy.json" },
+        
+        // MAP PATCHES
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations", 
+            "Entries": {
+                "DoorUnlock_NotFriend_Undefined": "You aren't good enough friends with {0} to enter their bedroom."
+            }
+        },
+		
+		{
+		"LogName": "Munitions Door animate",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/Maps/HuskySheet.TfallsIndoor.png",
+		"FromArea": { "X": 208, "Y": 240, "Width": 64, "Height": 48 },
+		"ToArea": { "X": 512, "Y": 144, "Width": 64, "Height": 48 },
+		"PatchMode": "Replace",
+		"When": { 
+				"LocationName": "Custom_Munitions"
+			},
+		"Update": "OnLocationChange",
+		"Priority": "Late"
+		},
+				{
+		"LogName": "Munitions Door- Towninterior",
+		"Action": "EditImage",
+		"Target": "Maps/townInterior",
+		"FromFile": "assets/Maps/HuskySheet.TfallsIndoor.png",
+		"FromArea": { "X": 208, "Y": 240, "Width": 16, "Height": 48 },
+		"ToArea": { "X": 384, "Y": 16, "Width": 16, "Height": 48 },
+		"PatchMode": "Replace",
+		"When": { 
+				"LocationName": "Custom_Munitions"
+			},
+		"Update": "OnLocationChange",
+		"Priority": "Late"
+		}
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_JettGarage",
+            "Entries": {
+                "{{ModId}}_Jett2Heart/f Jett 500": "none/-1000 -1000/farmer 5 13 0 Jett 5 10 0/skippable/pause 500/speak Jett \"{{i18n:Jett.Event.2Heart.1}}\"/pause 400/shake Jett 500/speak Jett \"{{i18n:Jett.Event.2Heart.2}}\"/pause 500/move farmer 0 -2 0/emote Jett 16/jump Jett/faceDirection Jett 2/speak Jett \"{{i18n:Jett.Event.2Heart.3}}\"/pause 600/speak Jett \"{{i18n:Jett.Event.2Heart.4}}\"/quickQuestion {{i18n:Jett.Event.2Heart.Q}}#{{i18n:Jett.Event.2Heart.A1}}#{{i18n:Jett.Event.2Heart.A2}}#{{i18n:Jett.Event.2Heart.A3}}(break)speak Jett \"{{i18n:Jett.Event.2Heart.R1}}\"\\emote farmer 32\\friendship Jett 50(break)speak Jett \"{{i18n:Jett.Event.2Heart.R2}}\"\\emote Jett 32\\friendship Jett 50(break)speak Jett \"{{i18n:Jett.Event.2Heart.R3}}\"\\emote Jett 28\\friendship Jett -20/pause 500/end",
+                "{{ModId}}_Jett6Heart/f {{ModId}}_Jett 1500/w sunny": "none/-1000 -1000/farmer 10 20 0 {{ModId}}_Jett 12 15 2/skippable/speak {{ModId}}_Jett \"{{i18n:Jett.Event.6Heart.1}}\"/pause 500/speak {{ModId}}_Jett \"{{i18n:Jett.Event.6Heart.2}}\"/move farmer 2 -5 0/faceDirection {{ModId}}_Jett 3/speak {{ModId}}_Jett \"{{i18n:Jett.Event.6Heart.3}}\"/pause 800/speak {{ModId}}_Jett \"{{i18n:Jett.Event.6Heart.4}}\"/faceDirection {{ModId}}_Jett 2/speak {{ModId}}_Jett \"{{i18n:Jett.Event.6Heart.5}}\"/pause 1000/end",
+                "{{ModId}}_Jett10Heart/f {{ModId}}_Jett 2500/t 2000 2400": "none/-1000 -1000/farmer 13 18 0 {{ModId}}_Jett 13 7 2/skippable/speak {{ModId}}_Jett \"{{i18n:Jett.Event.10Heart.1}}\"/move farmer 0 -8 0/pause 500/speak {{ModId}}_Jett \"{{i18n:Jett.Event.10Heart.2}}\"/pause 500/speak {{ModId}}_Jett \"{{i18n:Jett.Event.10Heart.3}}\"/pause 1000/speak {{ModId}}_Jett \"{{i18n:Jett.Event.10Heart.4}}\"/pause 500/speak {{ModId}}_Jett \"{{i18n:Jett.Event.10Heart.5}}\"/pause 1000/speak {{ModId}}_Jett \"{{i18n:Jett.Event.10Heart.Kiss}}\"/showFrame {{ModId}}_Jett 33/pause 2000/end",
+                "{{ModId}}_Jett8Heart/f {{ModId}}_Jett 2000/w sunny/t 600 1800": "none/-1000 -1000/farmer 13 18 0 {{ModId}}_Jett 13 7 0/skippable/pause 500/speak {{ModId}}_Jett \"{{i18n:Jett.Event.8Heart.1}}\"/move farmer 0 -8 0/pause 400/faceDirection {{ModId}}_Jett 2/speak {{ModId}}_Jett \"{{i18n:Jett.Event.8Heart.2}}\"/pause 500/speak {{ModId}}_Jett \"{{i18n:Jett.Event.8Heart.3}}\"/playSound furnace/pause 1000/speak {{ModId}}_Jett \"{{i18n:Jett.Event.8Heart.4}}\"/pause 500/speak {{ModId}}_Jett \"{{i18n:Jett.Event.8Heart.5}}\"/animate {{ModId}}_Jett false true 200 22 23 24 23/pause 1500/speak {{ModId}}_Jett \"{{i18n:Jett.Event.8Heart.6}}\"/stopAnimation {{ModId}}_Jett/faceDirection {{ModId}}_Jett 2/speak {{ModId}}_Jett \"{{i18n:Jett.Event.8Heart.7}}\"/pause 800/speak {{ModId}}_Jett \"{{i18n:Jett.Event.8Heart.8}}\"/pause 500/speak {{ModId}}_Jett \"{{i18n:Jett.Event.8Heart.9}}\"/pause 400/speak {{ModId}}_Jett \"{{i18n:Jett.Event.8Heart.10}}\"/pause 500/action AddItem (TR){{ModId}}_GearNecklace/message \"{{i18n:Jett.Event.8Heart.Reward}}\"/end"
+           }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_BiscuitDrum",
+            "Entries": {
+                "{{ModId}}_Jett4Heart/f Jett 1000/d Jett": "none/-1000 -1000/farmer 5 15 0 Jett 5 10 0 Cassidy 5 8 2/skippable/pause 500/speak Jett \"{{i18n:Jett.Event.4Heart.1}}\"/speak Cassidy \"{{i18n:Jett.Event.4Heart.2}}\"/shake Jett 500/speak Jett \"{{i18n:Jett.Event.4Heart.3}}\"/move farmer 0 -4 0/emote Jett 16/faceDirection Jett 2/speak Jett \"{{i18n:Jett.Event.4Heart.4}}\"/quickQuestion {{i18n:Jett.Event.4Heart.Q}}#{{i18n:Jett.Event.4Heart.A1}}#{{i18n:Jett.Event.4Heart.A2}}#{{i18n:Jett.Event.4Heart.A3}}(break)speak Jett \"{{i18n:Jett.Event.4Heart.R1}}\"\\friendship Jett 50(break)speak Jett \"{{i18n:Jett.Event.4Heart.R2}}\"\\friendship Jett 20(break)speak Jett \"{{i18n:Jett.Event.4Heart.R3}}\"\\friendship Jett -50/end"
+            }
+        }
+    ]
+}

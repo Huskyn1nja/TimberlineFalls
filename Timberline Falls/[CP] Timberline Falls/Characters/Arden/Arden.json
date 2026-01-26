@@ -1,0 +1,134 @@
+{
+    "Changes": [
+        {
+            "LogName": "Arden Sprite",
+            "Action": "Load",
+            "Target": "Characters/{{ModId}}_Arden",
+            "FromFile": "characters/Arden/sprite.png"
+        },
+        {
+            "LogName": "Arden Portrait",
+            "Action": "Load",
+            "Target": "Portraits/{{ModId}}_Arden",
+            "FromFile": "characters/Arden/portrait.png"
+        },
+        {
+            "LogName": "NPC Add - Arden",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{ModId}}_Arden": {
+                    "DisplayName": "{{i18n:Arden.Name}}",
+                    "TextureName": "{{ModId}}_Arden",
+                    "BirthSeason": "Fall",
+                    "BirthDay": 28,
+                    "HomeRegion": "Other",
+                    "Gender": "Undefined",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+					"CanReceiveGifts": true,
+                    "Optimism": "Neutral",
+                    "CanBeRomanced": true,
+                    "LoveInterest": null,
+                    "IsDarkSkinned": false,
+                    "FriendsAndFamily": {
+                        "{{ModId}}_Jett": "acquaintance",
+                        "Gunther": "rival"
+                    },
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_Antiquary",
+                            "Tile": {
+                                "X": 7,
+                                "Y": 4
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "WinterStarGifts": [
+                        {
+                            "Id": "Green Tea",
+                            "ItemId": "(O)614",
+                            "MinStack": 1,
+                            "MaxStack": 5
+                        },
+                        {
+                            "Id": "Pearl",
+                            "ItemId": "(O)797",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "SpouseRoom": {
+                        "MapAsset": "Maps/Arden_SpouseRoom",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 6,
+                            "Height": 9
+                        }
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "Maps/Arden_SpousePatio",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 4,
+                            "Height": 4
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "LogName": "Arden Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "{{ModId}}_Arden": "{{i18n:Arden.Gift.Love}}/(O)103 (O)108/{{i18n:Arden.Gift.Like}}/(O)4/{{i18n:Arden.Gift.Dislike}}/(O)330/{{i18n:Arden.Gift.Hate}}/(O)168 (O)169/{{i18n:Arden.Gift.Neutral}}/(O)388"
+            }
+        },
+
+        {
+            "LogName": "Arden Dialogue",
+            "Action": "Include",
+            "FromFile": "characters/Arden/Arden_Dialogue.json"
+        },
+        {
+            "LogName": "Arden Events",
+            "Action": "Include",
+            "FromFile": "characters/Arden/Arden_Events.json"
+        },
+        {
+            "LogName": "Arden Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/{{ModId}}_Arden",
+            "FromFile": "characters/Arden/Arden_Schedule.json"
+        },
+        {
+            "LogName": "Arden Schedule - Museum Verify (Tue)",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{ModId}}_Arden",
+            "Entries": {
+                "Tue": "GOTO Museum_Verify",
+                "Museum_Verify": "610 Custom_Antiquary 10 9 2/1000 ArchaeologyHouse 15 10 0 square_3_3 \"Characters\\Dialogue\\{{ModId}}_Arden:Schedule.Museum.Verify\"/1600 Custom_Antiquary 9 19 2/2200 Custom_Antiquary 10 9 3 arden_sleep"
+            },
+            "When": {
+                "Query: 'WORLD_STATE_FIELD LostBooksFound 20 999'": "true"
+            }
+        },
+        {
+            "LogName": "Arden Schedule - Archive Restored",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{ModId}}_Arden",
+            "Entries": {
+                "Sat": "610 Custom_Antiquary 10 9 2/1200 Custom_Antiquary 5 5 2 \"Characters\\Dialogue\\{{ModId}}_Arden:Schedule.Archive.Work\"/1800 Custom_Antiquary 10 9 3 arden_sleep"
+            },
+            "When": {
+                "Query: 'PLAYER_HAS_MAIL Current {{ModId}}_ArchiveRestored'": "true"
+            }
+        }
+    ]
+}

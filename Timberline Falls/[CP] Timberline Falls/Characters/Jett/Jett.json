@@ -1,0 +1,120 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Jett Sprite",
+            "Action": "Load",
+            "Target": "Characters/{{ModId}}_Jett",
+            "FromFile": "characters/Jett/sprite.png"
+        },
+        {
+            "LogName": "Jett Portrait",
+            "Action": "Load",
+            "Target": "Portraits/{{ModId}}_Jett",
+            "FromFile": "characters/Jett/portrait.png"
+        },
+
+
+        {
+            "LogName": "Jett Dialogue",
+            "Action": "Include",
+            "FromFile": "characters/Jett/Jett_Dialogue.json"
+        },
+        {
+            "LogName": "Jett Events",
+            "Action": "Include",
+            "FromFile": "characters/Jett/Jett_Events.json"
+        },
+        {
+            "LogName": "Jett Schedule Base",
+            "Action": "Load",
+            "Target": "Characters/schedules/{{ModId}}_Jett",
+            "FromFile": "characters/Jett/Jett_Schedule.json"
+        },
+
+
+        {
+            "LogName": "Jett Schedule - Post 4 Heart",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{ModId}}_Jett",
+            "Entries": {
+                "Fri": "610 Custom_JettGarage 21 8 2 jett_coffee/900 Custom_CommunityCenter 20 10 0/1400 Custom_HikingTrail 15 40 2/2100 Custom_JettGarage 1 4 3 {{ModId}}_jett_sleep"
+            },
+            "When": {
+                "HasSeenEvent": "{{ModId}}_Jett4Heart"
+            }
+        },
+
+
+ {
+            "LogName": "Jett Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "jett_engine": "16/16 16 16 16 16 17 17 17 17 17 17/16/Strings\\animationDescriptions:Jett.Engine",
+                "jett_tinkering": "18/18 18 18 18 19 19 19 19/18/Strings\\animationDescriptions:Jett.Tinkering/offset 0 -25",
+                "jett_coffee": "22/22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 23 24 24 24 24 24 24 24 23 22 21 21 21/21/Strings\\animationDescriptions:Jett.Coffee",
+                "jett_washing": "25/25 26 25 26 25 26 25 26 25 25 26 26/25/Strings\\animationDescriptions:Jett.Washing/offset 0 -12",
+                "jett_sleep": "20/20/20"
+            }
+        },
+{
+            "LogName": "Jett Animation Strings",
+            "Action": "EditData",
+            "Target": "Strings/animationDescriptions",
+            "Entries": {
+                "Jett.Engine": "{{i18n:Jett.Engine}}",
+                "Jett.Tinkering": "{{i18n:Jett.Tinkering}}",
+                "Jett.Coffee": "{{i18n:Jett.Coffee}}",
+                "Jett.Washing": "{{i18n:Jett.Washing}}"
+            }
+        },
+        {
+            "LogName": "Jett Profile Data",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{ModId}}_Jett": {
+                    "DisplayName": "{{i18n:Jett.Name}}",
+                    "BirthSeason": "Spring",
+                    "BirthDay": 12,
+                    "HomeRegion": "Town",
+                    "Gender": "Undefined",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Neutral",
+                    "CanBeRomanced": true,
+					"EngagementItem": "{{ModId}}_AmberClasp",
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_JettGarage",
+                            "Tile": { "X": 13, "Y": 7 },
+							"Direction": "Down"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Jett Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "{{ModId}}_Jett": "{{i18n:Jett.Gift.Love}}/395 787 {{ModId}}_GearNecklace/{{i18n:Jett.Gift.Like}}/-5 -79 422/{{i18n:Jett.Gift.Dislike}}/80 330/{{i18n:Jett.Gift.Hate}}/2/{{i18n:Jett.Gift.Neutral}}/"
+            }
+        },
+        {
+            "LogName": "Jett Engagement",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "{{ModId}}_Jett0": "{{i18n:Jett.Engagement.0}}",
+                "{{ModId}}_Jett1": "{{i18n:Jett.Engagement.1}}"
+            }
+        },
+		
+		
+    ]
+}

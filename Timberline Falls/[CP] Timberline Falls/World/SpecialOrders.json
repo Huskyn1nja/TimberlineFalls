@@ -1,0 +1,77 @@
+{
+    "Changes": [
+        {
+            "LogName": "Arden Special Order",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModId}}_Arden_RestoreArchive": {
+                    "Name": "Arden's Archive Restoration",
+                    "Requester": "{{ModId}}_Arden",
+                    "Duration": "Month",
+                    "Repeatable": "False",
+                    "OrderType": "",
+                    "RequiredItems": [
+                        { "ItemId": "(O)709", "Count": 50 },
+                        { "ItemId": "(O)390", "Count": 200 },
+                        { "ItemId": "(O)787", "Count": 10 }
+                    ],
+                    "Rewards": [
+                        { "Type": "Money", "Amount": 5000 },
+                        { "Type": "Friendship", "Target": "{{ModId}}_Arden", "Amount": 250 }
+                    ],
+                    "Text": "{{i18n:SpecialOrder.Arden.Text}}"
+                }
+            }
+        },
+        {
+            "LogName": "Vance Special Order",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModId}}_Vance_PerimeterBreach": {
+                    "Name": "Perimeter Breach",
+                    "Requester": "{{ModId}}_Vance",
+                    "Duration": "Week",
+                    "Repeatable": "True",
+                    "OrderType": "",
+                    "Objectives": [
+                        {
+                            "Type": "SlayMonsters",
+                            "Text": "{{i18n:SpecialOrder.Vance.Objective}}",
+                            "Amount": 50
+                        }
+                    ],
+                    "Rewards": [
+                        { "Type": "Money", "Amount": 2000 },
+                        { "Type": "Friendship", "Target": "{{ModId}}_Vance", "Amount": 250 }
+                    ],
+                    "Text": "{{i18n:SpecialOrder.Vance.Text}}"
+                }
+            }
+        },
+        {
+            "LogName": "Roxy Special Order",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModId}}_Roxy_SoundCheck": {
+                    "Name": "Sound Check",
+                    "Requester": "{{ModId}}_Roxy",
+                    "Duration": "Month",
+                    "Repeatable": "False",
+                    "OrderType": "",
+                    "RequiredItems": [
+                        { "ItemId": "(O)787", "Count": 1 }, 
+                        { "ItemId": "(O)334", "Count": 5 } 
+                    ],
+                    "Rewards": [
+                        { "Type": "Money", "Amount": 1000 },
+                        { "Type": "Friendship", "Target": "{{ModId}}_Roxy", "Amount": 250 }
+                    ],
+                    "Text": "{{i18n:SpecialOrder.Roxy.Text}}"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,362 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Maps/HuskySheet.Tfalls",
+            "FromFile": "assets/maps/HuskySheet.Tfalls.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/HuskySheet.TfallsIndoor",
+            "FromFile": "assets/maps/HuskySheet.TfallsIndoor.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/TF_Buyco",
+            "FromFile": "assets/maps/TF_Buyco.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/TF_Buildings",
+            "FromFile": "assets/maps/Timberfalls_Buildings_Spring.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls",
+            "FromFile": "assets/maps/TF_Timberline_Town.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_JettGarage",
+            "FromFile": "assets/maps/TF_JettGarage.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_Antiquary",
+            "FromFile": "assets/maps/TF_Antequary.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_GageCottage",
+            "FromFile": "assets/maps/TF_GageCottage.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_TTLobby",
+            "FromFile": "assets/maps/TF_TTLobby.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_BiscuitDrum",
+            "FromFile": "assets/maps/TF_BiscuitDrum.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_BuyCo",
+            "FromFile": "assets/maps/TF_BuyCo.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_Cemetary",
+            "FromFile": "assets/maps/TF_Cemetary.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_Clinic",
+            "FromFile": "assets/maps/TF_Clinic.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_ElaraOffice",
+            "FromFile": "assets/maps/TF_ElaraOffice.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_HikingTrail",
+            "FromFile": "assets/maps/TF_HikingTrail.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_MaraCabin",
+            "FromFile": "assets/maps/TF_MaraCabin.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_Munitions",
+            "FromFile": "assets/maps/TF_Munitions.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_PepperPit",
+            "FromFile": "assets/maps/TF_PepperPit.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_BernardShack",
+            "FromFile": "assets/maps/TF_BernardShack.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_SilasCabin",
+            "FromFile": "assets/maps/TF_SilasCabin.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Custom_TimberlineFalls_TTB1F1",
+            "FromFile": "assets/maps/TF_TTB1F1.tmx"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "Custom_TimberlineFalls": { "DisplayName": "{{i18n:Location.Town}}", "Type": "Outdoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls" } },
+                "Custom_Cemetery": { "DisplayName": "{{i18n:Location.Cemetery}}", "Type": "Outdoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_Cemetary" } },
+                "Custom_JettGarage": { "DisplayName": "{{i18n:Location.JettGarage}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_JettGarage" } },
+                "Custom_BiscuitDrum": { "DisplayName": "{{i18n:Location.BiscuitDrum}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_BiscuitDrum" } },
+                "Custom_TimberlineTerraces": { "DisplayName": "{{i18n:Location.Lobby}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_TTLobby" } },
+                "Custom_PepperPit": { "DisplayName": "{{i18n:Location.PepperPit}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_PepperPit" } },
+                "Custom_Munitions": { "DisplayName": "{{i18n:Location.Munitions}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_Munitions" } },
+                "Custom_BuyCo": { "DisplayName": "{{i18n:Location.BuyCo}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_BuyCo" } },
+                "Custom_Antiquary": { "DisplayName": "{{i18n:Location.Antiquary}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_Antiquary" } },
+                "Custom_StationOffice": { "DisplayName": "{{i18n:Location.ElaraOffice}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_ElaraOffice" } },
+                "Custom_Clinic": { "DisplayName": "{{i18n:Location.Clinic}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_Clinic" } },
+                "Custom_GageCottage": { "DisplayName": "{{i18n:Location.GageCottage}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_GageCottage" } },
+                "Custom_MaraCabin": { "DisplayName": "{{i18n:Location.MaraCabin}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_MaraCabin" } },
+                "Custom_BernardShack": { "DisplayName": "{{i18n:Location.BernardShack}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_BernardShack" } },
+                "Custom_SilasCabin": { "DisplayName": "{{i18n:Location.SilasCabin}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_SilasCabin" } },
+                "Custom_TimberTerraceB1F1": { "DisplayName": "{{i18n:Location.TTB1F1}}", "Type": "Indoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_TTB1F1" } },
+				"Custom_HikingPath": { "DisplayName": "{{i18n:Location.HikingTrail}}", "Type": "Outdoors", "CreateOnLoad": { "MapPath": "Maps/Custom_TimberlineFalls_HikingTrail" },
+
+          
+				},
+
+            }
+        },
+		
+		
+			  	  {
+      "Action": "EditData",
+      "Target": "mushymato.MMAP/Panorama",
+      "Entries": {
+		  "{{ModId}}_TimberFalls":{
+			   "BasedOn": "MMAP_MountainView",
+          "FullView": false}}},
+	  
+	  {
+         "Action": "EditMap",
+         "Target": "Maps/Custom_TimberlineFalls_HikingTrail",
+         "MapProperties": {
+            "mushymato.MMAP_Panorama": "{{ModId}}_TimberFalls"
+         }
+      },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Railroad",
+            "FromFile": "assets/maps/TF_RailRoadPatch.tmx",
+            "PatchMode": "Replace",
+            "ToArea": { "X": 32, "Y": 29, "Width": 7, "Height": 8 }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Railroad",
+            "AddWarps": [ "35 34 Custom_TimberlineFalls 27 66" ]
+        },
+        {
+            "LogName": "Arden's Archive",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_TimberlineFalls_Antiquary",
+            "FromFile": "assets/maps/TF_Antequary_Restored.tmx",
+            "PatchMode": "Replace",
+            "ToArea": { "X": 15, "Y": 3, "Width": 8, "Height": 6 },
+            "When": {
+                "Query: 'PLAYER_SPECIAL_ORDER_COMPLETE Current {{ModId}}_Arden_RestoreArchive'": "true"
+            }
+        },
+        {
+            "LogName": "Timberline Falls - Garbage Loot Tables",
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "Entries": {
+                "GarbageCans": {
+                    "Timberline_Trainyard": {
+                        "BaseChance": 0.2,
+                        "Items": [
+                            {
+                                "Id": "Trainyard_Loot_Pool",
+                                "Condition": null, 
+                                "RandomItemId": [
+                                    "(O)118", 
+                                    "(O)335", 
+                                    "(O)382", 
+                                    "(O)167", 
+                                    "(O)168"
+                                ],
+                                "MinStack": 1,
+                                "MaxStack": 4
+                            }
+                        ]
+                    },
+                    "Timberline_Biscuit_Drum": {
+                        "BaseChance": 0.2,
+                        "Items": [
+                            {
+                                "Id": "BiscuitDrum_Loot_Pool",
+                                "Condition": null,
+                                "RandomItemId": [
+                                    "(O)223", 
+                                    "(O)211", 
+                                    "(O)216", 
+                                    "(O)246", 
+                                    "(O)245", 
+                                    "(O)168"
+                                ],
+                                "MinStack": 1,
+                                "MaxStack": 3
+                            }
+                        ]
+                    },
+                    "Timberline_Clinic": {
+                        "BaseChance": 0.2,
+                        "Items": [
+                            {
+                                "Id": "Clinic_Loot",
+                                "Condition": null,
+                                "RandomItemId": [
+                                    "(O)170",
+                                    "(O)167",
+                                    "(O)168",
+                                    "(O)401"
+                                ],
+                                "MinStack": 1,
+                                "MaxStack": 2
+                            }
+                        ]
+                    },
+                    "Timberline_Antiquary": {
+                        "BaseChance": 0.2,
+                        "Items": [
+                            {
+                                "Id": "Antiquary_Loot",
+                                "Condition": null,
+                                "RandomItemId": [
+                                    "(O)112",
+                                    "(O)171",
+                                    "(O)169",
+                                    "(O)168",
+                                    "(O)390"
+                                ],
+                                "MinStack": 1,
+                                "MaxStack": 1
+                            }
+                        ]
+                    },
+                    "Timberline_Pepper_Pit": {
+                        "BaseChance": 0.2,
+                        "Items": [
+                            {
+                                "Id": "PepperPit_Loot",
+                                "Condition": null,
+                                "RandomItemId": [
+                                    "(O)260",
+                                    "(O)229",
+                                    "(O)247",
+                                    "(O)168"
+                                ],
+                                "MinStack": 1,
+                                "MaxStack": 3
+                            }
+                        ]
+                    },
+                    "Timberline_Terraces": {
+                        "BaseChance": 0.2,
+                        "Items": [
+                            {
+                                "Id": "Terraces_Loot",
+                                "Condition": null,
+                                "RandomItemId": [
+                                    "(O)348",
+                                    "(O)220",
+                                    "(O)223",
+                                    "(O)172",
+                                    "(O)168"
+                                ],
+                                "MinStack": 1,
+                                "MaxStack": 2
+                            }
+                        ]
+                    },
+                    "Timberline_Buyco": {
+                        "BaseChance": 0.2,
+                        "Items": [
+                            {
+                                "Id": "Buyco_Loot",
+                                "Condition": null,
+                                "RandomItemId": [
+                                    "(O)167",
+                                    "(O)171",
+                                    "(O)172",
+                                    "(O)168",
+                                    "(O)121"
+                                ],
+                                "MinStack": 1,
+                                "MaxStack": 4
+                            }
+                        ]
+                    },
+                    "Timberline_Munitions": {
+                        "BaseChance": 0.2,
+                        "Items": [
+                            {
+                                "Id": "Munitions_Loot",
+                                "Condition": null,
+                                "RandomItemId": [
+                                    "(O)382",
+                                    "(O)390",
+                                    "(O)378",
+                                    "(O)168",
+                                    "(O)92"
+                                ],
+                                "MinStack": 1,
+                                "MaxStack": 5
+                            }
+                        ]
+                    },
+                    "Timberline_Residential_1": {
+                        "BaseChance": 0.2,
+                        "Items": [
+                            {
+                                "Id": "Res_1_Loot",
+                                "Condition": null,
+                                "RandomItemId": [
+                                    "(O)216",
+                                    "(O)168",
+                                    "(O)172",
+                                    "(O)167"
+                                ],
+                                "MinStack": 1,
+                                "MaxStack": 3
+                            }
+                        ]
+                    },
+                    "Timberline_Residential_2": {
+                        "BaseChance": 0.2,
+                        "Items": [
+                            {
+                                "Id": "Res_2_Loot",
+                                "Condition": null,
+                                "RandomItemId": [
+                                    "(O)168",
+                                    "(O)172",
+                                    "(O)169",
+                                    "(O)223"
+                                ],
+                                "MinStack": 1,
+                                "MaxStack": 3
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

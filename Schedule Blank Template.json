@@ -1,0 +1,68 @@
+{
+  "Format": "2.9.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Schedules/{{NPCName}}",
+      "Entries": {
+          // --- SEASONAL DEFAULTS --- 
+        "spring": "",
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+
+          // --- WEATHER SPECIFIC --- 
+        "rain": "",
+        "rain2": "",
+        
+        // --- Vanilla behavior during green rain is to shelter indoors or under a tree ---
+        "GreenRain": "",
+
+          // --- WEEKLY OVERRIDES --- 
+        // --- If these are deleted or excluded, the game falls back to the Seasonal Default. ---
+        "Mon": "",
+        "Tue": "",
+        "Wed": "",
+        "Thu": "",
+        "Fri": "",
+        "Sat": "",
+        "Sun": "",
+
+          // --- ANNUAL APPOINTMENTS (Clinic) --- 
+        // --- Most vanilla NPCs go once a year on a random date. The visitation order for Harvey's clinic is usually in the same Format: Waiting room > Exam room > Waiting room.",
+        "winter_16": "",
+
+          // --- FESTIVALS --- 
+        "DesertFestival_1": "",
+        "DesertFestival_2": "",
+        "DesertFestival_3": "",
+
+          // --- MARRIAGE SCHEDULES --- 
+        // --- Vanilla characters typically do off farm events monday and Friday. Other days can be done by adding "marriage_" and the 3 letter day of week ---
+        "marriage_Mon": "",
+        "marriage_Fri": "",
+
+         // --- Desert Festival while married ---
+        "marriage_DesertFestival_1": "",
+        "marriage_DesertFestival_2": "",
+        "marriage_DesertFestival_3": "",
+        
+        // --- Spouse goes to their checkup even if married -- Note:Specific Date Priority > Marriage Priority ---
+        "marriage_winter_16": ""
+      }
+    },
+    
+    {
+        // --- CONDITIONAL SCHEDULES --- 
+      // --- Example: If the Community Center is restored or a specific map is unlocked (like Ridgeside Greenhouse) --- 
+      "Action": "EditData",
+      "Target": "Characters/Schedules/{{NPCName}}",
+      "Entries": {
+         "Sat": "800 Custom_Greenhouse X Y 2/1700 Saloon X Y 1/2300 {{HomeLocation}} X Y 3 {{NPCName}}_sleep"
+      },
+      "When": {
+        "HasFlag": "ccIsComplete"
+      }
+    }
+  ]
+}

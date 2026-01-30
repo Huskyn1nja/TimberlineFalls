@@ -1,192 +1,78 @@
 {
-// ---  Replace NPCNAME with the name of your NPC
- // --- INTRODUCTION ---
-  "Introduction": "{{i18n:NPCNAME.Introduction}}",
+  "Changes": [
+    // ============================================================
+    // 1. CORE DIALOGUE
+    // ============================================================
+    {
+      "LogName": "Core Dialogue - {{TargetNPC}}",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{ModId}}_{{TargetNPC}}",
+      "Entries": {
+        // --- INTRODUCTION ---
+        "Introduction": "{{i18n:{{TargetNPC}}.Intro}}",
 
- // --- STANDARD DAILY DIALOGUE ---
-  "Mon": "{{i18n:NPCNAME.Mon}}",
-  "Tue": "{{i18n:NPCNAME.Tue}}",
-  "Wed": "{{i18n:NPCNAME.Wed}}",
-  "Thu": "{{i18n:NPCNAME.Thu}}",
-  "Fri": "{{i18n:NPCNAME.Fri}}",
-  "Sat": "{{i18n:NPCNAME.Sat}}",
-  "Sun": "{{i18n:NPCNAME.Sun}}",
+        // --- DAILY DIALOGUE (Low Priority) ---
+        "Mon": "{{i18n:{{TargetNPC}}.Day.Mon}}",
+        "Tue": "{{i18n:{{TargetNPC}}.Day.Tue}}",
+        "Wed": "{{i18n:{{TargetNPC}}.Day.Wed}}",
+        "Thu": "{{i18n:{{TargetNPC}}.Day.Thu}}",
+        "Fri": "{{i18n:{{TargetNPC}}.Day.Fri}}",
+        "Sat": "{{i18n:{{TargetNPC}}.Day.Sat}}",
+        "Sun": "{{i18n:{{TargetNPC}}.Day.Sun}}",
 
- // --- HEART LEVEL DIALOGUE (2 Hearts) ---
-  "Mon2": "{{i18n:NPCNAME.Mon2}}",
-  "Tue2": "{{i18n:NPCNAME.Tue2}}",
-  "Wed2": "{{i18n:NPCNAME.Wed2}}",
-  "Thu2": "{{i18n:NPCNAME.Thu2}}",
-  "Fri2": "{{i18n:NPCNAME.Fri2}}",
-  "Sat2": "{{i18n:NPCNAME.Sat2}}",
-  "Sun2": "{{i18n:NPCNAME.Sun2}}",
+        // --- SEASONAL VARIATIONS (Medium Priority) ---
+        // Overrides "Mon", "Tue" etc. if defined for the current season
+        "spring_Mon": "{{i18n:{{TargetNPC}}.Spring.Mon}}",
+        "summer_Fri": "{{i18n:{{TargetNPC}}.Summer.Fri}}",
+        "winter_Sun": "{{i18n:{{TargetNPC}}.Winter.Sun}}",
 
- // --- HEART LEVEL DIALOGUE (4 Hearts) ---
-  "Mon4": "{{i18n:NPCNAME.Mon4}}",
-  "Tue4": "{{i18n:NPCNAME.Tue4}}",
-  "Wed4": "{{i18n:NPCNAME.Wed4}}",
-  "Thu4": "{{i18n:NPCNAME.Thu4}}",
-  "Fri4": "{{i18n:NPCNAME.Fri4}}",
-  "Sat4": "{{i18n:NPCNAME.Sat4}}",
-  "Sun4": "{{i18n:NPCNAME.Sun4}}",
+        // --- HEART LEVEL DIALOGUE (High Priority) ---
+        // Syntax: Day + HeartLevel (e.g., Mon4 = Monday at 4+ hearts)
+        "Mon4": "{{i18n:{{TargetNPC}}.Hearts4.Mon}}",
+        "Fri8": "{{i18n:{{TargetNPC}}.Hearts8.Fri}}",
+        
+        // --- DATING & MARRIAGE ---
+        "dating_Mon": "{{i18n:{{TargetNPC}}.Dating.Mon}}",
+        "marriage_Mon": "{{i18n:{{TargetNPC}}.Marriage.Mon}}",
+        "marriage_Rainy": "{{i18n:{{TargetNPC}}.Marriage.Rainy}}",
 
- // --- HEART LEVEL DIALOGUE (6 Hearts) ---
-  "Mon6": "{{i18n:NPCNAME.Mon6}}",
-  "Tue6": "{{i18n:NPCNAME.Tue6}}",
-  "Wed6": "{{i18n:NPCNAME.Wed6}}",
-  "Thu6": "{{i18n:NPCNAME.Thu6}}",
-  "Fri6": "{{i18n:NPCNAME.Fri6}}",
-  "Sat6": "{{i18n:NPCNAME.Sat6}}",
-  "Sun6": "{{i18n:NPCNAME.Sun6}}",
+        // --- SPECIAL DATES & LORE ---
+        // Trumps almost everything. Good for birthdays or death anniversaries.
+        "spring_1": "{{i18n:{{TargetNPC}}.Date.Spring1}}",
+        "winter_23": "{{i18n:{{TargetNPC}}.Date.Birthday}}",
+        "winter_28": "{{i18n:{{TargetNPC}}.Date.EndOfYear}}",
 
- // --- HEART LEVEL DIALOGUE (8 Hearts) ---
-  "Mon8": "{{i18n:NPCNAME.Mon8}}",
-  "Tue8": "{{i18n:NPCNAME.Tue8}}",
-  "Wed8": "{{i18n:NPCNAME.Wed8}}",
-  "Thu8": "{{i18n:NPCNAME.Thu8}}",
-  "Fri8": "{{i18n:NPCNAME.Fri8}}",
-  "Sat8": "{{i18n:NPCNAME.Sat8}}",
-  "Sun8": "{{i18n:NPCNAME.Sun8}}",
+        // --- WEATHER & STATUS ---
+        "rain": "{{i18n:{{TargetNPC}}.Weather.Rain}}",
+        "snow": "{{i18n:{{TargetNPC}}.Weather.Snow}}",
+        "GreenRain": "{{i18n:{{TargetNPC}}.Weather.GreenRain}}",
+        "GreenRainFinished": "{{i18n:{{TargetNPC}}.Weather.GreenRainAftermath}}",
 
- // --- HEART LEVEL DIALOGUE (10 Hearts) ---
-  "Mon10": "{{i18n:NPCNAME.Mon10}}",
-  "Tue10": "{{i18n:NPCNAME.Tue10}}",
-  "Wed10": "{{i18n:NPCNAME.Wed10}}",
-  "Thu10": "{{i18n:NPCNAME.Thu10}}",
-  "Fri10": "{{i18n:NPCNAME.Fri10}}",
-  "Sat10": "{{i18n:NPCNAME.Sat10}}",
-  "Sun10": "{{i18n:NPCNAME.Sun10}}",
+        // --- LOCATION SPECIFIC ---
+        // Triggered when speaking to NPC in these specific maps
+        "Resort_Entering": "{{i18n:{{TargetNPC}}.Resort.Entry}}",
+        "Resort_Shore": "{{i18n:{{TargetNPC}}.Resort.Shore}}",
+        "Town": "{{i18n:{{TargetNPC}}.Location.Town}}",
+        "Saloon": "{{i18n:{{TargetNPC}}.Location.Saloon}}",
+        "BusStop": "{{i18n:{{TargetNPC}}.Location.BusStop}}",
+        
+        // --- GOSSIP (Conditional Reactivity) ---
+        // Triggered if the NPC is in Town and specific conditions are met (often checked via schedule keys)
+        "Town_{{ModId}}_OtherNPC": "{{i18n:{{TargetNPC}}.Gossip.OtherNPC}}",
 
- // --- SEASONAL SPECIFIC ---
-  "spring_1": "{{i18n:NPCNAME.spring_1}}",
-  "spring_12": "{{i18n:NPCNAME.spring_12}}",
-  "spring_23": "{{i18n:NPCNAME.spring_23}}",
-  "summer_1": "{{i18n:NPCNAME.summer_1}}",
-  "summer_6": "{{i18n:NPCNAME.summer_6}}",
-  "summer_10": "{{i18n:NPCNAME.summer_10}}",
-  "summer_27": "{{i18n:NPCNAME.summer_27}}",
-  "fall_1": "{{i18n:NPCNAME.fall_1}}",
-  "fall_15": "{{i18n:NPCNAME.fall_15}}",
-  "fall_20": "{{i18n:NPCNAME.fall_20}}",
-  "fall_26": "{{i18n:NPCNAME.fall_26}}",
-  "winter_1": "{{i18n:NPCNAME.winter_1}}",
-  "winter_7": "{{i18n:NPCNAME.winter_7}}",
-  "winter_14": "{{i18n:NPCNAME.winter_14}}",
-  "winter_24": "{{i18n:NPCNAME.winter_24}}",
-  "BeachNightMarket": "{{i18n:NPCNAME.BeachNightMarket}}",
+        // --- ITEM INTERACTIONS ---
+        "DumpsterDiveComment": "{{i18n:{{TargetNPC}}.Reaction.Trash}}",
+        "AcceptGift_(O)PrismaticShard": "{{i18n:{{TargetNPC}}.Gift.Prismatic}}",
+        "AcceptGift_category_weapon": "{{i18n:{{TargetNPC}}.Gift.Weapon}}",
+        "AcceptGift_{{ModId}}_CustomItem": "{{i18n:{{TargetNPC}}.Gift.Custom}}",
 
- // --- SEASONAL DAYS ---
-  "summer_Mon": "{{i18n:NPCNAME.summer_Mon}}",
-  "summer_Tue": "{{i18n:NPCNAME.summer_Tue}}",
-  "summer_Wed": "{{i18n:NPCNAME.summer_Wed}}",
-  "summer_Thu": "{{i18n:NPCNAME.summer_Thu}}",
-  "summer_Fri": "{{i18n:NPCNAME.summer_Fri}}",
-  "summer_Sat": "{{i18n:NPCNAME.summer_Sat}}",
-  "summer_Sun": "{{i18n:NPCNAME.summer_Sun}}",
-  "fall_Mon": "{{i18n:NPCNAME.fall_Mon}}",
-  "fall_Tue": "{{i18n:NPCNAME.fall_Tue}}",
-  "fall_Wed": "{{i18n:NPCNAME.fall_Wed}}",
-  "fall_Thu": "{{i18n:NPCNAME.fall_Thu}}",
-  "fall_Fri": "{{i18n:NPCNAME.fall_Fri}}",
-  "fall_Sat": "{{i18n:NPCNAME.fall_Sat}}",
-  "fall_Sun": "{{i18n:NPCNAME.fall_Sun}}",
-  "winter_Mon": "{{i18n:NPCNAME.winter_Mon}}",
-  "winter_Tue": "{{i18n:NPCNAME.winter_Tue}}",
-  "winter_Wed": "{{i18n:NPCNAME.winter_Wed}}",
-  "winter_Thu": "{{i18n:NPCNAME.winter_Thu}}",
-  "winter_Fri": "{{i18n:NPCNAME.winter_Fri}}",
-  "winter_Sat": "{{i18n:NPCNAME.winter_Sat}}",
-  "winter_Sun": "{{i18n:NPCNAME.winter_Sun}}",
+        // --- WORLD STATE REACTIONS ---
+        "cc_Complete": "{{i18n:{{TargetNPC}}.Reaction.CC_Done}}",
+        "joja_Complete": "{{i18n:{{TargetNPC}}.Reaction.Joja_Done}}",
+        "LowHealth": "{{i18n:{{TargetNPC}}.Reaction.PlayerHurt}}"
+      }
+    },
 
- // --- SEASONAL HEART ---
-  "summer_Mon4": "{{i18n:NPCNAME.summer_Mon4}}",
-  "summer_Tue4": "{{i18n:NPCNAME.summer_Tue4}}",
-  "summer_Wed6": "{{i18n:NPCNAME.summer_Wed6}}",
-  "summer_Thu4": "{{i18n:NPCNAME.summer_Thu4}}",
-  "summer_Fri4": "{{i18n:NPCNAME.summer_Fri4}}",
-  "summer_Sat4": "{{i18n:NPCNAME.summer_Sat4}}",
-  "summer_Sun4": "{{i18n:NPCNAME.summer_Sun4}}",
-  "fall_Mon4": "{{i18n:NPCNAME.fall_Mon4}}",
-  "fall_Tue4": "{{i18n:NPCNAME.fall_Tue4}}",
-  "fall_Wed4": "{{i18n:NPCNAME.fall_Wed4}}",
-  "winter_Mon4": "{{i18n:NPCNAME.winter_Mon4}}",
-  "winter_Tue4": "{{i18n:NPCNAME.winter_Tue4}}",
-  "winter_Wed4": "{{i18n:NPCNAME.winter_Wed4}}",
-  "winter_Thu4": "{{i18n:NPCNAME.winter_Thu4}}",
-  "winter_Fri4": "{{i18n:NPCNAME.winter_Fri4}}",
-  "winter_Sat4": "{{i18n:NPCNAME.winter_Sat4}}",
-  "winter_Sun4": "{{i18n:NPCNAME.winter_Sun4}}",
-
- // --- GINGER ISLAND RESORT ---
-  "Resort_Entering": "{{i18n:NPCNAME.Resort_Entering}}",
-  "Resort_Leaving": "{{i18n:NPCNAME.Resort_Leaving}}",
-  "Resort_Leaving_2": "{{i18n:NPCNAME.Resort_Leaving_2}}",
-  "Resort_Shore": "{{i18n:NPCNAME.Resort_Shore}}",
-  "Resort_Shore_2": "{{i18n:NPCNAME.Resort_Shore_2}}",
-  "Resort_Bar": "{{i18n:NPCNAME.Resort_Bar}}",
-  "Resort_Chair": "{{i18n:NPCNAME.Resort_Chair}}",
-  "Resort_Umbrella": "{{i18n:NPCNAME.Resort_Umbrella}}",
-  "Resort_Umbrella_2": "{{i18n:NPCNAME.Resort_Umbrella_2}}",
-  "Resort_Umbrella_3": "{{i18n:NPCNAME.Resort_Umbrella_3}}",
-  "Resort_Wander": "{{i18n:NPCNAME.Resort_Wander}}",
-  "Resort_Wander_2": "{{i18n:NPCNAME.Resort_Wander_2}}",
-  "Resort": "{{i18n:NPCNAME.Resort}}",
-
- // --- FESTIVALS & EVENTS ---
-  "FlowerDance_Accept": "{{i18n:NPCNAME.FlowerDance_Accept}}",
-  "FlowerDance_Decline": "{{i18n:NPCNAME.FlowerDance_Decline}}",
-  "FlowerDance_Accept_Spouse": "{{i18n:NPCNAME.FlowerDance_Accept_Spouse}}",
-  "wonEggHunt": "{{i18n:NPCNAME.wonEggHunt}}",
-  "wonEggHunt_memory_oneyear": "{{i18n:NPCNAME.wonEggHunt_memory_oneyear}}",
-  "wonGrange": "{{i18n:NPCNAME.wonGrange}}",
-  "movieTheater": "{{i18n:NPCNAME.movieTheater}}",
-  "MovieInvitation": "{{i18n:NPCNAME.MovieInvitation}}",
-  "movieTheater_memory_oneweek": "{{i18n:NPCNAME.movieTheater_memory_oneweek}}",
-
- // --- WEATHER EVENTS ---
-  "GreenRain": "{{i18n:NPCNAME.GreenRain}}",
-  "GreenRain_2": "{{i18n:NPCNAME.GreenRain_2}}",
-  "GreenRainFinished": "{{i18n:NPCNAME.GreenRainFinished}}",
-
- // --- GIFT REACTIONS ---
-  "AcceptBirthdayGift_Positive": "{{i18n:NPCNAME.AcceptBirthdayGift_Positive}}",
-  "AcceptBirthdayGift_Negative": "{{i18n:NPCNAME.AcceptBirthdayGift_Negative}}",
-  "AcceptBirthdayGift_Loved": "{{i18n:NPCNAME.AcceptBirthdayGift_Loved}}",
-  "AcceptBirthdayGift_Liked": "{{i18n:NPCNAME.AcceptBirthdayGift_Liked}}",
-
-  "AcceptGift_(O)StardropTea": "{{i18n:NPCNAME.AcceptGift_StardropTea}}",
-
-  "AcceptGift_Positive_category_greens": "{{i18n:NPCNAME.AcceptGift_Positive_category_greens}}",
-  "AcceptGift_Positive_category_fish": "{{i18n:NPCNAME.AcceptGift_Positive_category_fish}}",
-
-  "AcceptGift_(O)Book_Trash": "{{i18n:NPCNAME.AcceptGift_Book_Trash}}",
-  "AcceptGift_(TR)FrogEgg": "{{i18n:NPCNAME.AcceptGift_FrogEgg}}",
-  "AcceptGift_(TR)BasiliskPaw": "{{i18n:NPCNAME.AcceptGift_BasiliskPaw}}",
-
- // --- ROMANCE & RELATIONSHIP STATUS ---
-  "breakUp": "{{i18n:NPCNAME.breakUp}}",
-  "divorced": "{{i18n:NPCNAME.divorced}}",
-  "dumped_Guys": "{{i18n:NPCNAME.dumped_Guys}}",
-  "dumped_Girls": "{{i18n:NPCNAME.dumped_Girls}}",
-  "secondChance_Guys": "{{i18n:NPCNAME.secondChance_Guys}}",
-  "secondChance_Girls": "{{i18n:NPCNAME.secondChance_Girls}}",
-
-  "dating_[Name]": "{{i18n:NPCNAME.dating_Name}}",
-  "dating_[Name]_memory_oneday": "{{i18n:NPCNAME.dating_Name_memory_oneday}}",
-  "dating_[Name]_memory_oneyear": "{{i18n:NPCNAME.dating_Name_memory_oneyear}}",
-
-  "married_[SpouseName]": "{{i18n:NPCNAME.married_SpouseName}}",
-  "dating_[OtherNPC]": "{{i18n:NPCNAME.dating_OtherNPC}}",
-
- // --- LOCATION & ACTIVITY SPECIFIC ---
-  "DumpsterDiveComment": "{{i18n:NPCNAME.DumpsterDiveComment}}",
-  "firstVisit_Railroad": "{{i18n:NPCNAME.firstVisit_Railroad}}",
-  "houseUpgrade_1": "{{i18n:NPCNAME.houseUpgrade_1}}",
-  "pamHouseUpgrade": "{{i18n:NPCNAME.pamHouseUpgrade}}",
-  "pamHouseUpgradeAnonymous": "{{i18n:NPCNAME.pamHouseUpgradeAnonymous}}",
-  "mineArea_80": "{{i18n:NPCNAME.mineArea_80}}",
-
- // --- IN-LAWS / FAMILY ---
-  "Mon_inlaw_[RelativeName]": "{{i18n:NPCNAME.Mon_inlaw_RelativeName}}",
-  "Sat_inlaw_[RelativeName]": "{{i18n:NPCNAME.Sat_inlaw_RelativeName}}"
+   
+  ]
 }

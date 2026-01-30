@@ -1,245 +1,243 @@
 {
-  "Format": "2.9.0",
   "Changes": [
-
-    // --- ASSETS (Sprites & Portraits) --- 
-   // --- Replace NPCNAME with the name of your NPC
+    // ============================================================
+    // 1. ASSET LOADING
+    // ============================================================
     {
+      "LogName": "Load Assets (Sprite & Portrait)",
       "Action": "Load",
-      "Target": "Characters/NPCNAME",
-      "FromFile": "assets/Sprite.png"
+      "Target": "Characters/{{ModId}}_{{TargetNPC}}, Portraits/{{ModId}}_{{TargetNPC}}",
+      "FromFile": "characters/{{TargetNPC}}/{{TargetNPC}}_{{TargetField}}.png"
     },
     {
+      "LogName": "Load Base Schedule",
       "Action": "Load",
-      "Target": "Portraits/NPCNAME",
-      "FromFile": "assets/Portrait.png"
+      "Target": "Characters/schedules/{{ModId}}_{{TargetNPC}}",
+      "FromFile": "characters/{{TargetNPC}}/schedule.json"
     },
-    // ---  Optional: Seasonal Outfits or Beach Sprites --- 
     {
-      "Action": "EditData",
-      "Target": "Data/Characters",
-      "TargetField": [ "NPCNAME", "Appearance" ],
-      "Entries": {
-        "{{ModId}}.NPCNAMEBeach": {
-          "Id": "{{ModId}}.NPCNAMEBeach",
-          "Portrait": "Portraits/NPCNAME_Beach",
-          "Sprite": "Characters/NPCNAME_Beach",
-          "IsIslandAttire": true,
-          "Precedence": -100
-        }
-      }
+      "LogName": "Include Dialogue & Events",
+      "Action": "Include",
+      "FromFile": "characters/{{TargetNPC}}/dialogue.json, characters/{{TargetNPC}}/events.json"
     },
 
-
-    // --- CHARACTER DISPOSITION (Data/Characters) --- 
-
+    // ============================================================
+    // 2. CHARACTER DEFINITION (1.6 Schema)
+    // ============================================================
     {
+      "LogName": "Profile Data",
       "Action": "EditData",
       "Target": "Data/Characters",
       "Entries": {
-        "NPCNAME": {
-          "DisplayName": "{{i18n:NPCNAME.Name}}",
-          "BirthSeason": "Spring",
+        "{{ModId}}_{{TargetNPC}}": {
+          "DisplayName": "{{i18n:{{TargetNPC}}.Name}}",
+          "TextureName": "{{ModId}}_{{TargetNPC}}", // Optional if matches ID
+          "BirthSeason": "Spring", // Spring, Summer, Fall, Winter
           "BirthDay": 1,
-          "HomeRegion": "Town", // ---  "Town", "Desert", "Other" --- 
-          "Gender": "Female", // ---  "Male", "Female", "Undefined" --- 
-          "Age": "Adult", // ---  "Child", "Teen", "Adult" --- 
-          "Manner": "Neutral", // ---  "Polite", "Rude", "Neutral" --- 
-          "SocialAnxiety": "Neutral", // ---  "Outgoing", "Shy", "Neutral" --- 
-          "Optimism": "Neutral", // ---  "Positive", "Negative", "Neutral" --- 
-          "CanBeRomanced": true,
-          "LoveInterest": "null", // ---  Name of NPC or "null" --- 
-          "Calendar": "AlwaysShown", // ---  "AlwaysShown", "HiddenUntilMet", "HiddenAlways" --- 
-          "SocialTab": "UnknownUntilMet", // ---  "AlwaysShown", "UnknownUntilMet", "HiddenAlways" --- 
+          "HomeRegion": "Town",
+          "Gender": "Undefined", // Male, Female, Undefined
+          "Age": "Adult", // Child, Teen, Adult
+          "Manner": "Neutral", // Polite, Rude, Neutral
+          "SocialAnxiety": "Neutral", // Outgoing, Shy, Neutral
+          "Optimism": "Neutral", // Positive, Negative, Neutral
           
-          // ---  Where they spawn/live --- 
+          // Disposition
+          "CanBeRomanced": true,
+          "CanReceiveGifts": true,
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "PerfectionScore": true,
+          "IsDarkSkinned": false, // Changes footstep sounds/palette logic
+
+          // Relationships & Items
+          "EngagementItem": "{{ModId}}_CustomItemName", // Optional override
+          "FriendsAndFamily": {
+            // "OtherNPC_ID": "relationship_type" (e.g., 'mentor', 'acquaintance', 'rival')
+          },
+          "WinterStarGifts": [
+            { "Id": "ItemName", "ItemId": "(O)ItemIndex", "MinStack": 1, "MaxStack": 5 }
+          ],
+
+          // 1.6 Pathfinding & Housing
           "Home": [
             {
               "Id": "Default",
-              "Location": "Town", // ---  Internal map name --- 
-              "Tile": { "X": 10, "Y": 10 }, 
-              "Direction": "Down" // ---  "Up", "Down", "Left", "Right" --- 
+              "Location": "Custom_LocationName",
+              "Tile": { "X": 0, "Y": 0 },
+              "Direction": "Down"
             }
           ],
-
-          // ---  Unlock Conditions (Optional) --- 
-          "UnlockConditions": null, 
-          "SpawnIfMissing": true,
-          
-          // ---  Family Relationships --- 
-          "FriendsAndFamily": {
-            "ExistingNPCName": "{{i18n:Relationship.Label}}" // ---  ex. "mother", "friend" --- 
-          },
-
-          // --- SPOUSE DATA (If Romanceable) ---
           "SpouseRoom": {
-            "MapAsset": "Maps/NPCNAMESpouseRoom",
+            "MapAsset": "Maps/{{TargetNPC}}_SpouseRoom",
             "MapSourceRect": { "X": 0, "Y": 0, "Width": 6, "Height": 9 }
           },
           "SpousePatio": {
-            "MapAsset": "Maps/NPCNAMESpousePatio", 
+            "MapAsset": "Maps/{{TargetNPC}}_SpousePatio",
             "MapSourceRect": { "X": 0, "Y": 0, "Width": 4, "Height": 4 },
-            "SpriteAnimationFrames": [
-              [16, 500], 
-              [17, 500]
-            ]
-          },
-          "SpouseAdopts": true, // --- Can they adopt children? --- 
-          
-          // --- FESTIVALS ---
-          "WinterStarParticipant": "true", // ---  Can use conditions like "PLAYER_HAS_MAIL MailId" or "When": {"HasFlag": "Mailid"} --- 
-          "WinterStarGifts": [
-             { "ItemId": "(O)223", "MinStack": 1 } // --- ex. Cookies --- 
-          ],
-
-          // --- MISC ---
-          "ItemDeliveryQuests": true, // ---  Can they request items on the board? --- 
-          "PerfectionScore": true, // ---  Do they count for 100% perfection? --- 
-          "CanVisitIsland": "true", // --- Can they visit Ginger Island resort? --- 
-          
-          // ---  Hidden Emotes (When you click their portrait in the menu) --- 
-          "HiddenProfileEmoteSound": null,
-          "HiddenProfileEmoteDuration": -1,
-          "HiddenProfileEmoteStartFrame": 16,
-          "HiddenProfileEmoteFrameCount": 4,
-          "HiddenProfileEmoteFrameDuration": 200.0
+            "SpriteAnimationFrames": [[16, 500], [17, 500]] // Optional custom animation
+          }
         }
       }
     },
 
-
-    // --- GIFT TASTES (Data/NPCGiftTastes) --- 
-
+    // ============================================================
+    // 3. GIFT TASTES & MOVIES
+    // ============================================================
     {
+      "LogName": "Gift Tastes",
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        // ---  Format: LovedDialogue/LovedItems/LikedDialogue/LikedItems/DislikedDialogue/DislikedItems/HatedDialogue/HatedItems/NeutralDialogue/NeutralItems/ --- 
-        "NPCNAME": "{{i18n:NPCNAME.Gift.Love}}/Item1 Item2/{{i18n:NPCNAME.Gift.Like}}/Item3 Item4/{{i18n:NPCNAME.Gift.Dislike}}/Item5/{{i18n:NPCNAME.Gift.Hate}}/Item6/{{i18n:NPCNAME.Gift.Neutral}}/Item7/"
+        "{{ModId}}_{{TargetNPC}}": "{{i18n:{{TargetNPC}}.Gift.Love}}/ItemIDs/{{i18n:{{TargetNPC}}.Gift.Like}}/ItemIDs/{{i18n:{{TargetNPC}}.Gift.Dislike}}/ItemIDs/{{i18n:{{TargetNPC}}.Gift.Hate}}/ItemIDs/{{i18n:{{TargetNPC}}.Gift.Neutral}}/ItemIDs"
       }
     },
-
-
-    // --- ANIMATION DESCRIPTIONS (Data/animationDescriptions) --- 
-
     {
-      "Action": "EditData",
-      "Target": "Data/animationDescriptions",
-      "Entries": {
-        // ---  Format: Frame1/Frame2 Frame3.../Loop? (true/false) --- 
-        // ---  You can add /Strings\path:key for dialogue bubbles --- 
-        "NPCNAME_sleep": "20/20/20",
-        "NPCNAME_read": "0/16 16 17 17/0",
-        "NPCNAME_custom": "0/18 18 19 19/0/Strings\\animationDescriptions:NPCNAME.custom"
-      }
-    },
-    // ---  Add strings for animation bubbles --- 
-    {
-      "Action": "EditData",
-      "Target": "Strings/animationDescriptions",
-      "Entries": {
-        "NPCNAME.custom": "{{i18n:NPCNAME.Animation.CustomBubble}}"
-      }
-    },
-
-
-    // --- ENGAGEMENT & WEDDING (Data/EngagementDialogue) --- 
-
-    {
-      "Action": "EditData",
-      "Target": "Data/EngagementDialogue",
-      "Entries": {
-        "NPCNAME0": "{{i18n:NPCNAME.Engagement.Day0}}", // ---  Dialogue immediately after accepting pendant --- 
-        "NPCNAME1": "{{i18n:NPCNAME.Engagement.Day1}}"  // ---  Dialogue the next day --- 
-      },
-      "When": { "Condition:IsRomanceable": true }
-    },
-    // ---  Engagement string overrides (Using StringsFromCSFiles for compatibility) --- 
-    {
-        "Action": "EditData",
-        "Target": "Strings/StringsFromCSFiles",
-        "Entries": {
-            "NPCNAME_Engaged": "{{i18n:NPCNAME.Engagement.Generic}}"
-        },
-        "When": { "Condition:IsRomanceable": true }
-    },
-
-
-    // ---  MOVIE THEATER DATA (Concessions & Reactions) --- 
-
-    // ---  Concessions (Snack Tastes) --- 
-    // ---  Tags: Sweet, Sour, Salty, Fatty, Joja, Healthy, Gourmet, Hot, Candy --- 
-    {
+      "LogName": "Movie Concession Tastes",
       "Action": "EditData",
       "Target": "Data/ConcessionTastes",
       "Entries": {
-        "NPCNAME": {
-          "Name": "NPCNAME",
-          "LovedTags": ["Sweet", "Candy"],
-          "LikedTags": ["Salty"],
-          "DislikedTags": ["Joja", "Sour"]
+        "{{ModId}}_{{TargetNPC}}": {
+          "Name": "{{ModId}}_{{TargetNPC}}",
+          "LovedTags": ["Tag1", "Tag2"], // e.g. Sweet, Salty, Sour, Candy, Healthy
+          "LikedTags": [],
+          "DislikedTags": [],
+          "HatedTags": []
         }
       }
     },
-    // ---  Movie Reactions (Data/MoviesReactions) --- 
-    // ---  Tags: spring_movie_0, spring_movie_1, summer_movie_0, etc. --- 
-    // ---  Responses: love, like, dislike --- 
     {
+      "LogName": "Movie Reactions",
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
       "Entries": {
-        "NPCNAME": {
-          "NPCName": "NPCNAME",
+        "{{ModId}}_{{TargetNPC}}": {
+          "NPCName": "{{ModId}}_{{TargetNPC}}",
           "Reactions": [
-            {
-              "Tag": "spring_movie_0", // --- ex. The Brave Little Sapling --- 
-              "Response": "love",
-              "SpecialResponses": {
-                "BeforeMovie": { "Text": "{{i18n:NPCNAME.Movie.Spring0.Before}}" },
-                "DuringMovie": { "Text": "{{i18n:NPCNAME.Movie.Spring0.During}}" },
-                "AfterMovie": { "Text": "{{i18n:NPCNAME.Movie.Spring0.After}}" }
-              }
-            },
-            {
-              "Tag": "summer_movie_1", // ---  ex. Wumbus --- 
-              "Response": "dislike",
-              "SpecialResponses": {
-                "BeforeMovie": { "Text": "{{i18n:NPCNAME.Movie.Summer1.Before}}" },
-                "DuringMovie": { "Text": "{{i18n:NPCNAME.Movie.Summer1.During}}" },
-                "AfterMovie": { "Text": "{{i18n:NPCNAME.Movie.Summer1.After}}" }
-              }
-            }
+            // Reactions: love, like, dislike, hate
+            { "Tag": "spring_movie_0", "Response": "neutral" },
+            { "Tag": "summer_movie_1", "Response": "neutral" },
+            { "Tag": "fall_movie_0", "Response": "neutral" },
+            { "Tag": "winter_movie_0", "Response": "neutral" }
           ]
         }
       }
     },
 
-
-    // ---  MAIL DATA (Data/mail) --- 
-
+    // ============================================================
+    // 4. ANIMATIONS & DESCRIPTIONS
+    // ============================================================
     {
+      "LogName": "Animation Definitions",
       "Action": "EditData",
-      "Target": "Data/mail",
+      "Target": "Data/animationDescriptions",
       "Entries": {
-        "NPCNAMEWelcomeLetter": "{{i18n:NPCNAME.Mail.WelcomeLetter}}",
-        "NPCNAMERecipeMail": "{{i18n:NPCNAME.Mail.RecipeMail}} %item object 200 1 %%"
+        // Syntax: "Frame/FrameDuration.../LoopFrame/StringKey/Offset"
+        "{{TargetNPC}}_custom_anim": "16/100 17/100/16/Strings\\animationDescriptions:{{TargetNPC}}.AnimName"
+      }
+    },
+    {
+      "LogName": "Animation Strings (i18n)",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "{{TargetNPC}}.AnimName": "{{i18n:{{TargetNPC}}.Animation.Description}}"
       }
     },
 
-
-    // --- MISC DIALOGUE RESPONSES (Bouquets, Pendants, Dance) --- 
-
+    // ============================================================
+    // 5. DIALOGUE OVERRIDES & MAIL
+    // ============================================================
     {
+      "LogName": "Engagement & Marriage Dialogue",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/NPCNAME",
+      "Target": "Data/EngagementDialogue",
       "Entries": {
-        "AcceptBouquet": "{{i18n:NPCNAME.Dialogue.AcceptBouquet}}",
-        "RejectBouquet": "{{i18n:NPCNAME.Dialogue.RejectBouquet}}",
-        "FlowerDance_Accept": "{{i18n:NPCNAME.Dialogue.FlowerDance_Accept}}",
-        "FlowerDance_Decline": "{{i18n:NPCNAME.Dialogue.FlowerDance_Decline}}",
-        "SpouseStardrop": "{{i18n:NPCNAME.Dialogue.SpouseStardrop}}"
+        "{{ModId}}_{{TargetNPC}}0": "{{i18n:{{TargetNPC}}.Engagement.0}}", // Proposal Acceptance
+        "{{ModId}}_{{TargetNPC}}1": "{{i18n:{{TargetNPC}}.Engagement.1}}"  // Post-Proposal
+      }
+    },
+    {
+      "LogName": "Misc Dialogue Overrides",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{ModId}}_{{TargetNPC}}",
+      "Entries": {
+        "AcceptBouquet": "{{i18n:{{TargetNPC}}.Dialogue.AcceptBouquet}}",
+        "RejectBouquet": "{{i18n:{{TargetNPC}}.Dialogue.RejectBouquet}}",
+        "FlowerDance_Accept": "{{i18n:{{TargetNPC}}.Dialogue.FlowerDance_Accept}}",
+        "FlowerDance_Decline": "{{i18n:{{TargetNPC}}.Dialogue.FlowerDance_Decline}}",
+        "SpouseStardrop": "{{i18n:{{TargetNPC}}.Dialogue.SpouseStardrop}}"
+      }
+    },
+    {
+      "LogName": "Mail Data",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "{{ModId}}_{{TargetNPC}}_Welcome": "{{i18n:{{TargetNPC}}.Mail.Welcome}}"
+      }
+    },
+
+    // ============================================================
+    // 6. COMPLEX SCHEDULING (Conditional)
+    // ============================================================
+    
+    // Pattern: Heart Level Changes (Jett Style)
+    {
+      "LogName": "Schedule - High Hearts",
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_{{TargetNPC}}",
+      "Entries": {
+        "DayOfWeek": "Time Location X Y Facing Animation \"DialogueKey\""
       },
-      "When": { "Condition:IsRomanceable": true }
+      "When": {
+        "Hearts:{{ModId}}_{{TargetNPC}}": "6, 7, 8, 9, 10"
+      }
+    },
+
+    // Pattern: Flag/World State Changes (Vance/Arden Style)
+    {
+      "LogName": "Schedule - World State Change",
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_{{TargetNPC}}",
+      "Entries": {
+        "Season": "GOTO RoutineName"
+      },
+      "When": {
+        "HasFlag": "Condition_Flag_Here",
+        // OR
+        "Query: 'WORLD_STATE_FIELD LostBooksFound 20 999'": "true"
+      }
+    },
+
+    // Pattern: Marriage Schedule (Jett Style)
+    {
+      "LogName": "Schedule - Marriage",
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_{{TargetNPC}}",
+      "Entries": {
+        "marriage_Mon": "800 Location X Y Facing/...",
+        "marriage_default": "..."
+      },
+      "When": {
+        "Relationship:{{ModId}}_{{TargetNPC}}": "Married"
+      }
+    },
+
+    // ============================================================
+    // 7. LOCATION MODIFIERS (Cassidy Style)
+    // ============================================================
+    {
+      "LogName": "Conditional Forage/Spawns",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [ "Custom_LocationName", "Forage" ],
+      "Entries": {
+        "{{ModId}}_ItemName": 1.0
+      },
+      "When": {
+        "Weather": "Storm", 
+        "HasConversationTopic": "{{ModId}}_{{TargetNPC}}_Quest_Started"
+      }
     }
   ]
 }

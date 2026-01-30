@@ -178,10 +178,10 @@
     },
 
     // ============================================================
-    // 6. COMPLEX SCHEDULING (Conditional)
+    // 6. COMPLEX SCHEDULING (IF NEEDED)
     // ============================================================
     
-    // Pattern: Heart Level Changes (Jett Style)
+    // Pattern: Heart Level Changes
     {
       "LogName": "Schedule - High Hearts",
       "Action": "EditData",
@@ -194,7 +194,7 @@
       }
     },
 
-    // Pattern: Flag/World State Changes (Vance/Arden Style)
+    // Pattern: Flag/World State Changes
     {
       "LogName": "Schedule - World State Change",
       "Action": "EditData",
@@ -209,7 +209,7 @@
       }
     },
 
-    // Pattern: Marriage Schedule (Jett Style)
+    // Pattern: Marriage Schedule
     {
       "LogName": "Schedule - Marriage",
       "Action": "EditData",
@@ -224,7 +224,7 @@
     },
 
     // ============================================================
-    // 7. LOCATION MODIFIERS (Cassidy Style)
+    // 7. LOCATION MODIFIERS (IF NEEDED)
     // ============================================================
     {
       "LogName": "Conditional Forage/Spawns",
@@ -241,3 +241,4 @@
     }
   ]
 }
+

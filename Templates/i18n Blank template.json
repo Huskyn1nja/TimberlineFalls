@@ -1,211 +1,141 @@
 {
-  // --- Replace NPCNAME with the name of your NPC
-  "NPCNAME.Name": "",
-  "NPCNAME.Introduction": "",
-
-  // --- DAILY DIALOGUE ---
-  "NPCNAME.Mon": "",
-  "NPCNAME.Tue": "",
-  "NPCNAME.Wed": "",
-  "NPCNAME.Thu": "",
-  "NPCNAME.Fri": "",
-  "NPCNAME.Sat": "",
-  "NPCNAME.Sun": "",
-
-  // --- HEART LEVEL DIALOGUE ---
-  "NPCNAME.Mon2": "",
-  "NPCNAME.Tue2": "",
-  "NPCNAME.Wed2": "",
-  "NPCNAME.Thu2": "",
-  "NPCNAME.Fri2": "",
-  "NPCNAME.Sat2": "",
-  "NPCNAME.Sun2": "",
-  "NPCNAME.Mon4": "",
-  "NPCNAME.Tue4": "",
-  "NPCNAME.Wed4": "",
-  "NPCNAME.Thu4": "",
-  "NPCNAME.Fri4": "",
-  "NPCNAME.Sat4": "", 
-  "NPCNAME.Sun4": "",
-  "NPCNAME.Mon6": "",
-  "NPCNAME.Tue6": "",
-  "NPCNAME.Wed6": "",
-  "NPCNAME.Thu6": "",
-  "NPCNAME.Fri6": "",
-  "NPCNAME.Sat6": "",
-  "NPCNAME.Sun6": "",
-  "NPCNAME.Mon8": "",
-  "NPCNAME.Tue8": "",
-  "NPCNAME.Wed8": "",
-  "NPCNAME.Thu8": "",
-  "NPCNAME.Fri8": "",
-  "NPCNAME.Sat8": "",
-  "NPCNAME.Sun8": "",
-  "NPCNAME.Mon10": "",
-  "NPCNAME.Tue10": "",
-  "NPCNAME.Wed10": "",
-  "NPCNAME.Thu10": "",
-  "NPCNAME.Fri10": "",
-  "NPCNAME.Sat10": "",
-  "NPCNAME.Sun10": "",
-
-  // --- SEASONAL SPECIFIC ---
-  "NPCNAME.spring_1": "",
-  "NPCNAME.spring_12": "",
-  "NPCNAME.spring_23": "",
-  "NPCNAME.summer_1": "",
-  "NPCNAME.summer_6": "",
-  "NPCNAME.summer_10": "",
-  "NPCNAME.summer_27": "",
-  "NPCNAME.fall_1": "",
-  "NPCNAME.fall_15": "",
-  "NPCNAME.fall_20": "",
-  "NPCNAME.fall_26": "",
-  "NPCNAME.winter_1": "",
-  "NPCNAME.winter_7": "",
-  "NPCNAME.winter_14": "",
-  "NPCNAME.winter_24": "",
-  "NPCNAME.BeachNightMarket": "",
-
-  // --- SEASONAL DAYS ---
-  "NPCNAME.summer_Mon": "",
-  "NPCNAME.summer_Tue": "",
-  "NPCNAME.summer_Wed": "",
-  "NPCNAME.summer_Thu": "",
-  "NPCNAME.summer_Fri": "",
-  "NPCNAME.summer_Sat": "",
-  "NPCNAME.summer_Sun": "",
-  "NPCNAME.fall_Mon": "",
-  "NPCNAME.fall_Tue": "",
-  "NPCNAME.fall_Wed": "",
-  "NPCNAME.fall_Thu": "",
-  "NPCNAME.fall_Fri": "",
-  "NPCNAME.fall_Sat": "", 
-  "NPCNAME.fall_Sun": "",
-  "NPCNAME.winter_Mon": "",
-  "NPCNAME.winter_Tue": "",
-  "NPCNAME.winter_Wed": "", 
-  "NPCNAME.winter_Thu": "",
-  "NPCNAME.winter_Fri": "",
-  "NPCNAME.winter_Sat": "",
-  "NPCNAME.winter_Sun": "",
-
-  // --- SEASONAL HEART ---
-  "NPCNAME.summer_Mon4": "",
-  "NPCNAME.summer_Tue4": "",
-  "NPCNAME.summer_Wed6": "",
-  "NPCNAME.summer_Thu4": "",
-  "NPCNAME.summer_Fri4": "",
-  "NPCNAME.summer_Sat4": "", 
-  "NPCNAME.summer_Sun4": "",
+  // ============================================================
+  // 1. CHARACTER PROFILE & SYSTEM TEXT
+  // ============================================================
+  "{{TargetNPC}}.Name": "",
   
-  "NPCNAME.fall_Mon4": "",
-  "NPCNAME.fall_Tue4": "", 
-  "NPCNAME.fall_Wed4": "",
+  // Animation Descriptions (Strings/animationDescriptions)
+  "{{TargetNPC}}.Animation.Sleep": "",
+  "{{TargetNPC}}.Animation.Work": "",
+  "{{TargetNPC}}.Animation.Special": "",
+
+  // ============================================================
+  // 2. GIFT TASTES (Data/NPCGiftTastes)
+  // ============================================================
+  "{{TargetNPC}}.Gift.Love": "",
+  "{{TargetNPC}}.Gift.Like": "",
+  "{{TargetNPC}}.Gift.Neutral": "",
+  "{{TargetNPC}}.Gift.Dislike": "",
+  "{{TargetNPC}}.Gift.Hate": "",
   
-  "NPCNAME.winter_Mon4": "",
-  "NPCNAME.winter_Tue4": "",
-  "NPCNAME.winter_Wed4": "",
-  "NPCNAME.winter_Thu4": "",
-  "NPCNAME.winter_Fri4": "", 
-  "NPCNAME.winter_Sat4": "", 
-  "NPCNAME.winter_Sun4": "",
+  // Specific Item Reactions (replace the names for easy use)
+  "{{TargetNPC}}.Gift.Prismatic": "",
+  "{{TargetNPC}}.Gift.Weapon": "",
+  "{{TargetNPC}}.Gift.Trash": "",
+  "{{TargetNPC}}.Gift.Birthday.Love": "",
+  "{{TargetNPC}}.Gift.Birthday.Negative": "",
 
-  // --- GIFT TASTES ---
-  "NPCNAME.Gift.Love": "",
-  "NPCNAME.Gift.Like": "",
-  "NPCNAME.Gift.Dislike": "",
-  "NPCNAME.Gift.Hate": "",
-  "NPCNAME.Gift.Neutral": "",
+  // ============================================================
+  // 3. CORE DIALOGUE
+  // ============================================================
+  "{{TargetNPC}}.Introduction": "",
+  
+  // Daily Dialogue (Low Priority)
+  "{{TargetNPC}}.Day.Mon": "",
+  "{{TargetNPC}}.Day.Tue": "",
+  "{{TargetNPC}}.Day.Wed": "",
+  "{{TargetNPC}}.Day.Thu": "",
+  "{{TargetNPC}}.Day.Fri": "",
+  "{{TargetNPC}}.Day.Sat": "",
+  "{{TargetNPC}}.Day.Sun": "",
 
-  // --- GIFT REACTIONS ---
-  "NPCNAME.AcceptBirthdayGift_Positive": "",
-  "NPCNAME.AcceptBirthdayGift_Negative": "",
-  "NPCNAME.AcceptBirthdayGift_Loved": "",
-  "NPCNAME.AcceptBirthdayGift_Liked": "",
-  "NPCNAME.AcceptGift_StardropTea": "",
-  "NPCNAME.AcceptGift_Positive_category_greens": "",
-  "NPCNAME.AcceptGift_Positive_category_fish": "",
-  "NPCNAME.AcceptGift_Book_Trash": "",
-  "NPCNAME.AcceptGift_FrogEgg": "",
-  "NPCNAME.AcceptGift_BasiliskPaw": "",
+  // Seasonal Overrides (Medium Priority)
+  "{{TargetNPC}}.Spring.Mon": "",
+  "{{TargetNPC}}.Summer.Mon": "",
+  "{{TargetNPC}}.Fall.Mon": "",
+  "{{TargetNPC}}.Winter.Mon": "",
+  // (Repeat for other days as needed)
 
-  // --- ANIMATIONS ---
-  "NPCNAME.Animation.CustomBubble": "",
+  // Heart Level Dialogue (High Priority)
+  "{{TargetNPC}}.Hearts2.Mon": "",
+  "{{TargetNPC}}.Hearts4.Mon": "",
+  "{{TargetNPC}}.Hearts6.Mon": "",
+  "{{TargetNPC}}.Hearts8.Mon": "",
+  "{{TargetNPC}}.Hearts10.Mon": "",
+  
+  // Weather & Status
+  "{{TargetNPC}}.Weather.Rain": "",
+  "{{TargetNPC}}.Weather.Storm": "",
+  "{{TargetNPC}}.Weather.Snow": "",
+  "{{TargetNPC}}.Weather.GreenRain": "",
+  "{{TargetNPC}}.Weather.GreenRainAftermath": "",
 
-  // --- ENGAGEMENT & MARRIAGE ---
-  "NPCNAME.Engagement.Day0": "",
-  "NPCNAME.Engagement.Day1": "",
-  "NPCNAME.Engagement.Generic": "",
-  "NPCNAME.married_SpouseName": "",
+  // ============================================================
+  // 4. ROMANCE & MARRIAGE
+  // ============================================================
+  // Bouquet & Pendant
+  "{{TargetNPC}}.Dialogue.AcceptBouquet": "",
+  "{{TargetNPC}}.Dialogue.RejectBouquet": "",
+  "{{TargetNPC}}.Proposal.Accept": "",
+  "{{TargetNPC}}.Proposal.Reject": "",
+  "{{TargetNPC}}.Engagement.0": "",
+  "{{TargetNPC}}.Engagement.1": "",
 
-  // --- ROMANCE & RELATIONSHIP STATUS ---
-  "NPCNAME.breakUp": "",
-  "NPCNAME.divorced": "",
-  "NPCNAME.dumped_Guys": "",
-  "NPCNAME.dumped_Girls": "",
-  "NPCNAME.secondChance_Guys": "",
-  "NPCNAME.secondChance_Girls": "",
-  "NPCNAME.dating_Name": "",
-  "NPCNAME.dating_Name_memory_oneday": "",
-  "NPCNAME.dating_Name_memory_oneyear": "",
-  "NPCNAME.dating_OtherNPC": "",
+  // Flower Dance
+  "{{TargetNPC}}.Dialogue.FlowerDance_Accept": "",
+  "{{TargetNPC}}.Dialogue.FlowerDance_Decline": "",
 
-  // --- MISC RESPONSES ---
-  "NPCNAME.Dialogue.AcceptBouquet": "",
-  "NPCNAME.Dialogue.RejectBouquet": "",
-  "NPCNAME.Dialogue.FlowerDance_Accept": "",
-  "NPCNAME.Dialogue.FlowerDance_Decline": "",
-  "NPCNAME.Dialogue.SpouseStardrop": "",
+  // Dating Lines
+  "{{TargetNPC}}.Dating.General": "",
+  "{{TargetNPC}}.Dating.Rainy": "",
 
-  // --- MOVIE REACTIONS ---
-  "NPCNAME.Movie.Spring0.Before": "",
-  "NPCNAME.Movie.Spring0.During": "",
-  "NPCNAME.Movie.Spring0.After": "",
-  "NPCNAME.Movie.Summer1.Before": "",
-  "NPCNAME.Movie.Summer1.During": "",
-  "NPCNAME.Movie.Summer1.After": "",
-  // Add other movies as needed
+  // Marriage Schedule Lines
+  "{{TargetNPC}}.Marriage.Mon": "",
+  "{{TargetNPC}}.Marriage.Fri": "",
+  "{{TargetNPC}}.Marriage.Rainy": "",
+  "{{TargetNPC}}.Dialogue.SpouseStardrop": "",
 
-  // --- MAIL ---
-  "NPCNAME.Mail.WelcomeLetter": "",
-  "NPCNAME.Mail.RecipeMail": "",
+  // ============================================================
+  // 5. SCHEDULE DIALOGUE KEYS
+  // ============================================================
+  // These correspond to the keys referenced inside schedule.json
+  
+  // Work/Routine
+  "{{TargetNPC}}.Schedule.Work": "",
+  "{{TargetNPC}}.Schedule.Break": "",
+  "{{TargetNPC}}.Schedule.Home": "",
+  "{{TargetNPC}}.Schedule.Morning_Prep": "",
+  "{{TargetNPC}}.Schedule.Chores": "",
+  
+  // Annual Appointments
+  "{{TargetNPC}}.Schedule.Clinic.Entry": "",
+  "{{TargetNPC}}.Schedule.Clinic.Leave": "",
+  "{{TargetNPC}}.Schedule.NightMarket": "",
+  
+  // Locations
+  "{{TargetNPC}}.Schedule.Saloon": "",
+  "{{TargetNPC}}.Schedule.Beach": "",
+  "{{TargetNPC}}.Schedule.Museum": "",
+  
+  // Weather Specific Schedule Lines
+  "{{TargetNPC}}.Schedule.Rainy": "",
+  "{{TargetNPC}}.Schedule.GreenRain": "",
 
-  // --- LOCATION & ACTIVITY SPECIFIC ---
-  "NPCNAME.DumpsterDiveComment": "",
-  "NPCNAME.firstVisit_Railroad": "",
-  "NPCNAME.houseUpgrade_1": "",
-  "NPCNAME.pamHouseUpgrade": "",
-  "NPCNAME.pamHouseUpgradeAnonymous": "",
-  "NPCNAME.mineArea_80": "",
+  // ============================================================
+  // 6. WORLD REACTIVITY & LOCATIONS
+  // ============================================================
+  // Ginger Island
+  "{{TargetNPC}}.Resort.Entry": "",
+  "{{TargetNPC}}.Resort.Shore": "",
+  "{{TargetNPC}}.Resort.Bar": "",
 
-  // --- RESORT ---
-  "NPCNAME.Resort_Entering": "",
-  "NPCNAME.Resort_Leaving": "",
-  "NPCNAME.Resort_Leaving_2": "",
-  "NPCNAME.Resort_Shore": "",
-  "NPCNAME.Resort_Shore_2": "",
-  "NPCNAME.Resort_Bar": "",
-  "NPCNAME.Resort_Chair": "",
-  "NPCNAME.Resort_Umbrella": "",
-  "NPCNAME.Resort_Umbrella_2": "",
-  "NPCNAME.Resort_Umbrella_3": "",
-  "NPCNAME.Resort_Wander": "",
-  "NPCNAME.Resort_Wander_2": "",
-  "NPCNAME.Resort": "",
+  // Vanilla Map Reactions
+  "{{TargetNPC}}.Location.Town": "",
+  "{{TargetNPC}}.Location.Saloon": "",
+  "{{TargetNPC}}.Location.BusStop": "",
+  "{{TargetNPC}}.Location.Beach": "",
 
-  // --- FESTIVALS & WEATHER ---
-  "NPCNAME.GreenRain": "It's so green...",
-  "NPCNAME.GreenRain_2": "",
-  "NPCNAME.GreenRainFinished": "",
-  "NPCNAME.wonEggHunt": "",
-  "NPCNAME.wonEggHunt_memory_oneyear": "",
-  "NPCNAME.wonGrange": "",
-  "NPCNAME.movieTheater": "",
-  "NPCNAME.MovieInvitation": "",
-  "NPCNAME.movieTheater_memory_oneweek": "",
+  // World State (ex. Community Center / Joja)
+  "{{TargetNPC}}.Reaction.CC_Done": "",
+  "{{TargetNPC}}.Reaction.Joja_Done": "",
+  "{{TargetNPC}}.Reaction.Bus_Repaired": "",
+  "{{TargetNPC}}.Reaction.Museum_Complete": "",
 
-  // --- IN-LAWS / FAMILY ---
-  "NPCNAME.Mon_inlaw_[RelativeName]": "",
-  "NPCNAME.Sat_inlaw_[RelativeName]": ""
+  // Player Status
+  "{{TargetNPC}}.Reaction.Trash": "",
+  "{{TargetNPC}}.Reaction.PlayerHurt": "", // Low Health
+  
+  // Quests
+  "{{TargetNPC}}.Quest.Active": "",
+  "{{TargetNPC}}.Quest.Complete": ""
 }

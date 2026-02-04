@@ -5,7 +5,10 @@ Mod requirements:
 - Daisyniko's Tile sheets( https://www.nexusmods.com/stardewvalley/mods/4736)
 - MMAP (https://www.nexusmods.com/stardewvalley/mods/28423)
 
+- Timberline Falls Discord: https://discord.gg/B6u6fRxz5Z
+
 ** Mod is not yet compatible with any recolors ** 
+
 
 Alpha Release v 1.2
 

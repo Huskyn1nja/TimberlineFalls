@@ -6,9 +6,12 @@ Mod requirements:
 - MMAP (https://www.nexusmods.com/stardewvalley/mods/28423)
 - Farm Type Manager
 
+** Mod is not yet compatible with any recolors ** 
+
+
+
 - Timberline Falls Discord: https://discord.gg/B6u6fRxz5Z
 
-** Mod is not yet compatible with any recolors ** 
 
 
 Alpha Release v 1.2

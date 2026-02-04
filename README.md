@@ -4,6 +4,7 @@ Husky's Repository for his Expansion Mod Timberline Falls
 Mod requirements:
 - Daisyniko's Tile sheets( https://www.nexusmods.com/stardewvalley/mods/4736)
 - MMAP (https://www.nexusmods.com/stardewvalley/mods/28423)
+- Farm Type Manager
 
 - Timberline Falls Discord: https://discord.gg/B6u6fRxz5Z
 

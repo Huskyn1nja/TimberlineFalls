@@ -4,7 +4,7 @@ Husky's Repository for his Expansion Mod Timberline Falls
 Mod requirements:
 - Daisyniko's Tile sheets( https://www.nexusmods.com/stardewvalley/mods/4736)
 - MMAP (https://www.nexusmods.com/stardewvalley/mods/28423)
-- Farm Type Manager
+- Farm Type Manager (https://www.nexusmods.com/stardewvalley/mods/3231)
 
 ** Mod is not yet compatible with any recolors ** 
 
@@ -12,8 +12,39 @@ Mod requirements:
 
 - Timberline Falls Discord: https://discord.gg/B6u6fRxz5Z
 
+Alpha Release v 1.3
+
+** New:
+-  Introducing Silas - A guarded man who loves the land and the things it offers
+-  Introducing Mara - A quiet, introspective woman who is infinitely patient and loves the water
+-  Added the base skeleton for Remy
+-  Added custom music for Timberline
+-  Added a custom world map and locations
+-  Added Forage and fish
+-  Added 2 new kinds of trash
+
+** Fixes
+-- General:
+    - Fixed typos in the i18n for several lines
+    - Fixed several places where characters were just name and not {{mod}}_name
+
+-- Town
+    - Fixed several errors in custom trash can loot
+    - Fixed Water layering issues
+    - Fixed a few places where trees and shrubs would spawn on eachother
+
+-- Arden
+    - Fixed issue where Arden would walk through walls and adventure into the void within their house
+
+-- Roxy
+    - Offered Animations. She rolled her eyes and walked away. No updates yet.
+
+-- Cassidy
+    - Fixed issue where Cassidy would not have anything to say
 
 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Alpha Release v 1.2
 
 Town:

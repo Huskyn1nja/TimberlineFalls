@@ -12,6 +12,60 @@ Mod requirements:
 
 - Timberline Falls Discord: https://discord.gg/B6u6fRxz5Z
 
+- Alpha Release v 1.4
+
+** New:
+-  Introducing Bernard - From Annoyance to Apathy. The local Graveyard keeper is here to remind you that he hates you, and everyone else
+-  Introducing Remy - The local busker who may live in a van but has never let it get them down. Seeing the world as the colorful adventure that is is
+-  Someone has moved into the local Taco Shop. How will Bea feel about some competition
+-  New Winter seasonal buildings
+
+
+** Changes / Fixes
+-- General:
+    - Fixed typos in the i18n for several lines
+    - Cleaned up tile sheets to minimize number of files that could be combined
+
+-- Town
+    - Fixed a number of tiles that did not look right in winter
+    - Fixed a few spots where water asset was missing
+    - Re-drew Jett's Garage
+    - Added several new interiors
+    - Fixed several spots that were impassible with nothing there
+    - Fixed the Town Fountain being stupid in winter
+    - Fixed random places around town where forage would spawn in stupid places
+
+-- Arden
+    - Tweaked Arden's schedule slightly to make more sense
+    - Rewrote some dialogue to align with Arden's character better
+
+-- Bea
+    - Fixed issue where bea would call you son regardless of gender
+    - Decreased Frequency of Bea saying "Bless your heart" so it stings more when she actually DOES say it
+
+-- Cassidy
+    - Rewrote some dialogue to align with her character better.
+
+-- Jett
+    - Reworked a number of lines to give Jett more depth and less of an awkward caricature.
+
+ -- Mara
+    - Reworked a number of lines to make mara more of an introspective naturalist and lean away from scientific
+    - Fixed an issue where Mara liked to randomly stand in building entrances
+
+-- Roxy
+    - I thought she was going to let me make progress on her this week. She sighed and stormed off
+
+-- Silas
+    - Rewrote some of Silas' dialogue to make him more distinct from Vance in why he is more of a lone wolf type
+
+-- Vance
+    - Reworked Vance's schedule a bit
+    - Laid the groundwork for romanceable Vance because some people are weird.
+
+    
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Alpha Release v 1.3
 
 ** New:

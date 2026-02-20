@@ -1,5 +1,5 @@
 # Timberline Falls
-Husky's Expansion Mod for Stardew Valley.
+Husky's Alpha Repository for his Expansion Mod
 
 ## Mod Requirements
 * [Daisyniko's Tile sheets](https://www.nexusmods.com/stardewvalley/mods/4736)

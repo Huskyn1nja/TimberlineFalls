@@ -11,74 +11,42 @@ Mod requirements:
 
 
 - Timberline Falls Discord: https://discord.gg/B6u6fRxz5Z
-- 
-- Alpha Release v 1.5
-- 
-** New:
--  Introducing Clark (Kinda) - Clark the spreadsheet loving manager of Buyco is in game. He does not have a sprite yet. Or a home. I was too lazy today. But he's in game and you can talk to him.
+# Alpha Release v1.5
 
--  ** Changes / Fixes
--- General:
-    - Fixed issues where dialogue was set but was missing leading to translation errors
-    - Cleaned up tile sheets a bit more
-    - Technically the flash bomb is in game now but its not sold by anyone. Do with that what you will.
- 
--- Town
-    - Built out Buyco Interiors
-    - Buyco has a functional Recycling center to rid yourself of unwanted cans
-    - The vending machines inside Jett's Garage and Buyco now work
-    - Changed walking sounds on road tiles where it sounded like Dirt.
-    - New Timberline Tunnel from the Railroad (THANK YOU LUNETTE!)
-    - Fixed layering issues in several locations
-    - Fixed shadows in several places
-    
--- Arden
-    - Went over NPC schedule to try and eliminate errors.
-    - Optimized NPC sheets to make it cleaner
+## New
+* Introducing Clark (Kinda): Clark, the spreadsheet-loving manager of Buyco, is now in-game. 
+    * Note: He does not have a custom sprite or home yet, but he is social and talkable.
 
- -- Bea
-    - Went over NPC schedule to try and eliminate errors.
-    - Optimized NPC sheets to make it cleaner
+## Changes and Fixes
 
- -- Bernard
-    - Went over NPC schedule to try and eliminate errors.
-    - Optimized NPC sheets to make it cleaner
-    - Changed some dialogue lines that seemed like he hated you less. This is incorrect. He still hates you.
-    
--- Cassidy
-    - Went over NPC schedule to try and eliminate errors.
-    - Optimized NPC sheets to make it cleaner
+### General
+* Fixed issues where dialogue keys were set but missing, resolving translation errors.
+* Further cleanup performed on map tile sheets.
+* Flash Bomb: Technically added to the game files, though currently not sold by any vendors.
 
--- Jett
-    - Went over NPC schedule to try and eliminate errors.
-    - Optimized NPC sheets to make it cleaner
-    - Added marriage option including spouse room and patio
+### Town
+* Buyco: Completed the interior maps.
+* Recycling Center: Buyco now features a functional recycling center for ridding yourself of unwanted cans.
+* Vending Machines: Machines located inside Jett's Garage and Buyco are now operational.
+* Road Tiles: Fixed walking sounds on road tiles that erroneously sounded like dirt.
+* Railroad Connection: Added the new Timberline Tunnel connecting to the Railroad (Thank you, Lunette!).
+* Fixed layering and shadow issues across several locations.
 
- -- Mara
-    - Went over NPC schedule to try and eliminate errors.
-    - Optimized NPC sheets to make it cleaner
-    - Fixed issue where Silas and Mara had no personal space
+### NPCs
+* General NPC Optimization: Arden, Bea, Bernard, Cassidy, Jett, Mara, Remy, Roxy, Silas, and Vance have had their schedule logic refined to eliminate pathing errors and their NPC sheets optimized for better performance.
 
--- Remy
-    - Went over NPC schedule to try and eliminate errors.
-    - Optimized NPC sheets to make it cleaner
-    - Added several Animations into Remy's schedule
-
--- Roxy
-    - Went over NPC schedule to try and eliminate errors.
-    - Optimized NPC sheets to make it cleaner
-    - Added several new portraits for future use
-    - Now that clark is in game, Roxy actually goes to work
-
- -- Silas
-    - Went over NPC schedule to try and eliminate errors.
-    - Optimized NPC sheets to make it cleaner
-
--- Vance
-    - Went over NPC schedule to try and eliminate errors.
-    - Optimized NPC sheets to make it cleaner
-    
-
+#### Specific Character Updates
+* Bernard:
+    *  Adjusted dialogue lines that appeared too "friendly." He is back to hating you properly.
+* Jett:
+    *  Added full marriage functionality, including a custom Spouse Room and Farm Patio.
+* Mara:
+    *  Fixed coordinate overlaps to ensure Silas and Mara have proper personal space.
+* Remy:
+    * Integrated several new custom animations into his daily schedule.
+* Roxy: 
+    * Added several new portraits for future content.
+    * Fixed logic so Roxy properly attends work now that her manager (Clark) is present.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Alpha Release v 1.4

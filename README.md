@@ -11,6 +11,75 @@ Mod requirements:
 
 
 - Timberline Falls Discord: https://discord.gg/B6u6fRxz5Z
+- 
+- Alpha Release v 1.5
+- 
+** New:
+-  Introducing Clark (Kinda) - Clark the spreadsheet loving manager of Buyco is in game. He does not have a sprite yet. Or a home. I was too lazy today. But he's in game and you can talk to him.
+
+-  ** Changes / Fixes
+-- General:
+    - Fixed issues where dialogue was set but was missing leading to translation errors
+    - Cleaned up tile sheets a bit more
+    - Technically the flash bomb is in game now but its not sold by anyone. Do with that what you will.
+ 
+-- Town
+    - Built out Buyco Interiors
+    - Buyco has a functional Recycling center to rid yourself of unwanted cans
+    - The vending machines inside Jett's Garage and Buyco now work
+    - Changed walking sounds on road tiles where it sounded like Dirt.
+    - New Timberline Tunnel from the Railroad (THANK YOU LUNETTE!)
+    - Fixed layering issues in several locations
+    - Fixed shadows in several places
+    
+-- Arden
+    - Went over NPC schedule to try and eliminate errors.
+    - Optimized NPC sheets to make it cleaner
+
+ -- Bea
+    - Went over NPC schedule to try and eliminate errors.
+    - Optimized NPC sheets to make it cleaner
+
+ -- Bernard
+    - Went over NPC schedule to try and eliminate errors.
+    - Optimized NPC sheets to make it cleaner
+    - Changed some dialogue lines that seemed like he hated you less. This is incorrect. He still hates you.
+    
+-- Cassidy
+    - Went over NPC schedule to try and eliminate errors.
+    - Optimized NPC sheets to make it cleaner
+
+-- Jett
+    - Went over NPC schedule to try and eliminate errors.
+    - Optimized NPC sheets to make it cleaner
+    - Added marriage option including spouse room and patio
+
+ -- Mara
+    - Went over NPC schedule to try and eliminate errors.
+    - Optimized NPC sheets to make it cleaner
+    - Fixed issue where Silas and Mara had no personal space
+
+-- Remy
+    - Went over NPC schedule to try and eliminate errors.
+    - Optimized NPC sheets to make it cleaner
+    - Added several Animations into Remy's schedule
+
+-- Roxy
+    - Went over NPC schedule to try and eliminate errors.
+    - Optimized NPC sheets to make it cleaner
+    - Added several new portraits for future use
+    - Now that clark is in game, Roxy actually goes to work
+
+ -- Silas
+    - Went over NPC schedule to try and eliminate errors.
+    - Optimized NPC sheets to make it cleaner
+
+-- Vance
+    - Went over NPC schedule to try and eliminate errors.
+    - Optimized NPC sheets to make it cleaner
+    
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Alpha Release v 1.4
 

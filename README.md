@@ -10,7 +10,23 @@ Husky's Alpha Repository for his Expansion Mod
 
 ## Join the Community
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
+---
+## Alpha Release v1.6
 
+### New
+   * Enabled custom wedding events for Timberline NPCs.
+
+### Changes and Fixes
+   * Fixed an issue causing Garbage Cans to conflict with the Binning skill mod.
+   * Recycle Machine now allows players to select a custom amount of items to process.
+
+#### NPCs
+* Clark: 
+    * Replaced the placeholder stick figure sprite with the final character sprite.
+    * Changed vest color to green in his portrait.
+* Jett: 
+    * Added sleeping sprite.
+    * Added a kissing sprite so they dont weld your face when making out.
 ---
 
 ## Alpha Release v1.5

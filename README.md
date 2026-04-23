@@ -5,11 +5,41 @@ Husky's Alpha Repository for his Expansion Mod
 * [Daisyniko's Tile sheets](https://www.nexusmods.com/stardewvalley/mods/4736)
 * [MMAP](https://www.nexusmods.com/stardewvalley/mods/28423)
 * [Farm Type Manager](https://www.nexusmods.com/stardewvalley/mods/3231)
+* [Esca's Modding Plugins](https://www.nexusmods.com/stardewvalley/mods/9296)
 
 **Note: This mod is not yet compatible with any recolors.**
 
 ## Join the Community
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
+
+---
+## Alpha Release v1.7
+
+### New
+* Special Order Board: Implemented a new board, which can be found in the town park.
+* Buyco: The store is now open for bulk purchases.
+* Buyco Food Court: Several food items are now available for purchase while Roxy is working (assuming you can convince her to stop rolling her eyes at you).
+
+### Changes and Fixes
+
+#### General
+* Loaded updated portraits for all characters.
+
+#### NPCs
+* Arden: 
+    * Dialogue has been expanded.
+    * Schedule has been tweaked.
+* Bea: 
+    * Dialogue has been expanded.
+    * Schedule has been tweaked.
+* Dion: 
+    * Adjusted his schedule so he finally leaves his room and can share his friendly, sassy personality with the town.
+* Gustavo: 
+    * Fixed missing shop dialogue.
+* Jax: 
+    * Fixed an issue that caused her to disappear when walking.
+
+
 ---
 ## Alpha Release v1.6
 

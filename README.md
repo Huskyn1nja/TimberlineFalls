@@ -13,6 +13,20 @@ Husky's Alpha Repository for his Expansion Mod
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
 
 ---
+## Alpha Release v1.8
+
+### New
+* Added Arden's 2, 4, 6, 8, and 10 heart events
+
+### Changes and Fixes
+
+#### NPCs
+* Arden:
+    * Fixed misspellings and grammar in dialogue
+    * Added event dialogue
+    * Fixed a bug where an error would be thrown when Arden sleeps
+
+---
 ## Alpha Release v1.7
 
 ### New

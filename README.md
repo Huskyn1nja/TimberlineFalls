@@ -13,6 +13,22 @@ Husky's Alpha Repository for his Expansion Mod
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
 
 ---
+## Alpha Release v1.9
+
+### New
+* Added Arden's 12 and 14 heart events
+* Added Bea's 2, 4, 6, 8, and 10 heart events
+* New Timberline town Music for each season
+
+### Changes and Fixes
+
+#### NPCs
+* Arden:
+    * tweaked 2, 4, 6, 8, and 10 heart events
+    * fixed several places where Arden had wrong pronouns
+---
+
+---
 ## Alpha Release v1.8
 
 ### New

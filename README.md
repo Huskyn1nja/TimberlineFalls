@@ -13,6 +13,27 @@ Husky's Alpha Repository for his Expansion Mod
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
 
 ---
+## Alpha Release v1.10
+
+### New
+* Added Events for Bernard, Cassidy, and Clark
+* Removed broken events for undeveloped NPCs so you don't trigger unworked events
+
+### Changes
+* **Bea**
+  * Minor typos to events
+* **Bernard**
+  * Added Digging and sitting Animation sprites
+  * Added expression Portraits
+  * Minor dialogue changes
+* **Cassidy**
+  * New Sprite
+  * Added expression portraits
+* **Clark**
+  * Added Expression portraits
+  * New Sprite
+
+---
 ## Alpha Release v1.9
 
 ### New

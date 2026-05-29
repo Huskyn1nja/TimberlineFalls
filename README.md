@@ -11,7 +11,26 @@ Husky's Alpha Repository for his Expansion Mod
 
 ## Join the Community
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
+---
+## Alpha Release v1.11
 
+### New
+* Added Buildings sheet for Summer
+* Hisstopher has joined the town
+
+### Changes
+* Maps
+  * Added Hisstopher's home to the town
+  * Added Drexel's Office to apartment lobby
+  * Built a home for clark
+
+* Characters
+  * All Characters -
+	* Added a shit ton of new dialogue to characters to help them feel more immersive.
+		* Every Romanceable NPC has roughly 210 Lines of Dialogue
+		* Every Non-Romanceable NPC has roughly 90 Lines of Dialogue
+	* All characters now have a full suite of portraits to help with the "no face" issues in conversation
+	* Multiple characters have improved Sprites to make them look less derpy when walking
 ---
 ## Alpha Release v1.10
 

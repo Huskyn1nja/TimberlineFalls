@@ -6,11 +6,18 @@ Husky's Alpha Repository for his Expansion Mod
 * [MMAP](https://www.nexusmods.com/stardewvalley/mods/28423)
 * [Farm Type Manager](https://www.nexusmods.com/stardewvalley/mods/3231)
 * [Esca's Modding Plugins](https://www.nexusmods.com/stardewvalley/mods/9296)
+* [Custom Schedule Keys](https://www.nexusmods.com/stardewvalley/mods/31271)
 
 **Note: This mod is not yet compatible with any recolors.**
 
 ## Join the Community
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
+
+  ---
+## Alpha Release v1.12
+
+I changed a bunch of stuff. I dont even remember it all. 
+
 ---
 ## Alpha Release v1.11
 

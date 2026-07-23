@@ -12,7 +12,47 @@ Husky's Alpha Repository for his Expansion Mod
 
 ## Join the Community
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
+  ---
+## Alpha Release v1.13
 
+### New
+* Added several new warps to CJB cheats warp menu to make it easier to get around for testing
+* Added requirement for Custom Schedule Keys to the manifest
+* Added Buyco Food Court shop
+* Added Munitions Shop
+	*  the FlashBomb, Meadowmine, Grassbomb, Rainmaker, Drill Bomb, and Dwarfstar can be purchased from Vance provided you meet the pre-requisites
+* Added Pepper pit Shop
+	* Added 8 new Summer / Fall peppers. You can buy the peppers from Blaise.
+   
+### Changes
+* Maps
+  * Fixed map tile layer issue in Buyco
+  * Fixed loading issue with the door in the munitions
+  * Added relationship requirement to get to munitions back area
+  * Fixed Door in Pepper pit so Blaise can leave his room
+  * Fixed Elara's Door
+  * Clicking the salon chairs in Pomp and Lock will trigger the shrine of illusions dialogue (placeholder action) to change your look
+* Machines
+  * Added the Old Boot and Pizza box to the pool to be accepted by the recycle Machine
+  * Added the framework for the food processor
+* Characters
+  * Blaise
+  	* Fixed location error in his schedule causing occasional breaks
+   	* Fixed Sleeping Animation
+    * Fixed Cooking animation
+    * Added drinking animation
+  * Clark
+  	* Fixed Sleeping animation
+   	* Fixed Stocking animation
+  * Roxy
+  	* Fixed Cashier Animation
+   	* Fixed Sleeping animation
+  * Elara
+  	* Fixed Elara home location so she starts the day in her bed
+   	* Fixed Sleep animation
+* Misc
+	* Split the i18n into smaller sub files to make data easier to manage / find
+ 	* Fixed CJB Warp to the Hiking Path
   ---
 ## Alpha Release v1.12
 

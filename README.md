@@ -13,6 +13,26 @@ Husky's Alpha Repository for his Expansion Mod
 ## Join the Community
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
   ---
+## Alpha Release v1.14
+
+### New
+* Added a new machine - The food processor
+* Added Salt rock as a new Mineral
+* Added New items - Salt, Pepper
+* Added A new crop and seeds - Black Peppercorn
+* Added Recipes to turn rock salt into salt and Black Peppercorn into pepper in the Mill
+* Added New Pepper Puree items
+	*  Created by putting 3 of the same pepper into the food processor
+* Created New Hpt sauces
+* Added Unique Buffs to each hot sauce
+   
+### Changes
+* Global
+  * Fixed an issue where food items from Bea, Gustavo, and Buyco were showing as cookable for the player.
+
+* Misc
+  * Changed several i18n entries to be uniform with all other items
+  ---
 ## Alpha Release v1.13
 
 ### New

@@ -29,6 +29,7 @@ Husky's Alpha Repository for his Expansion Mod
 ### Changes
 * Global
   * Fixed an issue where food items from Bea, Gustavo, and Buyco were showing as cookable for the player.
+  * Ypu can now buy salt and pepper from Pierre or Joja Mart
 
 * Misc
   * Changed several i18n entries to be uniform with all other items

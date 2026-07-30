@@ -13,6 +13,30 @@ Husky's Alpha Repository for his Expansion Mod
 ## Join the Community
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
   ---
+  ## Alpha Release v1.15
+
+### New
+* Arden now sells the crafting Recipe for the Amber Clasp so you can Marry Timberline NPCs
+* Added a crafting recipe for the food processor - Purchasable from Blaise
+* All pepper seeds, salt, and pepper are now on rotation for Bulk purchases at Buyco
+* Added Half eaten Pizza slice as an object
+* Added Half eaten pizza slice to garbage can loot in Timberline
+* Added a spouse room / patio for Hisstopher
+* Hisstopher can now be added as a roommate
+* Added some map strings in areas around the town to add a little flavor
+   
+### Changes
+* Global
+  * Decreased the size of the clinic to make it feel less empty.
+  * Finished decorating the clinic
+  * Changed makeover text in the salon to "Get a makeover from Dion?"
+  * The quarry cave now spawns ore
+
+### Bug fixes
+  * Fixed Julius' door so he can be interacted with
+  * Fixed a bug where 2 bombs would be used everytime you placed one
+  * Fixed map layering issue in Buyco
+  ---
 ## Alpha Release v1.14
 
 ### New

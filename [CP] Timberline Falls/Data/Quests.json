@@ -1,0 +1,55 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "{{ModId}}_BeaQuestIntro": "{{i18n:Quest.BeaLetter.Intro}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "{{ModId}}_SendBeaLetter": {
+		  "ID": "{{ModId}}_SendBeaIntro",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current {{ModId}}_Bea 3 14, !PLAYER_HAS_MAIL Current {{ModId}}_BeaQuestIntro",
+          "Actions": [
+            "AddMail Current {{ModId}}_BeaQuestIntro"
+          ]
+        }
+      }
+    },
+{
+  "Action": "EditData",
+  "Target": "Data/Events/Custom_TimberlineFalls",
+  "Entries": {
+    "{{ModId}}_TownParkIntro/w sunny/l {{ModId}}_BeaQuestIntro": "sad_kid/38 51/farmer 38 54 0 {{ModId}}_Bea 38 50 2/skippable/pause 1000/move {{ModId}}_Bea 2 0 1/pause 500/move {{ModId}}_Bea -2 0 3/pause 500/move farmer 0 -2 0/emote {{ModId}}_Bea 28/pause 300/speak {{ModId}}_Bea \"{{i18n: QuestEvent.ParkStart.01}}\"/faceDirection {{ModId}}_Bea 2/pause 500/speak {{ModId}}_Bea \"{{i18n: QuestEvent.ParkStart.02}}\"/move farmer 0 -1 0/pause 300/speak {{ModId}}_Bea \"{{i18n: QuestEvent.ParkStart.03}}\"/faceDirection {{ModId}}_Bea 1/pause 500/faceDirection {{ModId}}_Bea 0/pause 500/speak {{ModId}}_Bea \"{{i18n: QuestEvent.ParkStart.04}}\"/faceDirection {{ModId}}_Bea 2/emote {{ModId}}_Bea 28/speak {{ModId}}_Bea \"{{i18n: QuestEvent.ParkStart.05}}\"/pause 400/speak {{ModId}}_Bea \"{{i18n: QuestEvent.ParkStart.06}}\"/pause 400/speak {{ModId}}_Bea \"{{i18n: QuestEvent.ParkStart.07}}\"/speak {{ModId}}_Bea \"{{i18n: QuestEvent.ParkStart.08}}\"/emote farmer 32/pause 500/playMusic communitycenter/pause 500/emote {{ModId}}_Bea 20/speak {{ModId}}_Bea \"{{i18n: QuestEvent.ParkStart.09}}\"/fade/viewport -1000 -1000/end"
+  }
+},
+
+{
+      "Action": "EditData",
+      "Target": "UnlockableBundles/Bundles",
+      "When": {
+        "HasSeenEvent": "{{ModId}}_TownParkIntro"
+      },
+      "Entries": {
+        "CustomParkArea.Phase1": {
+          "Location": "Custom_TimberlineFalls",
+          "ShopPosition": "36, 50",
+		  "ShopType": "CCBundle",
+          "BundleName": "{{i18n:Bundle.Phase1.Name}}",
+		  "BundleDescription": "{{i18n:Bundle.Phase1.Desc}}",
+		  "BundleIcon": "Exotic_Foraging",
+		  "InstantShopRemoval": true,
+		  "BundleSlots": 3,
+		  "Price": { "388": 50, "390": 50, "771": 15},
+		"BundleReward": {"770": 20,}
+            
+          }
+        }
+      }
+  ]
+}

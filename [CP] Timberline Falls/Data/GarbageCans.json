@@ -1,0 +1,83 @@
+{
+  "Changes": [  
+    {
+      "Action": "EditData",
+      "Target": "Data/GarbageCans",
+      "TargetField": [ "GarbageCans" ],
+      "Entries": {
+        "GarbageCans": {
+          "Timberline_Trainyard": { 
+            "BaseChance": 0.2, 
+            "Items": [ 
+              { "Id": "HalfEatenPizza", "ItemId": "(O){{ModId}}_HalfEatenPizza", "Chance": 0.1 },
+              { "Id": "Trainyard_Loot_Pool", "Condition": null, "RandomItemId": [ "(O)118", "(O)335", "(O)382", "(O)167", "(O)168", "(O){{ModId}}_RailWeed" ], "MinStack": 1, "MaxStack": 4 } 
+            ] 
+          },
+          "Timberline_Biscuit_Drum": { 
+            "BaseChance": 0.2, 
+            "Items": [ 
+              { "Id": "HalfEatenPizza", "ItemId": "(O){{ModId}}_HalfEatenPizza", "Chance": 0.1 },
+              { "Id": "BiscuitDrum_Loot_Pool", "Condition": null, "RandomItemId": [ "(O)223", "(O)211", "(O)216", "(O)246", "(O)245", "(O)168" ], "MinStack": 1, "MaxStack": 3 } 
+            ] 
+          },
+          "Timberline_Clinic": { 
+            "BaseChance": 0.2, 
+            "Items": [ 
+              { "Id": "HalfEatenPizza", "ItemId": "(O){{ModId}}_HalfEatenPizza", "Chance": 0.1 },
+              { "Id": "Clinic_Loot", "Condition": null, "RandomItemId": [ "(O)170", "(O)167", "(O)168", "(O)401", "(O){{ModId}}_MistMaiden" ], "MinStack": 1, "MaxStack": 2 } 
+            ] 
+          },
+          "Timberline_Antiquary": { 
+            "BaseChance": 0.2, 
+            "Items": [ 
+              { "Id": "HalfEatenPizza", "ItemId": "(O){{ModId}}_HalfEatenPizza", "Chance": 0.1 },
+              { "Id": "Antiquary_Loot", "Condition": null, "RandomItemId": [ "(O)112", "(O)171", "(O)169", "(O)168", "(O)390", "(O){{ModId}}_GhostPipe" ], "MinStack": 1, "MaxStack": 1 } 
+            ] 
+          },
+          "Timberline_Pepper_Pit": { 
+            "BaseChance": 0.2, 
+            "Items": [ 
+              { "Id": "HalfEatenPizza", "ItemId": "(O){{ModId}}_HalfEatenPizza", "Chance": 0.1 },
+              { "Id": "PepperPit_Loot", "Condition": null, "RandomItemId": [ "(O)260", "(O)229", "(O)247", "(O)168", "(O){{ModId}}_WildScape" ], "MinStack": 1, "MaxStack": 3 } 
+            ] 
+          },
+          "Timberline_Terraces": { 
+            "BaseChance": 0.2, 
+            "Items": [ 
+              { "Id": "HalfEatenPizza", "ItemId": "(O){{ModId}}_HalfEatenPizza", "Chance": 0.1 },
+              { "Id": "Terraces_Loot", "Condition": null, "RandomItemId": [ "(O)348", "(O)220", "(O)223", "(O)172", "(O)168" ], "MinStack": 1, "MaxStack": 2 } 
+            ] 
+          },
+          "Timberline_Buyco": { 
+            "BaseChance": 0.2, 
+            "Items": [ 
+              { "Id": "HalfEatenPizza", "ItemId": "(O){{ModId}}_HalfEatenPizza", "Chance": 0.1 },
+              { "Id": "Buyco_Loot", "Condition": null, "RandomItemId": [ "(O)167", "(O)171", "(O)172", "(O)168", "(O)121" ], "MinStack": 1, "MaxStack": 4 } 
+            ] 
+          },
+          "Timberline_Munitions": { 
+            "BaseChance": 0.2, 
+            "Items": [ 
+              { "Id": "HalfEatenPizza", "ItemId": "(O){{ModId}}_HalfEatenPizza", "Chance": 0.1 },
+              { "Id": "Munitions_Loot", "Condition": null, "RandomItemId": [ "(O)382", "(O)390", "(O)378", "(O)168", "(O)92" ], "MinStack": 1, "MaxStack": 5 } 
+            ] 
+          },
+          "Timberline_Residential_1": { 
+            "BaseChance": 0.2, 
+            "Items": [ 
+              { "Id": "HalfEatenPizza", "ItemId": "(O){{ModId}}_HalfEatenPizza", "Chance": 0.1 },
+              { "Id": "Res_1_Loot", "Condition": null, "RandomItemId": [ "(O)216", "(O)168", "(O)172", "(O)167" ], "MinStack": 1, "MaxStack": 3 } 
+            ] 
+          },
+          "Timberline_Residential_2": { 
+            "BaseChance": 0.2, 
+            "Items": [ 
+              { "Id": "HalfEatenPizza", "ItemId": "(O){{ModId}}_HalfEatenPizza", "Chance": 0.1 },
+              { "Id": "Res_2_Loot", "Condition": null, "RandomItemId": [ "(O)168", "(O)172", "(O)169", "(O)223" ], "MinStack": 1, "MaxStack": 3 } 
+            ] 
+          }
+        }
+      }
+    }
+  ]
+}

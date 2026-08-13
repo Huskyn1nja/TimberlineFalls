@@ -1,0 +1,619 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "{{ModId}}_ArdenArtifactHunt": {
+          "Name": "{{i18n: Arden.SpecialOrder.ArtifactHunt.Name}}",
+          "Requester": "Huskyn1nja.TimberFalls_Arden",
+          "Duration": "Week",
+          "Repeatable": false,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Arden.SpecialOrder.ArtifactHunt.Text}}",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "Collect 3 Artifacts",
+              "RequiredCount": 3,
+              "Data": {
+                "AcceptedContextTags": "category_artifact"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "Deliver to Arden",
+              "RequiredCount": 3,
+              "Data": {
+                "DropBox": "{{ModId}}_ArdenDropBox",
+                "DropBoxIndicatorLocation": "10 10",
+                "DropBoxGameLocation": "Custom_TimberlineFalls",
+                "AcceptedContextTags": "category_artifact"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Item",
+              "Data": {
+                "ItemId": "(O)103",
+                "Amount": "1"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_ArdenLostLexicon": {
+          "Name": "{{i18n: Arden.SpecialOrder.LostLexicon.Name}}",
+          "Requester": "{{ModId}}_Arden",
+          "Duration": "Week",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Arden.SpecialOrder.LostLexicon.Text}}",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "Collect 10 Refined Quartz",
+              "RequiredCount": 10,
+              "Data": {
+                "AcceptedContextTags": "id_338"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "Deliver Refined Quartz to Arden",
+              "RequiredCount": 10,
+              "Data": {
+                "DropBox": "{{ModId}}_ArdenDropBox",
+                "DropBoxIndicatorLocation": "10 10",
+                "DropBoxGameLocation": "Custom_TimberlineFalls",
+                "AcceptedContextTags": "id_338"
+              }
+            },
+            {
+              "Type": "Collect",
+              "Text": "Collect 50 Solar Essence",
+              "RequiredCount": 50,
+              "Data": {
+                "AcceptedContextTags": "id_768"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "Deliver Solar Essence to Arden",
+              "RequiredCount": 50,
+              "Data": {
+                "DropBox": "{{ModId}}_ArdenDropBox",
+                "DropBoxIndicatorLocation": "10 10",
+                "DropBoxGameLocation": "Custom_TimberlineFalls",
+                "AcceptedContextTags": "id_768"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3500"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_BeaCommunityGumbo": {
+          "Name": "{{i18n: Bea.SpecialOrder.CommunityGumbo.Name}}",
+          "Requester": "{{ModId}}_Bea",
+          "Duration": "Week",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Bea.SpecialOrder.CommunityGumbo.Text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Crop",
+              "Values": [
+                {
+                  "RequiredTags": "season_spring",
+                  "Value": "PICK_ITEM Potato, Green Bean"
+                },
+                {
+                  "RequiredTags": "season_summer",
+                  "Value": "PICK_ITEM Tomato, Hot Pepper"
+                },
+                {
+                  "RequiredTags": "season_fall",
+                  "Value": "PICK_ITEM Eggplant, Amaranth"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "RequiredCount": 24,
+              "Data": {
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "RequiredCount": 24,
+              "Data": {
+                "DropBox": "{{ModId}}_BeaDropBox",
+                "DropBoxGameLocation": "Custom_TimberlineFalls",
+                "DropBoxIndicatorLocation": "10 10",
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "{Crop:Price}",
+                "Multiplier": "30"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_BernardRestlessSpirits": {
+          "Name": "{{i18n: Bernard.SpecialOrder.RestlessSpirits.Name}}",
+          "Requester": "{{ModId}}_Bernard",
+          "Duration": "Week",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Bernard.SpecialOrder.RestlessSpirits.Text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Monster",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "Target|Skeleton|LocalizedName|Skeletons"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "Target|Ghost|LocalizedName|Ghosts"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "Target|Mummy|LocalizedName|Mummies"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "SlayMonster",
+              "RequiredCount": 30,
+              "Data": {
+                "TargetName": "{Monster:Target}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2500"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_DionShearElegance": {
+          "Name": "{{i18n: Dion.SpecialOrder.ShearElegance.Name}}",
+          "Requester": "{{ModId}}_Dion",
+          "Duration": "Week",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Dion.SpecialOrder.ShearElegance.Text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Resource",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "PICK_ITEM Cloth, Truffle Oil, Duck Mayonnaise"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "RequiredCount": 10,
+              "Data": {
+                "AcceptedContextTags": "{Resource:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "RequiredCount": 10,
+              "Data": {
+                "DropBox": "{{ModId}}_DionDropBox",
+                "DropBoxGameLocation": "Custom_TimberlineFalls",
+                "DropBoxIndicatorLocation": "10 10",
+                "AcceptedContextTags": "{Resource:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "{Resource:Price}",
+                "Multiplier": "25"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_DionMudMasks": {
+          "Name": "{{i18n: Dion.SpecialOrder.MudMasks.Name}}",
+          "Requester": "{{ModId}}_Dion",
+          "Duration": "Week",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Dion.SpecialOrder.MudMasks.Text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Resource",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "PICK_ITEM Clay, Slime, Sap"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "RequiredCount": 50,
+              "Data": {
+                "AcceptedContextTags": "{Resource:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "RequiredCount": 50,
+              "Data": {
+                "DropBox": "{{ModId}}_DionDropBox",
+                "DropBoxGameLocation": "Custom_TimberlineFalls",
+                "DropBoxIndicatorLocation": "10 10",
+                "AcceptedContextTags": "{Resource:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "1500"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_GustavoPerfectHeat": {
+          "Name": "{{i18n: Gustavo.SpecialOrder.PerfectHeat.Name}}",
+          "Requester": "{{ModId}}_Gustavo",
+          "Duration": "Month",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Gustavo.SpecialOrder.PerfectHeat.Text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Crop",
+              "Values": [
+                {
+                  "RequiredTags": "season_spring",
+                  "Value": "PICK_ITEM Garlic"
+                },
+                {
+                  "RequiredTags": "season_summer",
+                  "Value": "PICK_ITEM Hot Pepper, Tomato"
+                },
+                {
+                  "RequiredTags": "season_fall",
+                  "Value": "PICK_ITEM Amaranth, Yam"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Harvest",
+              "RequiredCount": 50,
+              "Data": {
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            },
+            {
+              "Type": "Ship",
+              "RequiredCount": 50,
+              "Data": {
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "{Crop:Price}",
+                "Multiplier": "60"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_JaxNeonNights": {
+          "Name": "{{i18n: Jax.SpecialOrder.NeonNights.Name}}",
+          "Requester": "{{ModId}}_Jax",
+          "Duration": "Week",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Jax.SpecialOrder.NeonNights.Text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Resource",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "PICK_ITEM Refined Quartz, Earth Crystal, Fire Quartz"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "RequiredCount": 10,
+              "Data": {
+                "AcceptedContextTags": "{Resource:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "RequiredCount": 10,
+              "Data": {
+                "DropBox": "{{ModId}}_JaxDropBox",
+                "DropBoxGameLocation": "Custom_TimberlineFalls",
+                "DropBoxIndicatorLocation": "10 10",
+                "AcceptedContextTags": "{Resource:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "{Resource:Price}",
+                "Multiplier": "20"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_JettScrapMetal": {
+          "Name": "{{i18n: Jett.SpecialOrder.ScrapMetal.Name}}",
+          "Requester": "{{ModId}}_Jett",
+          "Duration": "Week",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Jett.SpecialOrder.ScrapMetal.Text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Resource",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "PICK_ITEM Copper Ore, Iron Ore, Gold Ore"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "RequiredCount": 50,
+              "Data": {
+                "AcceptedContextTags": "{Resource:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "RequiredCount": 50,
+              "Data": {
+                "DropBox": "{{ModId}}_JettDropBox",
+                "DropBoxGameLocation": "Custom_TimberlineFalls",
+                "DropBoxIndicatorLocation": "10 10",
+                "AcceptedContextTags": "{Resource:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "{Resource:Price}",
+                "Multiplier": "60"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_JuliusPlaquePurge": {
+          "Name": "{{i18n: Julius.SpecialOrder.PlaquePurge.Name}}",
+          "Requester": "{{ModId}}_Julius",
+          "Duration": "Week",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Julius.SpecialOrder.PlaquePurge.Text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Monster",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "Target|Slime|LocalizedName|Slimes"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "Target|Bug|LocalizedName|Bugs"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "Target|Fly|LocalizedName|Cave Flies"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "SlayMonster",
+              "RequiredCount": 50,
+              "Data": {
+                "TargetName": "{Monster:Target}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2000"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_MabelBerryGoodNeighbors": {
+          "Name": "{{i18n: Mabel.SpecialOrder.BerryGoodNeighbors.Name}}",
+          "Requester": "{{ModId}}_Mabel",
+          "Duration": "Month",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Mabel.SpecialOrder.BerryGoodNeighbors.Text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Crop",
+              "Values": [
+                {
+                  "RequiredTags": "season_spring",
+                  "Value": "PICK_ITEM Strawberry, Rhubarb"
+                },
+                {
+                  "RequiredTags": "season_summer",
+                  "Value": "PICK_ITEM Blueberry, Melon"
+                },
+                {
+                  "RequiredTags": "season_fall",
+                  "Value": "PICK_ITEM Cranberries, Grape"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Harvest",
+              "RequiredCount": 50,
+              "Data": {
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            },
+            {
+              "Type": "Ship",
+              "RequiredCount": 50,
+              "Data": {
+                "AcceptedContextTags": "{Crop:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "{Crop:Price}",
+                "Multiplier": "60"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_MaraAquaticStudy": {
+          "Name": "{{i18n: Mara.SpecialOrder.AquaticStudy.Name}}",
+          "Requester": "{{ModId}}_Mara",
+          "Duration": "Week",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Mara.SpecialOrder.AquaticStudy.Text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Fish",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "PICK_ITEM Bream, Chub, Carp, Bullhead"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Fish",
+              "RequiredCount": 10,
+              "Data": {
+                "AcceptedContextTags": "{Fish:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "{Fish:Price}",
+                "Multiplier": "20"
+              }
+            }
+          ]
+        },
+        "{{ModId}}_VanceTargetPractice": {
+          "Name": "{{i18n: Vance.SpecialOrder.TargetPractice.Name}}",
+          "Requester": "{{ModId}}_Vance",
+          "Duration": "Week",
+          "Repeatable": true,
+          "OrderType": "Esca.EMP/Timberline",
+          "Text": "{{i18n: Vance.SpecialOrder.TargetPractice.Text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Monster",
+              "Values": [
+                {
+                  "RequiredTags": "",
+                  "Value": "Target|Cave Insect|LocalizedName|Cave Insects"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "Target|Bat|LocalizedName|Bats"
+                },
+                {
+                  "RequiredTags": "",
+                  "Value": "Target|Ghost|LocalizedName|Ghosts"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "SlayMonster",
+              "RequiredCount": 30,
+              "Data": {
+                "TargetName": "{Monster:Target}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2500"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

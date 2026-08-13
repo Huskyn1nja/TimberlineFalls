@@ -1,0 +1,44 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_Salon",
+      "Entries": {
+
+    "{{ModId}}_Dion2Heart/Friendship {{ModId}}_Dion 500": "none/5 5/farmer 5 10 0 {{ModId}}_Dion 5 4 2/skippable/viewport 5 5 true/pause 1000/faceDirection {{ModId}}_Dion 2/pause 500/emote {{ModId}}_Dion 16/pause 250/move {{ModId}}_Dion -1 0 2/move {{ModId}}_Dion 0 4 1/move {{ModId}}_Dion 1 0 2/speak {{ModId}}_Dion \"{{i18n:Dion.Event.2Heart.1}}\"/pause 500/speak {{ModId}}_Dion \"{{i18n:Dion.Event.2Heart.2}}\"/quickQuestion {{i18n:Dion.Event.2Heart.Q}}#{{i18n:Dion.Event.2Heart.A1}}#{{i18n:Dion.Event.2Heart.A2}}#{{i18n:Dion.Event.2Heart.A3}}(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.2Heart.R1}}\"\\friendship {{ModId}}_Dion 50(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.2Heart.R2}}\"\\friendship {{ModId}}_Dion 50(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.2Heart.R3}}\"\\friendship {{ModId}}_Dion 20/pause 500/speak {{ModId}}_Dion \"{{i18n:Dion.Event.2Heart.3}}\"/pause 1000/globalFade/viewport -1000 -1000/end",
+
+        "{{ModId}}_Dion6Heart/Friendship {{ModId}}_Dion 1500/SawEvent {{ModId}}_Dion4Heart": "none/5 5/farmer 5 10 0 {{ModId}}_Dion 5 4 2/skippable/viewport 5 5 true/pause 1000/move farmer 0 -3 0/pause 500/emote {{ModId}}_Dion 28/speak {{ModId}}_Dion \"{{i18n:Dion.Event.6Heart.1}}\"/pause 800/faceDirection {{ModId}}_Dion 3/pause 500/speak {{ModId}}_Dion \"{{i18n:Dion.Event.6Heart.2}}\"/playMusic desolate/faceDirection {{ModId}}_Dion 2/pause 500/speak {{ModId}}_Dion \"{{i18n:Dion.Event.6Heart.3}}\"/quickQuestion {{i18n:Dion.Event.6Heart.Q}}#{{i18n:Dion.Event.6Heart.A1}}#{{i18n:Dion.Event.6Heart.A2}}(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.6Heart.R1}}\"\\friendship {{ModId}}_Dion 50(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.6Heart.R2}}\"\\friendship {{ModId}}_Dion 30/pause 500/speak {{ModId}}_Dion \"{{i18n:Dion.Event.6Heart.4}}\"/pause 1000/globalFade/viewport -1000 -1000/end",
+
+
+    "{{ModId}}_Dion10Heart/Friendship {{ModId}}_Dion 2500/SawEvent {{ModId}}_Dion8Heart/Time 2000 2400": "none/7 15/farmer 7 18 0 {{ModId}}_Dion 7 12 2/skippable/ambientLight 80 80 110/viewport 7 15 true/pause 1000/playSound doorClose/pause 500/playMusic musicboxsong/speak {{ModId}}_Dion \"{{i18n:Dion.Event.10Heart.1}}\"/pause 800/emote {{ModId}}_Dion 28/speak {{ModId}}_Dion \"{{i18n:Dion.Event.10Heart.2}}\"/pause 500/move farmer 0 -2 0/pause 500/speak {{ModId}}_Dion \"{{i18n:Dion.Event.10Heart.3}}\"/pause 500/speak {{ModId}}_Dion \"{{i18n:Dion.Event.10Heart.4}}\"/quickQuestion {{i18n:Dion.Event.10Heart.Q}}#{{i18n:Dion.Event.10Heart.A1}}#{{i18n:Dion.Event.10Heart.A2}}#{{i18n:Dion.Event.10Heart.A3}}(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.10Heart.R1}}\"\\friendship {{ModId}}_Dion 50(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.10Heart.R2}}\"\\friendship {{ModId}}_Dion 50(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.10Heart.R3}}\"\\friendship {{ModId}}_Dion 50/pause 500/move {{ModId}}_Dion 0 2 2/pause 400/emote {{ModId}}_Dion 20/speak {{ModId}}_Dion \"{{i18n:Dion.Event.10Heart.5}}\"/pause 600/speak {{ModId}}_Dion \"{{i18n:Dion.Event.10Heart.6}}\"/pause 2000/globalFade/viewport -1000 -1000/end"
+
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_BiscuitDrum",
+      "Entries": {
+
+
+
+    "{{ModId}}_Dion4Heart/Friendship {{ModId}}_Dion 1000/SawEvent {{ModId}}_Dion2Heart/Weather sunny": "none/4 15/farmer 12 18 0 {{ModId}}_Dion 2 14 1 {{ModId}}_Cassidy 3 16 1/skippable/viewport 4 15 true/pause 1000/speed {{ModId}}_Cassidy 5/emote {{ModId}}_Cassidy 16/pause 250/move {{ModId}}_Cassidy 5 0 1/emote {{ModId}}_Cassidy 16/pause 250/move {{ModId}}_Cassidy 1 0 0/move {{ModId}}_Cassidy 0 -1 0/emote {{ModId}}_Cassidy 16/pause 250/move {{ModId}}_Cassidy -6 0 0/speed {{ModId}}_Cassidy 3/pause 500/emote {{ModId}}_Dion 8/pause 400/speak {{ModId}}_Dion \"{{i18n:Dion.Event.4Heart.1}}\"/pause 800/emote {{ModId}}_Cassidy 28/speak {{ModId}}_Cassidy \"{{i18n:Dion.Event.4Heart.2}}\"/pause 500/move {{ModId}}_Cassidy 13 0 1/move {{ModId}}_Cassidy 0 -3 0/move {{ModId}}_Cassidy -1 0 3/warp {{ModId}}_Cassidy -1 -1/pause 1000/move farmer 0 -3 3/move farmer -9 0 0/pause 500/faceDirection {{ModId}}_Dion 2/emote {{ModId}}_Dion 8/speak {{ModId}}_Dion \"{{i18n:Dion.Event.4Heart.3}}\"/quickQuestion {{i18n:Dion.Event.4Heart.Q}}#{{i18n:Dion.Event.4Heart.A1}}#{{i18n:Dion.Event.4Heart.A2}}#{{i18n:Dion.Event.4Heart.A3}}(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.4Heart.R1}}\"\\friendship {{ModId}}_Dion 50(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.4Heart.R2}}\"\\friendship {{ModId}}_Dion 50(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.4Heart.R3}}\"\\friendship {{ModId}}_Dion -50/pause 800/speak {{ModId}}_Dion \"{{i18n:Dion.Event.4Heart.4}}\"/pause 1000/globalFade/viewport -1000 -1000/end"
+
+
+
+
+
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_HikingPath",
+      "Entries": {
+	
+    "{{ModId}}_Dion8Heart/Friendship {{ModId}}_Dion 2000/Weather sunny/SawEvent {{ModId}}_Dion6Heart": "none/16 26/farmer 16 31 0 {{ModId}}_Dion 16 24 2/skippable/viewport 16 26 true/pause 1000/emote {{ModId}}_Dion 12 true/move farmer 0 -5 0/pause 500/speak {{ModId}}_Dion \"{{i18n:Dion.Event.8Heart.1}}\"/pause 800/faceDirection {{ModId}}_Dion 2/speak {{ModId}}_Dion \"{{i18n:Dion.Event.8Heart.2}}\"/playMusic desolate/pause 500/speak {{ModId}}_Dion \"{{i18n:Dion.Event.8Heart.3}}\"/quickQuestion {{i18n:Dion.Event.8Heart.Q}}#{{i18n:Dion.Event.8Heart.A1}}#{{i18n:Dion.Event.8Heart.A2}}(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.8Heart.R1}}\"\\friendship {{ModId}}_Dion 50(break)speak {{ModId}}_Dion \"{{i18n:Dion.Event.8Heart.R2}}\"\\friendship {{ModId}}_Dion 50/pause 800/speak {{ModId}}_Dion \"{{i18n:Dion.Event.8Heart.4}}\"/pause 1000/globalFade/viewport -1000 -1000/end"
+	  
+		  
+		  
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Gustavo",
+      "FromFile": "characters/Sprites/Gustavo.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Gustavo",
+      "FromFile": "characters/Portraits/Gustavo.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Gustavo.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Gustavo.json"
+    },
+
+    {
+      "LogName": "Gustavo Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Gustavo": {
+          "DisplayName": "{{i18n:Gustavo.Name}}",
+          "BirthSeason": "Summer",
+          "BirthDay": 8,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Negative",
+          "CanBeRomanced": true,
+          "Calendar": "AlwaysShown",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_TacoShack",
+              "Tile": {
+                "X": 3,
+                "Y": 9
+              },
+              "Direction": "down"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Gustavo Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Gustavo": "{{i18n:Gustavo.Gift.Love}}/(O)213 Huskyn1nja.TacoTruck_Quesadilla Huskyn1nja.TacoTruck_TamalesVerdes Huskyn1nja.TacoTruck_BeefTaco/{{i18n:Gustavo.Gift.Like}}/Huskyn1nja.TacoTruck_Elote Huskyn1nja.TacoTruck_Burrito/{{i18n:Gustavo.Gift.Dislike}}/330 167/{{i18n:Gustavo.Gift.Hate}}/(O)216 (O)223 (O)196/{{i18n:Gustavo.Gift.Neutral}}//"
+      }
+    }
+  ]
+}

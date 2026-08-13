@@ -1,0 +1,129 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModId}}_Clark",
+			"Entries": {
+				
+				// BASE
+				"Mon": "{{i18n:Clark.Day.Mon}}",
+				"Tue": "{{i18n:Clark.Day.Tue}}",
+				"Wed": "{{i18n:Clark.Day.Wed}}",
+				"Thu": "{{i18n:Clark.Day.Thu}}",
+				"Fri": "{{i18n:Clark.Day.Fri}}",
+				"Sat": "{{i18n:Clark.Day.Sat}}",
+				"Sun": "{{i18n:Clark.Day.Sun}}",
+				
+				// MISC INTERACTIONS
+				"Introduction": "{{i18n:Clark.Introduction}}",
+				"DumpsterDiveComment": "{{i18n:Clark.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Clark.HitBySlingshot}}",
+				"WipedMemory": "{{i18n:Clark.WipedMemory}}",
+				
+				// WEATHER
+				"Rain": "{{i18n:Clark.Weather.Rain}}",
+				"Snow": "{{i18n:Clark.Weather.Snow}}",
+				"GreenRain": "{{i18n:Clark.Weather.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Clark.Weather.GreenRainFinished}}",
+				
+				// DAILY DIALOGUE BY HEARTS
+				"Mon2": "{{i18n:Clark.Hearts2.Mon}}",
+				"Tue2": "{{i18n:Clark.Hearts2.Tue}}",
+				"Wed2": "{{i18n:Clark.Hearts2.Wed}}",
+				"Thu2": "{{i18n:Clark.Hearts2.Thu}}",
+				"Fri2": "{{i18n:Clark.Hearts2.Fri}}",
+				"Sat2": "{{i18n:Clark.Hearts2.Sat}}",
+				"Sun2": "{{i18n:Clark.Hearts2.Sun}}",
+				"Mon4": "{{i18n:Clark.Hearts4.Mon}}",
+				"Tue4": "{{i18n:Clark.Hearts4.Tue}}",
+				"Wed4": "{{i18n:Clark.Hearts4.Wed}}",
+				"Thu4": "{{i18n:Clark.Hearts4.Thu}}",
+				"Fri4": "{{i18n:Clark.Hearts4.Fri}}",
+				"Sat4": "{{i18n:Clark.Hearts4.Sat}}",
+				"Sun4": "{{i18n:Clark.Hearts4.Sun}}",
+				"Mon6": "{{i18n:Clark.Hearts6.Mon}}",
+				"Tue6": "{{i18n:Clark.Hearts6.Tue}}",
+				"Wed6": "{{i18n:Clark.Hearts6.Wed}}",
+				"Thu6": "{{i18n:Clark.Hearts6.Thu}}",
+				"Fri6": "{{i18n:Clark.Hearts6.Fri}}",
+				"Sat6": "{{i18n:Clark.Hearts6.Sat}}",
+				"Sun6": "{{i18n:Clark.Hearts6.Sun}}",
+				"Mon8": "{{i18n:Clark.Hearts8.Mon}}",
+				"Tue8": "{{i18n:Clark.Hearts8.Tue}}",
+				"Wed8": "{{i18n:Clark.Hearts8.Wed}}",
+				"Thu8": "{{i18n:Clark.Hearts8.Thu}}",
+				"Fri8": "{{i18n:Clark.Hearts8.Fri}}",
+				"Sat8": "{{i18n:Clark.Hearts8.Sat}}",
+				"Sun8": "{{i18n:Clark.Hearts8.Sun}}",
+				"Mon10": "{{i18n:Clark.Hearts10.Mon}}",
+				"Tue10": "{{i18n:Clark.Hearts10.Tue}}",
+				"Wed10": "{{i18n:Clark.Hearts10.Wed}}",
+				"Thu10": "{{i18n:Clark.Hearts10.Thu}}",
+				"Fri10": "{{i18n:Clark.Hearts10.Fri}}",
+				"Sat10": "{{i18n:Clark.Hearts10.Sat}}",
+				"Sun10": "{{i18n:Clark.Hearts10.Sun}}",
+				
+				// SEASONAL DAILY
+				"spring_Mon": "{{i18n:Clark.Day.Spring.Mon}}",
+				"spring_Tue": "{{i18n:Clark.Day.Spring.Tue}}",
+				"spring_Wed": "{{i18n:Clark.Day.Spring.Wed}}",
+				"spring_Thu": "{{i18n:Clark.Day.Spring.Thu}}",
+				"spring_Fri": "{{i18n:Clark.Day.Spring.Fri}}",
+				"spring_Sat": "{{i18n:Clark.Day.Spring.Sat}}",
+				"spring_Sun": "{{i18n:Clark.Day.Spring.Sun}}",
+				"summer_Mon": "{{i18n:Clark.Day.Summer.Mon}}",
+				"summer_Tue": "{{i18n:Clark.Day.Summer.Tue}}",
+				"summer_Wed": "{{i18n:Clark.Day.Summer.Wed}}",
+				"summer_Thu": "{{i18n:Clark.Day.Summer.Thu}}",
+				"summer_Fri": "{{i18n:Clark.Day.Summer.Fri}}",
+				"summer_Sat": "{{i18n:Clark.Day.Summer.Sat}}",
+				"summer_Sun": "{{i18n:Clark.Day.Summer.Sun}}",
+				"fall_Mon": "{{i18n:Clark.Day.Fall.Mon}}",
+				"fall_Tue": "{{i18n:Clark.Day.Fall.Tue}}",
+				"fall_Wed": "{{i18n:Clark.Day.Fall.Wed}}",
+				"fall_Thu": "{{i18n:Clark.Day.Fall.Thu}}",
+				"fall_Fri": "{{i18n:Clark.Day.Fall.Fri}}",
+				"fall_Sat": "{{i18n:Clark.Day.Fall.Sat}}",
+				"fall_Sun": "{{i18n:Clark.Day.Fall.Sun}}",
+				"winter_Mon": "{{i18n:Clark.Day.Winter.Mon}}",
+				"winter_Tue": "{{i18n:Clark.Day.Winter.Tue}}",
+				"winter_Wed": "{{i18n:Clark.Day.Winter.Wed}}",
+				"winter_Thu": "{{i18n:Clark.Day.Winter.Thu}}",
+				"winter_Fri": "{{i18n:Clark.Day.Winter.Fri}}",
+				"winter_Sat": "{{i18n:Clark.Day.Winter.Sat}}",
+				"winter_Sun": "{{i18n:Clark.Day.Winter.Sun}}",
+				
+				// GIFTS
+				"AcceptGift_StardropTea": "{{i18n:Clark.Gift.StardropTea}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Clark.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Positive": "{{i18n:Clark.AcceptBirthdayGift_Positive}}",
+				"AcceptBirthdayGift": "{{i18n:Clark.AcceptBirthdayGift}}",
+				
+				
+				// MOVIES
+				"MovieInvitation": "{{i18n:Clark.MovieInvitation}}",
+				"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Clark.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+				"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Clark.RejectMovieTicket_AlreadyWatchedThisWeek}}",
+				"RejectMovieTicket_Divorced": "{{i18n:Clark.RejectMovieTicket_Divorced}}",
+				"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:Clark.RejectMovieTicket_DontWantToSeeThatMovie}}",
+				"RejectMovieTicket": "{{i18n:Clark.RejectMovieTicket}}",
+				
+			}
+		},
+	//	{
+	//		"Action": "EditData",
+	//		"Target": "Strings/schedules/{{ModId}}_Clark",
+	//		"Entries": {
+	//			
+	//		}
+	//	},
+		{
+			"LogName": "Summit Dialogue",
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"SummitEvent_Dialogue3_{{ModId}}_Clark": "{{i18n:Clark.SummitEvent}}"
+			}
+		},
+	]
+}

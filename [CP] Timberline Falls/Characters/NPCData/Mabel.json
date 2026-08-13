@@ -1,0 +1,117 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Mabel",
+      "FromFile": "characters/Sprites/Mabel.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Mabel",
+      "FromFile": "characters/Portraits/Mabel.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Mabel.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Mabel.json"
+    },
+    {
+      "LogName": "Mabel Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Mabel": {
+          "DisplayName": "{{i18n:Mabel.Name}}",
+          "TextureName": "{{ModId}}_Mabel",
+          "BirthSeason": "Fall",
+          "BirthDay": 15,
+          "HomeRegion": "Other",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "CanReceiveGifts": true,
+          "IntroductionsQuest": false,
+          "PerfectionScore": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_GageCottage",
+              "Tile": { "X": 3, "Y": 4 },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Mabel Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Mabel": "{{i18n:Mabel.Gift.Love}}/200 201 220 221/{{i18n:Mabel.Gift.Like}}/category_flowers category_artisan_goods/{{i18n:Mabel.Gift.Dislike}}/category_minerals category_building/{{i18n:Mabel.Gift.Hate}}/category_trash category_weapons/{{i18n:Mabel.Gift.Neutral}}/category_forage"
+      }
+    },
+    {
+      "LogName": "Mabel Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "mabel_knitting": "16/16 16 17 17 18 18 19 19/16/Strings\\animationDescriptions:Mabel.Knitting",
+        "mabel_baking": "20/20 20 21 21 22 22/20/Strings\\animationDescriptions:Mabel.Baking"
+      }
+    },
+    {
+      "LogName": "Mabel Animation Strings",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "Mabel.Knitting": "{{i18n:Mabel.Animation.Knitting}}",
+        "Mabel.Baking": "{{i18n:Mabel.Animation.Baking}}"
+      }
+    },
+    {
+      "LogName": "Mabel Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Mabel": {
+          "Name": "{{ModId}}_Mabel",
+          "LovedTags": [ "Sweet", "Tea" ],
+          "LikedTags": [ "Healthy" ],
+          "DislikedTags": [ "Salty", "Spicy" ],
+          "HatedTags": [ "Jojacorn" ]
+        }
+      }
+    },
+    {
+      "LogName": "Mabel Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Mabel": {
+          "NPCName": "{{ModId}}_Mabel",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "love"
+            },
+            {
+              "Tag": "summer_movie_0",
+              "Response": "dislike"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

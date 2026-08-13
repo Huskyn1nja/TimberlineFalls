@@ -1,0 +1,126 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Clark",
+      "FromFile": "characters/Sprites/Clark.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Clark",
+      "FromFile": "characters/Portraits/Clark.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Clark.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Clark.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Clark": {
+          "DisplayName": "{{i18n:Clark.Name}}",
+          "BirthSeason": "Winter",
+          "BirthDay": 11,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Neutral",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_TimberTerraceB1F2",
+              "Tile": { "X": 6, "Y": 15 },
+              "Direction": "Down"
+            }
+          ],
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "FriendsAndFamily": {},
+          "WinterStarParticipant": "true",
+          "WinterStarGifts": [
+            { "ItemId": "(O)BatteryPack", "MinStack": 1 },
+            { "ItemId": "(O)Coffee", "MinStack": 3 }
+          ],
+          "ItemDeliveryQuests": true,
+          "PerfectionScore": true,
+          "CanVisitIsland": "true",
+          "HiddenProfileEmoteSound": null,
+          "HiddenProfileEmoteDuration": -1,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 4,
+          "HiddenProfileEmoteFrameDuration": 200.0
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Clark": "{{i18n:Clark.Gift.Love}}/787 395/{{i18n:Clark.Gift.Like}}/(O){{ModId}}_IronCap 724/{{i18n:Clark.Gift.Dislike}}/(O){{ModId}}_WildScape 346/{{i18n:Clark.Gift.Hate}}/(O){{ModId}}_PizzaBox (O){{ModId}}_OldBoot/{{i18n:Clark.Gift.Neutral}}/330/"
+      }
+    },
+    {
+      "LogName": "Clark Custom Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "Clark_Stocking": "16/17 17 17 17 18 18 18 18 19 19 19 19 20 20 20 20 20 21/16",
+		"Clark_Sleep": "26/26/26"
+      }
+    },
+   
+    {
+      "LogName": "Clark Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Clark": {
+          "Name": "Clark",
+          "LovedTags": [ "Healthy", "Caffeinated", "Clean" ],
+          "LikedTags": [ "Salty" ],
+          "DislikedTags": [ "Messy", "Sticky", "Spicy" ]
+        }
+      }
+    },
+    {
+      "LogName": "Clark Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Clark": {
+          "NPCName": "Clark",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "dislike",
+              "SpecialResponses": {
+                "BeforeMovie": { "Text": "{{i18n:Clark.Movie.Spring0.Before}}" },
+                "DuringMovie": { "Text": "{{i18n:Clark.Movie.Spring0.During}}" },
+                "AfterMovie": { "Text": "{{i18n:Clark.Movie.Spring0.After}}" }
+              }
+            },
+            {
+              "Tag": "summer_movie_1",
+              "Response": "love",
+              "SpecialResponses": {
+                "BeforeMovie": { "Text": "{{i18n:Clark.Movie.Summer1.Before}}" },
+                "DuringMovie": { "Text": "{{i18n:Clark.Movie.Summer1.During}}" },
+                "AfterMovie": { "Text": "{{i18n:Clark.Movie.Summer1.After}}" }
+              }
+            }
+          ]
+        }
+      }
+    },
+  ]
+}

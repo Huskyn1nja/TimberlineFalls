@@ -1,0 +1,69 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Spiderbuttons.CustomScheduleKeys/ScheduleKeys",
+			"Entries": {
+				"{{ModId}}_ArdenMarriedMon": {
+					"Id": "Arden_MMon",
+					"ScheduleKey": "{{ModId}}_ArdenMMon",
+					"Priority": "Early +10",
+					"Condition": "DAY_OF_WEEK Monday, PLAYER_NPC_RELATIONSHIP Current {{ModId}}_Arden Married"
+				},
+				"{{ModId}}_ArdenMarriedTue": {
+					"Id": "Arden_MTue",
+					"ScheduleKey": "{{ModId}}_ArdenMTue",
+					"Priority": "Early +10",
+					"Condition": "DAY_OF_WEEK Tuesday, PLAYER_NPC_RELATIONSHIP Current {{ModId}}_Arden Married"
+				},
+				"{{ModId}}_ArdenMarriedWed": {
+					"Id": "Arden_MWed",
+					"ScheduleKey": "{{ModId}}_ArdenMWed",
+					"Priority": "Early +10",
+					"Condition": "DAY_OF_WEEK Wednesday, PLAYER_NPC_RELATIONSHIP Current {{ModId}}_Arden Married"
+				},
+				"{{ModId}}_ArdenMarriedTue": {
+					"Id": "Arden_MThu",
+					"ScheduleKey": "{{ModId}}_ArdenMThu",
+					"Priority": "Early +10",
+					"Condition": "DAY_OF_WEEK Tuesday, PLAYER_NPC_RELATIONSHIP Current {{ModId}}_Arden Married"
+				},
+				"{{ModId}}_ArdenMarriedFri": {
+					"Id": "Arden_MTue",
+					"ScheduleKey": "{{ModId}}_ArdenMFri",
+					"Priority": "Early +10",
+					"Condition": "DAY_OF_WEEK Friday, PLAYER_NPC_RELATIONSHIP Current {{ModId}}_Arden Married"
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Arden",
+			"Entries": {
+				"{{ModId}}_ArdenMMon": "900 Custom_Antiquary 8 19 2/1800 Custom_TimberlineFalls 20 20 2/2200 bed 0 0 2",
+				"{{ModId}}_ArdenMTue": "900 Custom_Antiquary 8 19 2/1800 Custom_TimberlineFalls 20 20 2/2200 bed 0 0 2",
+				"{{ModId}}_ArdenMWed": "900 Custom_Antiquary 8 19 2/1800 Custom_TimberlineFalls 20 20 2/2200 bed 0 0 2",
+				"{{ModId}}_ArdenMThu": "900 Custom_Antiquary 8 19 2/1800 Custom_TimberlineFalls 20 20 2/2200 bed 0 0 2",
+				"{{ModId}}_ArdenMFri": "900 Custom_Antiquary 8 19 2/1800 Custom_TimberlineFalls 20 20 2/2200 bed 0 0 2",
+				"Mon": "610 Custom_Antiquary 8 6 2/730 Custom_Antiquary 16 8 0/800 Custom_Antiquary 22 8 0/930 Custom_Antiquary 17 23 0 arden_dust/1100 Custom_Antiquary 8 20 2 arden_catalog/1600 Custom_Antiquary 7 19 0/1800 Custom_TimberlineFalls 72 3 0/1930 Custom_TimberlineFalls 62 24 2/2100 Custom_Antiquary 8 6 2/2200 Custom_Antiquary 7 4 2 arden_sleep",
+				"Tue": "610 Custom_Antiquary 8 6 2/730 Custom_Antiquary 16 8 0/800 Custom_Antiquary 22 8 0/1300 Custom_Antiquary 20 30 2 arden_inspect/1830 Custom_Antiquary 22 8 0/2000 Custom_Antiquary 8 6 2/2200 Custom_Antiquary 7 4 2 arden_sleep",
+				"Wed": "610 Custom_Antiquary 8 6 2/730 Custom_Antiquary 16 8 0/800 Custom_Antiquary 22 8 0/900 Custom_Antiquary 7 20 2/1200 Custom_BuyCo 9 11 0 square_12_3/1400 Custom_BuyCo 3 12 0/1530 Custom_Antiquary 6 20 2/1900 Custom_Antiquary 16 8 0/1930 Custom_Antiquary 8 6 2/2200 Custom_Antiquary 7 4 2 arden_sleep",
+				"Thu": "610 Custom_Antiquary 8 6 2/730 Custom_Antiquary 16 8 0/800 Custom_Antiquary 22 8 0/1500 Custom_Cemetery 21 15 0/1600 Custom_Cemetery 4 16 0/1700 Custom_Cemetery 9 7 0/1900 Custom_Antiquary 22 8 0/2030 Custom_Antiquary 8 6 2/2200 Custom_Antiquary 7 4 2 arden_sleep",
+				"Fri": "610 Custom_Antiquary 8 6 2/730 Custom_Antiquary 16 8 0/800 Custom_Antiquary 22 8 0/930 Custom_Antiquary 17 23 0 arden_dust/1100 Custom_Antiquary 8 20 2 arden_catalog/1600 Custom_Antiquary 7 19 0/1800 Custom_TimberlineFalls 72 3 0/1930 Custom_TimberlineFalls 62 24 2/2100 Custom_Antiquary 8 6 2/2200 Custom_Antiquary 7 4 2 arden_sleep",
+				"Sat": "610 Custom_Antiquary 8 6 2/730 Custom_Antiquary 16 8 0/800 Custom_Antiquary 22 8 0/900 Custom_Antiquary 5 19 2/1800 Custom_Antiquary 22 8 0/1930 Custom_Antiquary 8 6 2/2200 Custom_Antiquary 7 4 2 arden_sleep",
+				"Sun": "610 Custom_Antiquary 8 6 2/700 Custom_Antiquary 20 27 0 arden_dust/800 Custom_Antiquary 19 24 2 arden_dust/1000 Custom_BiscuitDrum 12 15 0/1400 Custom_TimberlineFalls 63 4 2 arden_read/1730 Custom_Antiquary 22 8 0/1900 Custom_Antiquary 8 6 2/2200 Custom_Antiquary 7 4 2 arden_sleep",
+				"summer_18": "610 Custom_Antiquary 16 8 0/700 Custom_Antiquary 22 8 0/740 Custom_Antiquary 8 6 2/800 Custom_Clinic 4 20 2/1000 Custom_Clinic 4 8 0/1400 Custom_Antiquary 6 19 2/2000 Custom_Antiquary 8 6 2/2200 Custom_Antiquary 7 4 2 arden_sleep",
+				"rain": "610 Custom_Antiquary 10 4 0/700 Custom_Antiquary 12 18 0/740 Custom_Antiquary 2 26 0/900 Custom_Antiquary 14 29 2 arden_inspect/1200 Custom_Antiquary 20 30 2 arden_inspect/1600 Custom_Antiquary 11 29 2 arden_inspect/2000 Custom_Antiquary 8 6 2/2200 Custom_Antiquary 7 4 2 arden_sleep",
+				"GreenRain": "610 Custom_Antiquary 9 22 2 square_15_7_2/2000 Custom_Antiquary 7 4 2 arden_sleep",
+				"winter_15": "610 Custom_Antiquary 4 5 0/1700 Beach 12 30 2 Strings\\schedules\\{{ModId}}_Arden:Schedule.NightMarket/2300 Custom_Antiquary 10 9 3 huskyn1nja.timberfalls_arden_sleep",
+				"spring": "GOTO Mon 0 0 2",
+				"summer": "GOTO Mon 0 0 2",
+				"fall": "GOTO Mon 0 0 2",
+				"winter": "GOTO Mon 0 0 2",
+				"marriage_Sat": "900 Farm 64 15 0/1200 Custom_Antiquary 8 19 2/1800 Custom_TimberlineFalls 20 20 2/2200 bed 0 0 2",
+				"marriage_Sun": "900 Farm 64 15 0/1200 Custom_Antiquary 8 19 2/1800 Custom_TimberlineFalls 20 20 2/2200 bed 0 0 2",
+				"marriage_winter_16": "800 Custom_Clinic 15 15 0 Strings\\schedules\\{{ModId}}_Arden:Schedule.Clinic.Entry/1330 Custom_Clinic 15 15 1/1600 Custom_Antiquary 10 9 3 Strings\\schedules\\{{ModId}}_Arden:Schedule.Clinic.Leave/2200 bed 0 0 2"
+			}
+		}
+	]
+}

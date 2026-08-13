@@ -1,0 +1,31 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+		"{{ModId}}_PoliteMenace": "{{ModId}}_JalapenoPuree 1 20 1 419 1 {{ModId}}_Salt 1/25 5/{{ModId}}_PoliteMenace/default/{{i18n:Item.PoliteMenace.Name}}",
+		"{{ModId}}_MiddleChild": "{{ModId}}_SerranoPuree 1 248 1 256 1 419 1 {{ModId}}_Pepper 1/25 5/{{ModId}}_MiddleChild/default/{{i18n:Item.MiddleChild.Name}}",
+		"{{ModId}}_VioletTendencies": "{{ModId}}_CayennePuree 1 410 1 419 1 {{ModId}}_Salt 1/25 5/{{ModId}}_VioletTendencies/default/{{i18n:Item.VioletTendencies.Name}}",
+		"{{ModId}}_ForbiddenVanilla": "{{ModId}}_GhostPepperPuree 1 88 1 245 1 {{ModId}}_Salt 1/25 5/{{ModId}}_ForbiddenVanilla/default/{{i18n:Item.ForbiddenVanilla.Name}}",
+		"{{ModId}}_PaperCut": "{{ModId}}_ChiliDeArbolPuree 1 78 1 419 1 {{ModId}}_Pepper 1/25 5/{{ModId}}_PaperCut/default/{{i18n:Item.PaperCut.Name}}",
+		"{{ModId}}_ParticipationTrophy": "{{ModId}}_BananaPepperPuree 1 634 1 419 1 {{ModId}}_Salt 1/25 5/{{ModId}}_ParticipationTrophy/default/{{i18n:Item.ParticipationTrophy.Name}}",
+		"{{ModId}}_CitrusSuckerpunch": "{{ModId}}_HabaneroPuree 1 834 1 829 1 248 1 419 1 {{ModId}}_Pepper 1/25 5/{{ModId}}_CitrusSuckerpunch/default/{{i18n:Item.CitrusSuckerpunch.Name}}",
+		"{{ModId}}_MagmaSauce": "{{ModId}}_CarolinaReaperPuree 1 {{ModId}}_GhostPepperPuree 1 248 1 419 1 {{ModId}}_Pepper 1/25 5/{{ModId}}_MagmaSauce/default/{{i18n:Item.MagmaSauce.Name}}",
+      }
+    },
+	{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"{{ModId}}_AmberClasp": "337 2 338 2 768 5/Field/{{ModId}}_AmberClasp/false/None/",
+				"{{ModId}}_FoodProcessor": "335 2 338 2 787 1/Home/{{ModId}}_FoodProcessor/true/None/",
+				"{{ModId}}_Canner": "388 50 335 2 338 2/Home/{{ModId}}_Canner/true/None/",
+				"{{ModId}}_InductionFurnace": "390 50 335 5 82 1/Home/{{ModId}}_InductionFurnace/true/None/",
+				"{{ModId}}_VacuumDryer": "709 25 335 2 382 10/Home/{{ModId}}_VacuumDryer/true/None/",
+				"{{ModId}}_TinCan": "{{ModId}}_TinBar 1/Home/{{ModId}}_TinCan 5/false/None/",
+				"{{ModId}}_GlassJar": "{{ModId}}_Glass 1 388 1/Home/{{ModId}}_GlassJar 1/false/None/"
+			}
+		}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Elara",
+			"Entries":
+{
+  "spring": "800 Custom_StationOffice 9 6 1 elara_typing/1100 Custom_StationOffice 12 4 0/1300 Custom_JettGarage 10 10 2 elara_checking_watch \"Strings\\schedules\\{{ModId}}_Elara:Schedule.Inspection\"/1600 Custom_StationOffice 4 8 2/2000 Custom_StationOffice 9 6 1 elara_typing",
+  "summer": "GOTO spring",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring",
+  "rain": "800 Custom_StationOffice 9 6 1 elara_typing/1400 Custom_StationOffice 12 4 0 \"Strings\\schedules\\{{ModId}}_Elara:Schedule.RainDelay\"/1800 Custom_StationOffice 4 8 2/2100 Custom_StationOffice 9 6 1",
+  "8Heart_Mon": "800 Custom_StationOffice 9 6 1 elara_typing/1100 Custom_StationOffice 12 4 0/1300 Custom_JettGarage 10 10 2/1530 Custom_TimberlineFalls 80 40 2 \"Strings\\schedules\\{{ModId}}_Elara:Schedule.IdleTime\"/1800 Custom_StationOffice 4 8 2/2000 Custom_StationOffice 9 6 1",
+  "8Heart_Thu": "GOTO 8Heart_Mon"
+}}]}

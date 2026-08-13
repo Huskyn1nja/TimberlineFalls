@@ -1,0 +1,26 @@
+{
+  "Changes": [
+    {
+      "LogName": "Blaise Events - Pepper Pit",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_PepperPit",
+      "Entries": {
+        "{{ModId}}_Blaise2Heart/f {{ModId}}_Blaise 500": "none/-1000 -1000/farmer 15 20 0 {{ModId}}_Blaise 20 15 2/skippable/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.2Heart.1}}\"/move farmer 4 -5 1/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.2Heart.2}}\"/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.2Heart.3}}\"/quickQuestion {{i18n:Blaise.Event.2Heart.Q}}#{{i18n:Blaise.Event.2Heart.A1}}#{{i18n:Blaise.Event.2Heart.A2}}#{{i18n:Blaise.Event.2Heart.A3}}(break)speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.2Heart.R1}}\"\\friendship {{ModId}}_Blaise 50(break)speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.2Heart.R2}}\"\\friendship {{ModId}}_Blaise 20(break)speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.2Heart.R3}}\"\\friendship {{ModId}}_Blaise -20/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.2Heart.4}}\"/end",
+        
+        "{{ModId}}_Blaise6Heart/f {{ModId}}_Blaise 1500": "none/-1000 -1000/farmer 15 20 0 {{ModId}}_Blaise 10 12 0/skippable/playSound fire/pause 500/shake {{ModId}}_Blaise 1000/pause 1000/move farmer -5 -8 3/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.6Heart.1}}\"/pause 500/faceDirection {{ModId}}_Blaise 1/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.6Heart.2}}\"/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.6Heart.3}}\"/quickQuestion {{i18n:Blaise.Event.6Heart.Q}}#{{i18n:Blaise.Event.6Heart.A1}}#{{i18n:Blaise.Event.6Heart.A2}}(break)speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.6Heart.R1}}\"\\friendship {{ModId}}_Blaise 50(break)speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.6Heart.R2}}\"\\friendship {{ModId}}_Blaise 20/end",
+
+        "{{ModId}}_Blaise8Heart/f {{ModId}}_Blaise 2000": "none/-1000 -1000/farmer 15 20 0 {{ModId}}_Blaise 20 15 2/skippable/playMusic journeyOfThePrairieKing/move farmer 4 -4 0/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.8Heart.1}}\"/pause 500/emote farmer 12/playSound fire/pause 500/animate farmer false true 100 24/pause 1000/globalFade/viewport 80 20 true/farmer 80 20 2 {{ModId}}_Blaise 82 20 3/pause 1000/animate farmer false true 200 16 17 16 17/pause 2000/globalFade/viewport 10 12 true/farmer 10 12 0 {{ModId}}_Blaise 12 12 2/pause 1000/playSound gulp/pause 500/emote farmer 56/pause 1000/globalFade/viewport 50 40 true/farmer 50 40 2 {{ModId}}_Blaise 52 40 3/pause 1500/stopMusic/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.8Heart.2}}\"/end",
+
+        "{{ModId}}_Blaise10Heart/f {{ModId}}_Blaise 2500/t 2000 2400": "none/-1000 -1000/farmer 15 20 0 {{ModId}}_Blaise 20 15 2/skippable/pause 1000/move farmer 5 -5 3/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.10Heart.1}}\"/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.10Heart.2}}\"/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.10Heart.3}}\"/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.10Heart.4}}\"/pause 1000/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.10Heart.Kiss}}\"/showFrame {{ModId}}_Blaise 33/pause 2000/end"
+      }
+    },
+    {
+      "LogName": "Blaise Events - Outdoors",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_TimberlineFalls",
+      "Entries": {
+        "{{ModId}}_Blaise4Heart/f {{ModId}}_Blaise 1000/w sunny": "none/-1000 -1000/farmer 50 50 0 {{ModId}}_Blaise 50 40 2/skippable/pause 1000/move farmer 0 -8 0/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.4Heart.1}}\"/pause 500/faceDirection {{ModId}}_Blaise 2/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.4Heart.2}}\"/pause 500/speak {{ModId}}_Blaise \"{{i18n:Blaise.Event.4Heart.3}}\"/end"
+      }
+    }
+  ]
+}

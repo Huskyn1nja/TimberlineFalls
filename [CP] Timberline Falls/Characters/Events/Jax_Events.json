@@ -1,0 +1,40 @@
+{
+  "Changes": [
+    {
+      "LogName": "Jax Events - Terraces",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_TimberlineTerraces",
+      "Entries": {
+        "{{ModId}}_Jax2Heart/f {{ModId}}_Jax 500": "none/-1000 -1000/farmer 12 25 0 {{ModId}}_Jax 10 20 2/skippable/pause 500/move farmer -2 -4 3/pause 500/shake {{ModId}}_Jax 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.2Heart.1}}\"/pause 500/emote {{ModId}}_Jax 12/faceDirection {{ModId}}_Jax 1/speak {{ModId}}_Jax \"{{i18n:Jax.Event.2Heart.2}}\"/quickQuestion {{i18n:Jax.Event.2Heart.Q}}#{{i18n:Jax.Event.2Heart.A1}}#{{i18n:Jax.Event.2Heart.A2}}#{{i18n:Jax.Event.2Heart.A3}}(break)speak {{ModId}}_Jax \"{{i18n:Jax.Event.2Heart.R1}}\"\\friendship {{ModId}}_Jax 50(break)speak {{ModId}}_Jax \"{{i18n:Jax.Event.2Heart.R2}}\"\\friendship {{ModId}}_Jax -20(break)speak {{ModId}}_Jax \"{{i18n:Jax.Event.2Heart.R3}}\"\\friendship {{ModId}}_Jax 20/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.2Heart.3}}\"/end",
+        
+        "{{ModId}}_Jax6Heart/f {{ModId}}_Jax 1500": "none/-1000 -1000/farmer 15 20 0 {{ModId}}_Jax 15 15 2/skippable/pause 1000/move farmer 0 -4 0/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.6Heart.1}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.6Heart.2}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.6Heart.3}}\"/quickQuestion {{i18n:Jax.Event.6Heart.Q}}#{{i18n:Jax.Event.6Heart.A1}}#{{i18n:Jax.Event.6Heart.A2}}(break)speak {{ModId}}_Jax \"{{i18n:Jax.Event.6Heart.R1}}\"\\friendship {{ModId}}_Jax 50(break)speak {{ModId}}_Jax \"{{i18n:Jax.Event.6Heart.R2}}\"\\friendship {{ModId}}_Jax 20/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.6Heart.4}}\"/end"
+      }
+    },
+    {
+      "LogName": "Jax Events - Outdoors",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_TimberlineFalls",
+      "Entries": {
+        "{{ModId}}_Jax4Heart/f {{ModId}}_Jax 1000": "none/-1000 -1000/farmer 45 45 0 {{ModId}}_Jax 40 40 2/skippable/pause 500/move farmer -4 -4 3/pause 500/emote {{ModId}}_Jax 16/speak {{ModId}}_Jax \"{{i18n:Jax.Event.4Heart.1}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.4Heart.2}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.4Heart.3}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.4Heart.4}}\"/end",
+        
+        "{{ModId}}_Jax10Heart/f {{ModId}}_Jax 2500": "none/-1000 -1000/farmer 45 45 0 {{ModId}}_Jax 40 40 2/skippable/pause 500/move farmer -4 -4 3/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.10Heart.1}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.10Heart.2}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.10Heart.3}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.10Heart.4}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.10Heart.5}}\"/showFrame {{ModId}}_Jax 33/pause 2000/end"
+      }
+    },
+    {
+      "LogName": "Jax Events - Pepper Pit",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_PepperPit",
+      "Entries": {
+        "{{ModId}}_Jax8Heart/f {{ModId}}_Jax 2000": "none/-1000 -1000/farmer 15 20 0 {{ModId}}_Jax 10 15 2 Blaise 15 10 2/skippable/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.8Heart.1}}\"/pause 500/speak Blaise \"{{i18n:Jax.Event.8Heart.2}}\"/pause 500/move farmer -4 -4 3/speak {{ModId}}_Jax \"{{i18n:Jax.Event.8Heart.3}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.8Heart.4}}\"/end"
+      }
+    },
+    {
+      "LogName": "Jax Events - Post Marriage",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "{{ModId}}_Jax14Heart/f {{ModId}}_Jax 3500": "none/-1000 -1000/farmer 30 50 0 {{ModId}}_Jax 25 45 2/skippable/pause 1000/move farmer -3 -3 3/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.14Heart.1}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.14Heart.2}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.14Heart.3}}\"/pause 500/speak {{ModId}}_Jax \"{{i18n:Jax.Event.14Heart.4}}\"/end"
+      }
+    }
+  ]
+}

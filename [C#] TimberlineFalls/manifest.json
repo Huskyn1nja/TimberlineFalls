@@ -1,0 +1,15 @@
+﻿{
+    "Name": "Timberline Falls C#",
+    "Author": "Huskyn1nja",
+    "Version": "1.1.0",
+    "Description": "C# Component for Timberline Falls",
+    "UniqueID": "Huskyn1nja.TimberFallsCode",
+    "EntryDll": "TimberlineFalls.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": [ "Nexus:-1" ],
+	"Dependencies": [
+		{
+      "UniqueID": "Pathoschild.ContentPatcher",
+		},
+	]
+}

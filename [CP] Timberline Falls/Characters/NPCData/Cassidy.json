@@ -1,0 +1,140 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Cassidy",
+      "FromFile": "characters/Sprites/Cassidy.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Cassidy",
+      "FromFile": "characters/Portraits/Cassidy.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Cassidy.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Cassidy.json"
+    },
+    {
+      "LogName": "Cassidy Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Cassidy": {
+          "DisplayName": "{{i18n:Cassidy.Name}}",
+          "BirthSeason": "Summer",
+          "BirthDay": 14,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": true,
+          "EngagementItem": "{{ModId}}_AmberClasp",
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "PerfectionScore": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_TimberTerraceB1F1",
+              "Tile": { "X": 16, "Y": 19 },
+              "Direction": "down"
+            }
+          ],
+          "SpouseRoom": {
+            "MapAsset": "Maps/{{ModId}}_SpouseRooms",
+            "MapSourceRect": { "X": 6, "Y": 0, "Width": 6, "Height": 9 }
+          },
+          "SpousePatio": {
+            "MapAsset": "Maps/{{ModId}}_SpousePatios",
+            "MapSourceRect": { "X": 4, "Y": 0, "Width": 4, "Height": 4 }
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Cassidy Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Cassidy": "{{i18n:Cassidy.Gift.Love}}/(O)395 (O)206 (O)220/{{i18n:Cassidy.Gift.Like}}/(O)203 (O)195/{{i18n:Cassidy.Gift.Dislike}}/(O)330/{{i18n:Cassidy.Gift.Hate}}/(O)167/{{i18n:Cassidy.Gift.Neutral}}/(O)388"
+      }
+    },
+    {
+      "LogName": "Cassidy Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Cassidy": {
+          "Name": "{{ModId}}_Cassidy",
+          "LovedTags": [ "Sugar", "Candy", "Sweet", "Chocolate" ],
+          "LikedTags": [ "Soda", "Comfort" ],
+          "DislikedTags": [ "Salty", "Vegetable" ],
+          "HatedTags": [ "Joja", "Trash" ]
+        }
+      }
+    },
+    {
+      "LogName": "Cassidy Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Cassidy": {
+          "NPCName": "{{ModId}}_Cassidy",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "love"
+            },
+            {
+              "Tag": "summer_movie_1",
+              "Response": "dislike"
+            },
+            {
+              "Tag": "fall_movie_0",
+              "Response": "dislike"
+            },
+            {
+              "Tag": "winter_movie_0",
+              "Response": "love"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Cassidy Mail",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "{{ModId}}_Cassidy_Welcome": "{{i18n:Cassidy.Mail.Welcome}}"
+      }
+    },
+    {
+      "LogName": "Cassidy Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "Cassidy_Sleep": "20/20/20"
+      }
+    },
+    {
+      "LogName": "Cassidy EmberBerry Spawns",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [ "Custom_Cemetery", "Forage" ],
+      "Entries": {
+        "{{ModId}}_EmberBerry": 1.0
+      },
+      "When": {
+        "Weather": "Storm",
+        "HasConversationTopic": "{{ModId}}_Cassidy_Quest_Started"
+      }
+    }
+  ]
+}

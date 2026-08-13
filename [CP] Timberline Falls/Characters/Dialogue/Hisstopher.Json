@@ -1,0 +1,122 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModId}}_Hisstopher",
+			"Entries": {
+				
+				// BASE
+				"Mon": "{{i18n:Hisstopher.Day.Mon}}",
+				"Tue": "{{i18n:Hisstopher.Day.Tue}}",
+				"Wed": "{{i18n:Hisstopher.Day.Wed}}",
+				"Thu": "{{i18n:Hisstopher.Day.Thu}}",
+				"Fri": "{{i18n:Hisstopher.Day.Fri}}",
+				"Sat": "{{i18n:Hisstopher.Day.Sat}}",
+				"Sun": "{{i18n:Hisstopher.Day.Sun}}",
+				
+				// MISC INTERACTIONS
+				"Introduction": "{{i18n:Hisstopher.Introduction}}",
+				"DumpsterDiveComment": "{{i18n:Hisstopher.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Hisstopher.HitBySlingshot}}",
+				"WipedMemory": "{{i18n:Hisstopher.WipedMemory}}",
+				
+				// WEATHER
+				"Rain": "{{i18n:Hisstopher.Weather.Rain}}",
+				"Snow": "{{i18n:Hisstopher.Weather.Snow}}",
+				"GreenRain": "{{i18n:Hisstopher.Weather.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Hisstopher.Weather.GreenRainFinished}}",
+				
+				// DAILY DIALOGUE BY HEARTS
+				"Mon2": "{{i18n:Hisstopher.Hearts2.Mon}}",
+				"Tue2": "{{i18n:Hisstopher.Hearts2.Tue}}",
+				"Wed2": "{{i18n:Hisstopher.Hearts2.Wed}}",
+				"Thu2": "{{i18n:Hisstopher.Hearts2.Thu}}",
+				"Fri2": "{{i18n:Hisstopher.Hearts2.Fri}}",
+				"Sat2": "{{i18n:Hisstopher.Hearts2.Sat}}",
+				"Sun2": "{{i18n:Hisstopher.Hearts2.Sun}}",
+				"Mon4": "{{i18n:Hisstopher.Hearts4.Mon}}",
+				"Tue4": "{{i18n:Hisstopher.Hearts4.Tue}}",
+				"Wed4": "{{i18n:Hisstopher.Hearts4.Wed}}",
+				"Thu4": "{{i18n:Hisstopher.Hearts4.Thu}}",
+				"Fri4": "{{i18n:Hisstopher.Hearts4.Fri}}",
+				"Sat4": "{{i18n:Hisstopher.Hearts4.Sat}}",
+				"Sun4": "{{i18n:Hisstopher.Hearts4.Sun}}",
+				"Mon6": "{{i18n:Hisstopher.Hearts6.Mon}}",
+				"Tue6": "{{i18n:Hisstopher.Hearts6.Tue}}",
+				"Wed6": "{{i18n:Hisstopher.Hearts6.Wed}}",
+				"Thu6": "{{i18n:Hisstopher.Hearts6.Thu}}",
+				"Fri6": "{{i18n:Hisstopher.Hearts6.Fri}}",
+				"Sat6": "{{i18n:Hisstopher.Hearts6.Sat}}",
+				"Sun6": "{{i18n:Hisstopher.Hearts6.Sun}}",
+				"Mon8": "{{i18n:Hisstopher.Hearts8.Mon}}",
+				"Tue8": "{{i18n:Hisstopher.Hearts8.Tue}}",
+				"Wed8": "{{i18n:Hisstopher.Hearts8.Wed}}",
+				"Thu8": "{{i18n:Hisstopher.Hearts8.Thu}}",
+				"Fri8": "{{i18n:Hisstopher.Hearts8.Fri}}",
+				"Sat8": "{{i18n:Hisstopher.Hearts8.Sat}}",
+				"Sun8": "{{i18n:Hisstopher.Hearts8.Sun}}",
+				"Mon10": "{{i18n:Hisstopher.Hearts10.Mon}}",
+				"Tue10": "{{i18n:Hisstopher.Hearts10.Tue}}",
+				"Wed10": "{{i18n:Hisstopher.Hearts10.Wed}}",
+				"Thu10": "{{i18n:Hisstopher.Hearts10.Thu}}",
+				"Fri10": "{{i18n:Hisstopher.Hearts10.Fri}}",
+				"Sat10": "{{i18n:Hisstopher.Hearts10.Sat}}",
+				"Sun10": "{{i18n:Hisstopher.Hearts10.Sun}}",
+				
+				// SEASONAL DAILY
+				"spring_Mon": "{{i18n:Hisstopher.Day.Spring.Mon}}",
+				"spring_Tue": "{{i18n:Hisstopher.Day.Spring.Tue}}",
+				"spring_Wed": "{{i18n:Hisstopher.Day.Spring.Wed}}",
+				"spring_Thu": "{{i18n:Hisstopher.Day.Spring.Thu}}",
+				"spring_Fri": "{{i18n:Hisstopher.Day.Spring.Fri}}",
+				"spring_Sat": "{{i18n:Hisstopher.Day.Spring.Sat}}",
+				"spring_Sun": "{{i18n:Hisstopher.Day.Spring.Sun}}",
+				"summer_Mon": "{{i18n:Hisstopher.Day.Summer.Mon}}",
+				"summer_Tue": "{{i18n:Hisstopher.Day.Summer.Tue}}",
+				"summer_Wed": "{{i18n:Hisstopher.Day.Summer.Wed}}",
+				"summer_Thu": "{{i18n:Hisstopher.Day.Summer.Thu}}",
+				"summer_Fri": "{{i18n:Hisstopher.Day.Summer.Fri}}",
+				"summer_Sat": "{{i18n:Hisstopher.Day.Summer.Sat}}",
+				"summer_Sun": "{{i18n:Hisstopher.Day.Summer.Sun}}",
+				"fall_Mon": "{{i18n:Hisstopher.Day.Fall.Mon}}",
+				"fall_Tue": "{{i18n:Hisstopher.Day.Fall.Tue}}",
+				"fall_Wed": "{{i18n:Hisstopher.Day.Fall.Wed}}",
+				"fall_Thu": "{{i18n:Hisstopher.Day.Fall.Thu}}",
+				"fall_Fri": "{{i18n:Hisstopher.Day.Fall.Fri}}",
+				"fall_Sat": "{{i18n:Hisstopher.Day.Fall.Sat}}",
+				"fall_Sun": "{{i18n:Hisstopher.Day.Fall.Sun}}",
+				"winter_Mon": "{{i18n:Hisstopher.Day.Winter.Mon}}",
+				"winter_Tue": "{{i18n:Hisstopher.Day.Winter.Tue}}",
+				"winter_Wed": "{{i18n:Hisstopher.Day.Winter.Wed}}",
+				"winter_Thu": "{{i18n:Hisstopher.Day.Winter.Thu}}",
+				"winter_Fri": "{{i18n:Hisstopher.Day.Winter.Fri}}",
+				"winter_Sat": "{{i18n:Hisstopher.Day.Winter.Sat}}",
+				"winter_Sun": "{{i18n:Hisstopher.Day.Winter.Sun}}",
+				
+				// GIFTS
+				"AcceptGift_StardropTea": "{{i18n:Hisstopher.Gift.StardropTea}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Hisstopher.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Positive": "{{i18n:Hisstopher.AcceptBirthdayGift_Positive}}",
+				"AcceptBirthdayGift": "{{i18n:Hisstopher.AcceptBirthdayGift}}",
+				
+				
+				// MOVIES
+				"MovieInvitation": "{{i18n:Hisstopher.MovieInvitation}}",
+				"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Hisstopher.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+				"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Hisstopher.RejectMovieTicket_AlreadyWatchedThisWeek}}",
+				"RejectMovieTicket_Divorced": "{{i18n:Hisstopher.RejectMovieTicket_Divorced}}",
+				"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:Hisstopher.RejectMovieTicket_DontWantToSeeThatMovie}}",
+				"RejectMovieTicket": "{{i18n:Hisstopher.RejectMovieTicket}}",
+				
+			}
+		},
+		{
+			"LogName": "Summit Dialogue",
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"SummitEvent_Dialogue3_{{ModId}}_Hisstopher": "{{i18n:Hisstopher.SummitEvent}}"
+			}
+		},
+	]
+}

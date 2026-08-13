@@ -1,0 +1,30 @@
+{
+  "Changes": [
+    {
+      "LogName": "Julius Events - Clinic",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_Clinic",
+      "Entries": {
+        "{{ModId}}_Julius2Heart/f {{ModId}}_Julius 500": "none/-1000 -1000/farmer 10 12 0 {{ModId}}_Julius 10 8 2/skippable/pause 1000/move farmer 0 -2 0/pause 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.2Heart.1}}\"/pause 500/faceDirection {{ModId}}_Julius 1/speak {{ModId}}_Julius \"{{i18n:Julius.Event.2Heart.2}}\"/quickQuestion {{i18n:Julius.Event.2Heart.Q}}#{{i18n:Julius.Event.2Heart.A1}}#{{i18n:Julius.Event.2Heart.A2}}#{{i18n:Julius.Event.2Heart.A3}}(break)speak {{ModId}}_Julius \"{{i18n:Julius.Event.2Heart.R1}}\"\\friendship {{ModId}}_Julius -20(break)speak {{ModId}}_Julius \"{{i18n:Julius.Event.2Heart.R2}}\"\\friendship {{ModId}}_Julius 50(break)speak {{ModId}}_Julius \"{{i18n:Julius.Event.2Heart.R3}}\"\\friendship {{ModId}}_Julius 20/pause 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.2Heart.3}}\"/end",
+        "{{ModId}}_Julius6Heart/f {{ModId}}_Julius 1500/w rainy": "none/-1000 -1000/farmer 10 12 0 {{ModId}}_Julius 6 10 3/skippable/pause 1000/move farmer -2 -2 3/pause 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.6Heart.1}}\"/pause 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.6Heart.2}}\"/pause 500/faceDirection {{ModId}}_Julius 1/speak {{ModId}}_Julius \"{{i18n:Julius.Event.6Heart.3}}\"/pause 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.6Heart.4}}\"/end",
+        "{{ModId}}_Julius10Heart/f {{ModId}}_Julius 2500": "none/-1000 -1000/farmer 10 12 0 {{ModId}}_Julius 12 8 3 {{ModId}}_Jett 10 8 1/skippable/pause 500/speak {{ModId}}_Jett \"{{i18n:Julius.Event.10Heart.1}}\"/pause 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.10Heart.2}}\"/pause 500/move farmer 0 -2 0/speak {{ModId}}_Julius \"{{i18n:Julius.Event.10Heart.3}}\"/pause 500/speak {{ModId}}_Jett \"{{i18n:Julius.Event.10Heart.4}}\"/pause 500/shake {{ModId}}_Julius 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.10Heart.5}}\"/pause 500/playSound clubSmash/shake {{ModId}}_Jett 500/pause 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.10Heart.6}}\"/pause 1000/speak {{ModId}}_Julius \"{{i18n:Julius.Event.10Heart.7}}\"/end"
+      }
+    },
+    {
+      "LogName": "Julius Events - BuyCo",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_Buyco",
+      "Entries": {
+        "{{ModId}}_Julius4Heart/f {{ModId}}_Julius 1000": "none/-1000 -1000/farmer 10 20 0 {{ModId}}_Julius 8 18 0/skippable/pause 1000/move farmer -2 -2 0/pause 500/emote {{ModId}}_Julius 12/speak {{ModId}}_Julius \"{{i18n:Julius.Event.4Heart.1}}\"/pause 500/faceDirection {{ModId}}_Julius 2/speak {{ModId}}_Julius \"{{i18n:Julius.Event.4Heart.2}}\"/pause 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.4Heart.3}}\"/pause 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.4Heart.4}}\"/end"
+      }
+    },
+    {
+      "LogName": "Julius Events - Biscuit Drum",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_BiscuitDrum",
+      "Entries": {
+        "{{ModId}}_Julius8Heart/f {{ModId}}_Julius 2000": "none/-1000 -1000/farmer 10 15 0 {{ModId}}_Julius 8 10 2 Bea 8 8 2/skippable/pause 500/speak Bea \"{{i18n:Julius.Event.8Heart.1}}\"/pause 500/shake {{ModId}}_Julius 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.8Heart.2}}\"/pause 500/move farmer -2 -4 3/speak {{ModId}}_Julius \"{{i18n:Julius.Event.8Heart.3}}\"/pause 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.8Heart.4}}\"/quickQuestion {{i18n:Julius.Event.8Heart.Q}}#{{i18n:Julius.Event.8Heart.A1}}#{{i18n:Julius.Event.8Heart.A2}}(break)speak {{ModId}}_Julius \"{{i18n:Julius.Event.8Heart.R1}}\"\\friendship {{ModId}}_Julius 50(break)speak {{ModId}}_Julius \"{{i18n:Julius.Event.8Heart.R2}}\"\\friendship {{ModId}}_Julius 20/pause 500/speak {{ModId}}_Julius \"{{i18n:Julius.Event.8Heart.5}}\"/end"
+      }
+    }
+  ]
+}

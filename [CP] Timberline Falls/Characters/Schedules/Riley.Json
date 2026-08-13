@@ -1,0 +1,19 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Riley",
+			"Entries":
+{
+  "spring": "800 Custom_RileyCabin 5 5 2 riley_writing \"Strings\\schedules\\{{ModId}}_Riley:Schedule.Writing\"/1200 Custom_RileyCabin 8 4 2 riley_pondering/1500 Custom_TimberlineFalls 20 30 2 \"Strings\\schedules\\{{ModId}}_Riley:Schedule.Observation\"/1900 Custom_RileyCabin 5 5 3",
+  "summer": "GOTO spring",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring",
+  "Wed": "800 Custom_RileyCabin 5 5 2 riley_writing/1300 Custom_Buyco 15 10 2 \"Strings\\schedules\\{{ModId}}_Riley:Schedule.BuyCo\"/1700 Custom_RileyCabin 5 5 3",
+  "Fri": "800 Custom_RileyCabin 5 5 2 riley_writing/1400 Custom_BiscuitDrum 12 5 2 \"Strings\\schedules\\{{ModId}}_Riley:Schedule.BiscuitDrum\"/2000 Custom_RileyCabin 5 5 3",
+  "rain": "800 Custom_RileyCabin 5 5 2 riley_writing/1500 Custom_RileyCabin 8 4 2 riley_pondering/2100 Custom_RileyCabin 5 5 3",
+  "8Heart_Mon": "900 Custom_RileyCabin 5 5 2/1300 Custom_BiscuitDrum 10 10 2 \"Strings\\schedules\\{{ModId}}_Riley:Schedule.Social\"/1700 Custom_TimberlineFalls 40 40 2/2100 Custom_RileyCabin 5 5 3",
+  "8Heart_Fri": "900 Custom_RileyCabin 5 5 2/1400 Custom_Salon 5 8 1 \"Strings\\schedules\\{{ModId}}_Riley:Schedule.Salon\"/1900 Custom_BiscuitDrum 12 12 2/2200 Custom_RileyCabin 5 5 3",
+  "marriage_Mon": "900 Custom_TimberlineFalls 20 30 2/1600 bed",
+  "marriage_default": "900 Farm_SpousePatio 2 1 0/1300 Custom_RileyCabin 5 5 2/2000 bed"
+}}]}

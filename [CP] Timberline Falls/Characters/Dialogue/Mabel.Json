@@ -1,0 +1,129 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModId}}_Mabel",
+			"Entries": {
+				
+				// BASE
+				"Mon": "{{i18n:Mabel.Day.Mon}}",
+				"Tue": "{{i18n:Mabel.Day.Tue}}",
+				"Wed": "{{i18n:Mabel.Day.Wed}}",
+				"Thu": "{{i18n:Mabel.Day.Thu}}",
+				"Fri": "{{i18n:Mabel.Day.Fri}}",
+				"Sat": "{{i18n:Mabel.Day.Sat}}",
+				"Sun": "{{i18n:Mabel.Day.Sun}}",
+				
+				// MISC INTERACTIONS
+				"Introduction": "{{i18n:Mabel.Introduction}}",
+				"DumpsterDiveComment": "{{i18n:Mabel.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Mabel.HitBySlingshot}}",
+				"WipedMemory": "{{i18n:Mabel.WipedMemory}}",
+				
+				// WEATHER
+				"Rain": "{{i18n:Mabel.Weather.Rain}}",
+				"Snow": "{{i18n:Mabel.Weather.Snow}}",
+				"GreenRain": "{{i18n:Mabel.Weather.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Mabel.Weather.GreenRainFinished}}",
+				
+				// DAILY DIALOGUE BY HEARTS
+				"Mon2": "{{i18n:Mabel.Hearts2.Mon}}",
+				"Tue2": "{{i18n:Mabel.Hearts2.Tue}}",
+				"Wed2": "{{i18n:Mabel.Hearts2.Wed}}",
+				"Thu2": "{{i18n:Mabel.Hearts2.Thu}}",
+				"Fri2": "{{i18n:Mabel.Hearts2.Fri}}",
+				"Sat2": "{{i18n:Mabel.Hearts2.Sat}}",
+				"Sun2": "{{i18n:Mabel.Hearts2.Sun}}",
+				"Mon4": "{{i18n:Mabel.Hearts4.Mon}}",
+				"Tue4": "{{i18n:Mabel.Hearts4.Tue}}",
+				"Wed4": "{{i18n:Mabel.Hearts4.Wed}}",
+				"Thu4": "{{i18n:Mabel.Hearts4.Thu}}",
+				"Fri4": "{{i18n:Mabel.Hearts4.Fri}}",
+				"Sat4": "{{i18n:Mabel.Hearts4.Sat}}",
+				"Sun4": "{{i18n:Mabel.Hearts4.Sun}}",
+				"Mon6": "{{i18n:Mabel.Hearts6.Mon}}",
+				"Tue6": "{{i18n:Mabel.Hearts6.Tue}}",
+				"Wed6": "{{i18n:Mabel.Hearts6.Wed}}",
+				"Thu6": "{{i18n:Mabel.Hearts6.Thu}}",
+				"Fri6": "{{i18n:Mabel.Hearts6.Fri}}",
+				"Sat6": "{{i18n:Mabel.Hearts6.Sat}}",
+				"Sun6": "{{i18n:Mabel.Hearts6.Sun}}",
+				"Mon8": "{{i18n:Mabel.Hearts8.Mon}}",
+				"Tue8": "{{i18n:Mabel.Hearts8.Tue}}",
+				"Wed8": "{{i18n:Mabel.Hearts8.Wed}}",
+				"Thu8": "{{i18n:Mabel.Hearts8.Thu}}",
+				"Fri8": "{{i18n:Mabel.Hearts8.Fri}}",
+				"Sat8": "{{i18n:Mabel.Hearts8.Sat}}",
+				"Sun8": "{{i18n:Mabel.Hearts8.Sun}}",
+				"Mon10": "{{i18n:Mabel.Hearts10.Mon}}",
+				"Tue10": "{{i18n:Mabel.Hearts10.Tue}}",
+				"Wed10": "{{i18n:Mabel.Hearts10.Wed}}",
+				"Thu10": "{{i18n:Mabel.Hearts10.Thu}}",
+				"Fri10": "{{i18n:Mabel.Hearts10.Fri}}",
+				"Sat10": "{{i18n:Mabel.Hearts10.Sat}}",
+				"Sun10": "{{i18n:Mabel.Hearts10.Sun}}",
+				
+				// SEASONAL DAILY
+				"spring_Mon": "{{i18n:Mabel.Day.Spring.Mon}}",
+				"spring_Tue": "{{i18n:Mabel.Day.Spring.Tue}}",
+				"spring_Wed": "{{i18n:Mabel.Day.Spring.Wed}}",
+				"spring_Thu": "{{i18n:Mabel.Day.Spring.Thu}}",
+				"spring_Fri": "{{i18n:Mabel.Day.Spring.Fri}}",
+				"spring_Sat": "{{i18n:Mabel.Day.Spring.Sat}}",
+				"spring_Sun": "{{i18n:Mabel.Day.Spring.Sun}}",
+				"summer_Mon": "{{i18n:Mabel.Day.Summer.Mon}}",
+				"summer_Tue": "{{i18n:Mabel.Day.Summer.Tue}}",
+				"summer_Wed": "{{i18n:Mabel.Day.Summer.Wed}}",
+				"summer_Thu": "{{i18n:Mabel.Day.Summer.Thu}}",
+				"summer_Fri": "{{i18n:Mabel.Day.Summer.Fri}}",
+				"summer_Sat": "{{i18n:Mabel.Day.Summer.Sat}}",
+				"summer_Sun": "{{i18n:Mabel.Day.Summer.Sun}}",
+				"fall_Mon": "{{i18n:Mabel.Day.Fall.Mon}}",
+				"fall_Tue": "{{i18n:Mabel.Day.Fall.Tue}}",
+				"fall_Wed": "{{i18n:Mabel.Day.Fall.Wed}}",
+				"fall_Thu": "{{i18n:Mabel.Day.Fall.Thu}}",
+				"fall_Fri": "{{i18n:Mabel.Day.Fall.Fri}}",
+				"fall_Sat": "{{i18n:Mabel.Day.Fall.Sat}}",
+				"fall_Sun": "{{i18n:Mabel.Day.Fall.Sun}}",
+				"winter_Mon": "{{i18n:Mabel.Day.Winter.Mon}}",
+				"winter_Tue": "{{i18n:Mabel.Day.Winter.Tue}}",
+				"winter_Wed": "{{i18n:Mabel.Day.Winter.Wed}}",
+				"winter_Thu": "{{i18n:Mabel.Day.Winter.Thu}}",
+				"winter_Fri": "{{i18n:Mabel.Day.Winter.Fri}}",
+				"winter_Sat": "{{i18n:Mabel.Day.Winter.Sat}}",
+				"winter_Sun": "{{i18n:Mabel.Day.Winter.Sun}}",
+				
+				// GIFTS
+				"AcceptGift_StardropTea": "{{i18n:Mabel.Gift.StardropTea}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Mabel.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Positive": "{{i18n:Mabel.AcceptBirthdayGift_Positive}}",
+				"AcceptBirthdayGift": "{{i18n:Mabel.AcceptBirthdayGift}}",
+				
+				
+				// MOVIES
+				"MovieInvitation": "{{i18n:Mabel.MovieInvitation}}",
+				"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Mabel.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+				"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Mabel.RejectMovieTicket_AlreadyWatchedThisWeek}}",
+				"RejectMovieTicket_Divorced": "{{i18n:Mabel.RejectMovieTicket_Divorced}}",
+				"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:Mabel.RejectMovieTicket_DontWantToSeeThatMovie}}",
+				"RejectMovieTicket": "{{i18n:Mabel.RejectMovieTicket}}",
+				
+			}
+		},
+	//	{
+	//		"Action": "EditData",
+	//		"Target": "Strings/schedules/{{ModId}}_Mabel",
+	//		"Entries": {
+	//			
+	//		}
+	//	},
+		{
+			"LogName": "Summit Dialogue",
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"SummitEvent_Dialogue3_{{ModId}}_Mabel": "{{i18n:Mabel.SummitEvent}}"
+			}
+		},
+	]
+}

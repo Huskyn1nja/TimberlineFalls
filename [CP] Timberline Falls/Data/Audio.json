@@ -1,0 +1,65 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "Huskyn1nja.TimberFalls_spring": {
+          "ID": "Huskyn1nja.TimberFalls_spring",
+          "Category": "Music",
+          "FilePaths": [
+            "{{AbsoluteFilePath: Audio/TFSpring.ogg}}"
+          ],
+          "StreamedVorbis": true,
+          "Looped": false
+        },
+        "Huskyn1nja.TimberFalls_summer": {
+          "ID": "Huskyn1nja.TimberFalls_summer",
+          "Category": "Music",
+          "FilePaths": [
+            "{{AbsoluteFilePath: Audio/TFSummer.ogg}}"
+          ],
+          "StreamedVorbis": true,
+          "Looped": false
+        },
+        "Huskyn1nja.TimberFalls_fall": {
+          "ID": "Huskyn1nja.TimberFalls_fall",
+          "Category": "Music",
+          "FilePaths": [
+            "{{AbsoluteFilePath: Audio/TFFall.ogg}}"
+          ],
+          "StreamedVorbis": true,
+          "Looped": false
+        },
+        "Huskyn1nja.TimberFalls_winter": {
+          "ID": "Huskyn1nja.TimberFalls_winter",
+          "Category": "Music",
+          "FilePaths": [
+            "{{AbsoluteFilePath: Audio/TFWinter.ogg}}"
+          ],
+          "StreamedVorbis": true,
+          "Looped": false
+        },
+        "Huskyn1nja.TimberFalls_TimberlineWedding": {
+          "ID": "Huskyn1nja.TimberFalls_TimberlineWedding",
+          "Category": "Music",
+          "FilePaths": [
+            "{{AbsoluteFilePath:Audio/TFWedding.ogg}}"
+          ],
+          "StreamedVorbis": true,
+          "Looped": false
+        },
+		 "Huskyn1nja.TimberFalls_TimberlineWedding": {
+          "ID": "Huskyn1nja.TimberFalls_Calm_In_The_Storm",
+          "Category": "Music",
+          "FilePaths": [
+            "{{AbsoluteFilePath:Audio/TFCalmInTheStorm.ogg}}"
+          ],
+          "StreamedVorbis": false,
+          "Looped": false
+        }
+      }
+    },
+	
+  ]
+}

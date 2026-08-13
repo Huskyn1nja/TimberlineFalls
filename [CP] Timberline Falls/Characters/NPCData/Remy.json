@@ -1,0 +1,124 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Remy",
+      "FromFile": "characters/Sprites/Remy.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Remy",
+      "FromFile": "characters/Portraits/Remy.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Remy.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Remy.json"
+    },
+    {
+      "LogName": "Remy Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Remy": {
+          "DisplayName": "{{i18n:Remy.Name}}",
+          "TextureName": "{{ModId}}_Remy",
+          "BirthSeason": "Fall",
+          "BirthDay": 28,
+          "HomeRegion": "Town",
+          "Gender": "Undefined",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Neutral",
+          "CanBeRomanced": true,
+          "CanReceiveGifts": true,
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "PerfectionScore": true,
+          "EngagementItem": "{{ModId}}_AmberClasp",
+          "FriendsAndFamily": {
+            "{{ModId}}_Jett": "acquaintance",
+            "Gunther": "rival"
+          },
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_RemyVan",
+              "Tile": { "X": 14, "Y": 9 },
+              "Direction": "down"
+            }
+          ],
+          "WinterStarGifts": [
+            { "Id": "Green Tea", "ItemId": "(O)614", "MinStack": 1, "MaxStack": 5 },
+            { "Id": "Pearl", "ItemId": "(O)797", "MinStack": 1, "MaxStack": 1 }
+          ],
+			"SpouseRoom": {
+            "MapAsset": "Maps/{{ModId}}_SpouseRooms",
+            "MapSourceRect": { "X": 24, "Y": 0, "Width": 6, "Height": 9 }
+          },
+          "SpousePatio": {
+            "MapAsset": "Maps/{{ModId}}_SpousePatios",
+            "MapSourceRect": { "X": 16, "Y": 0, "Width": 4, "Height": 4 }
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Remy Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Remy": "{{i18n:Remy.Gift.Love}}/(O)103 (O)108/{{i18n:Remy.Gift.Like}}/(O)4/{{i18n:Remy.Gift.Dislike}}/(O)330/{{i18n:Remy.Gift.Hate}}/(O)168 (O)169/{{i18n:Remy.Gift.Neutral}}/(O)388"
+      }
+    },
+    {
+      "LogName": "Remy Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "Remy_sleep": "20/20/20",
+        "Remy_Busking": "16/16 16 16 16 16 17 17 17 17 18 18 18 18 18 19 19 19 19/16",
+        "Remy_Headphones": "22/22 23 24 25/22"
+      }
+    },
+    {
+      "LogName": "Remy Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Remy": {
+          "Name": "{{ModId}}_Remy",
+          "LovedTags": ["Tea", "Dry"],
+          "LikedTags": ["Healthy"],
+          "DislikedTags": ["Greasy", "Nachos", "Salty"],
+          "HatedTags": ["Jojacorn"]
+        }
+      }
+    },
+    {
+      "LogName": "Remy Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Remy": {
+          "NPCName": "{{ModId}}_Remy",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "love"
+            },
+            {
+              "Tag": "summer_movie_1",
+              "Response": "dislike"
+            }
+          ]
+        }
+      }
+    },
+    
+  ]
+}

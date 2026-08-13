@@ -1,0 +1,31 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Maps/Custom_TF_Wedding",
+      "FromFile": "Maps/TF_Wedding.tmx"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_TF_Wedding": {
+          "Type": "Outdoors",
+          "CreateOnLoad": {
+            "MapPath": "Maps/Custom_TF_Wedding"
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Weddings",
+      "TargetField": [
+        "EventScript"
+      ],
+      "Entries": {
+        "Huskyn1nja.TimberFalls_Arden": "none/91 45/farmer -1000 -1000 0/changeLocation Custom_TimberlineFalls/playMusic Huskyn1nja.TimberFalls_TimberlineWedding/addTemporaryActor Huskyn1nja.TimberFalls_Bea 16 32 91 44 2 true/viewport 91 45 true/addTemporaryActor Huskyn1nja.TimberFalls_Arden 16 32 92 45 3 true/{{Huskyn1nja.TimberFallsCode/WeddingGuests}}/warp farmer 90 45/faceDirection farmer 1/pause 1000/speak Huskyn1nja.TimberFalls_Bea \"{{i18n:Wedding.Bea.Speech.1}}\"/speak Huskyn1nja.TimberFalls_Bea \"{{i18n:Wedding.Bea.Speech.2}}\"/speak Huskyn1nja.TimberFalls_Bea \"{{i18n:Wedding.Bea.Speech.3}}\"/speak Huskyn1nja.TimberFalls_Bea \"{{i18n:Wedding.Bea.Speech.4}}\"/speak Huskyn1nja.TimberFalls_Bea \"{{i18n:Wedding.Bea.Speech.5}}\"/speak Huskyn1nja.TimberFalls_Bea \"{{i18n:Wedding.Bea.Speech.6}}\"/pause 1000/speak Huskyn1nja.TimberFalls_Bea \"{{i18n:Wedding.Bea.PlayerAsk}}\"/pause 500/faceDirection farmer 2/animate farmer false true 23 23 23 23 23 23/pause 1000/stopAnimation farmer/pause 500/speak Huskyn1nja.TimberFalls_Bea \"{{i18n:Wedding.Bea.Arden}}\"/pause 1000/speak Huskyn1nja.TimberFalls_Arden \"{{i18n:Wedding.Arden.Response}}\"/pause 1000/speak Huskyn1nja.TimberFalls_Bea \"{{i18n:Wedding.Bea.Pronounce}}\"/pause 500/speak Huskyn1nja.TimberFalls_Bea \"{{i18n:Wedding.Bea.Kiss}}\"/pause 1000/faceDirection farmer 1/faceDirection Huskyn1nja.TimberFalls_Arden 3/positionOffset Huskyn1nja.TimberFalls_Arden -16 0/move farmer 1 0 1/pause 300/showFrame 101/showFrame Huskyn1nja.TimberFalls_Arden 17/specificTemporarySprite heart 23 7/playSound dwop/pause 2000/stopMusic/playMusic none/globalFade/viewport -1000 -1000/end wedding"
+      }
+    }
+  ]
+}

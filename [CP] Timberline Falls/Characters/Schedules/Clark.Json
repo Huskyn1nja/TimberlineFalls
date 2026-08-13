@@ -1,0 +1,16 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Clark",
+			"Entries":
+{
+  "spring": "800 Custom_BuyCo 10 15 2 Clark_Stocking/1200 Custom_BuyCo 15 20 0/1500 Custom_BuyCo 10 15 2 Clark_Stocking /1800 Custom_TimberlineTerraces 9 9 2 /2200 Custom_TimberlineTerraces 11 9 3 Clark_Sleep",
+  "spring_Sat": "900 JojaMart 12 15 2/1300 SeedShop 5 18 1/1700 Custom_TimberlineTerraces 9 9 2 /2200 Custom_TimberlineTerraces 11 9 3 Clark_Sleep",
+  "spring_Sat_Fallback": "900 SeedShop 5 18 1/1400 Saloon 15 20 2/1800 Custom_TimberlineTerraces 9 9 2 /2200 Custom_TimberlineTerraces 11 9 3 Clark_Sleep",
+  "spring_Sun": "900 Custom_BiscuitDrum 3 13 2 /1300 Custom_TacoShack 8 10 0 /1800 Custom_TimberlineTerraces 9 9 2 /2200 Custom_TimberlineTerraces 11 9 3 Clark_Sleep",
+  "rain": "800 Custom_BuyCo 10 15 2 Clark_Stocking /1300 Custom_BuyCo 11 15 2 /1700 Custom_TimberlineTerraces 9 9 2/2200 Custom_TimberlineTerraces 11 9 3 Clark_Sleep",
+  "summer": "GOTO spring",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring"
+}}]}

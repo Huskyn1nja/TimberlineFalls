@@ -1,0 +1,26 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_RileyCabin",
+      "Entries": {
+        "{{ModId}}_Riley2Heart/Friendship {{ModId}}_Riley 500": "none/10 10/farmer 8 12 0 {{ModId}}_Riley 8 8 2/skippable/viewport 8 8 true/pause 1000/speak {{ModId}}_Riley \"{{i18n:Riley.Event.2Heart.1}}\"/pause 500/speak {{ModId}}_Riley \"{{i18n:Riley.Event.2Heart.2}}\"/quickQuestion {{i18n:Riley.Event.2Heart.Q}}#{{i18n:Riley.Event.2Heart.A1}}#{{i18n:Riley.Event.2Heart.A2}}#{{i18n:Riley.Event.2Heart.A3}}(break)speak {{ModId}}_Riley \"{{i18n:Riley.Event.2Heart.R1}}\"\\friendship {{ModId}}_Riley 20(break)speak {{ModId}}_Riley \"{{i18n:Riley.Event.2Heart.R2}}\"\\friendship {{ModId}}_Riley -10(break)speak {{ModId}}_Riley \"{{i18n:Riley.Event.2Heart.R3}}\"\\friendship {{ModId}}_Riley 10/pause 500/speak {{ModId}}_Riley \"{{i18n:Riley.Event.2Heart.3}}\"/pause 1000/end",
+
+        "{{ModId}}_Riley8Heart/Friendship {{ModId}}_Riley 2000/SawEvent {{ModId}}_Riley6Heart": "none/10 10/farmer 8 12 0 {{ModId}}_Riley 8 8 2/skippable/viewport 8 8 true/pause 1000/speak {{ModId}}_Riley \"{{i18n:Riley.Hearts8.Mon}}\"/pause 500/move farmer 0 -2 0/speak {{ModId}}_Riley \"{{i18n:Riley.Hearts8.Wed}}\"/pause 500/speak {{ModId}}_Riley \"{{i18n:Riley.Hearts8.Sat}}\"/pause 1000/end",
+
+        "{{ModId}}_Riley10Heart/Friendship {{ModId}}_Riley 2500/SawEvent {{ModId}}_Riley8Heart": "none/10 10/farmer 8 12 0 {{ModId}}_Riley 8 8 2/skippable/viewport 8 8 true/pause 1000/speak {{ModId}}_Riley \"{{i18n:Riley.Event.10Heart.1}}\"/pause 500/speak {{ModId}}_Riley \"{{i18n:Riley.Event.10Heart.2}}\"/pause 500/move farmer 0 -2 0/speak {{ModId}}_Riley \"{{i18n:Riley.Event.10Heart.3}}\"/pause 500/speak {{ModId}}_Riley \"{{i18n:Riley.Event.10Heart.4}}\"/pause 1000/end",
+
+        "{{ModId}}_Riley14Heart/Friendship {{ModId}}_Riley 3500/SawEvent {{ModId}}_Riley10Heart": "none/10 10/farmer 8 12 0 {{ModId}}_Riley 8 8 2/skippable/viewport 8 8 true/pause 1000/speak {{ModId}}_Riley \"{{i18n:Riley.Event.14Heart.1}}\"/pause 500/speak {{ModId}}_Riley \"{{i18n:Riley.Event.14Heart.2}}\"/pause 500/move farmer 0 -2 0/speak {{ModId}}_Riley \"{{i18n:Riley.Event.14Heart.3}}\"/pause 500/message \"{{i18n:Riley.Event.14Heart.Reward}}\"/pause 1000/end"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_TimberlineFalls",
+      "Entries": {
+        "{{ModId}}_Riley4Heart/Friendship {{ModId}}_Riley 1000/SawEvent {{ModId}}_Riley2Heart": "none/20 20/farmer 18 22 0 {{ModId}}_Riley 18 20 2 {{ModId}}_Mabel 15 25 1 {{ModId}}_Orson 16 25 3 {{ModId}}_Jett 25 25 3 {{ModId}}_Elara 26 25 1/skippable/viewport 18 20 true/pause 1000/speak {{ModId}}_Riley \"{{i18n:Riley.Event.4Heart.1}}\"/pause 500/speak {{ModId}}_Riley \"{{i18n:Riley.Event.4Heart.2}}\"/pause 500/move farmer 0 -1 0/faceDirection {{ModId}}_Riley 2/speak {{ModId}}_Riley \"{{i18n:Riley.Event.4Heart.3}}\"/pause 500/speak {{ModId}}_Riley \"{{i18n:Riley.Event.4Heart.4}}\"/pause 1000/end",
+
+        "{{ModId}}_Riley6Heart/Friendship {{ModId}}_Riley 1500/Weather rainy/SawEvent {{ModId}}_Riley4Heart": "none/20 20/farmer 18 22 0 {{ModId}}_Riley 18 20 2/skippable/viewport 18 20 true/pause 1000/speak {{ModId}}_Riley \"{{i18n:Riley.Event.6Heart.1}}\"/pause 500/speak {{ModId}}_Riley \"{{i18n:Riley.Event.6Heart.2}}\"/pause 500/speak {{ModId}}_Riley \"{{i18n:Riley.Event.6Heart.3}}\"/quickQuestion {{i18n:Riley.Event.6Heart.Q}}#{{i18n:Riley.Event.6Heart.A1}}#{{i18n:Riley.Event.6Heart.A2}}(break)speak {{ModId}}_Riley \"{{i18n:Riley.Event.6Heart.R1}}\"\\friendship {{ModId}}_Riley 30(break)speak {{ModId}}_Riley \"{{i18n:Riley.Event.6Heart.R2}}\"\\friendship {{ModId}}_Riley 20/pause 500/speak {{ModId}}_Riley \"{{i18n:Riley.Event.6Heart.4}}\"/pause 1000/end"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Drexel",
+			"Entries":
+{
+  "spring": "900 Custom_DrexelOffice 10 6 2/1200 Custom_DrexelOffice 5 8 1 drexel_ledger \"Strings\\schedules\\{{ModId}}_Drexel:Schedule.Paperwork\"/1700 Custom_DrexelOffice 10 6 2/2200 Custom_DrexelOffice 12 4 3 drexel_sleep",
+  "summer": "GOTO spring",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring",
+  "Wed": "900 Custom_DrexelOffice 10 6 2/1300 Custom_Buyco 10 12 0 \"Strings\\schedules\\{{ModId}}_Drexel:Schedule.BuyCo\"/1700 Custom_DrexelOffice 10 6 2/2200 Custom_DrexelOffice 12 4 3 drexel_sleep",
+  "Fri": "900 Custom_DrexelOffice 10 6 2/1200 Custom_DrexelOffice 5 8 1 drexel_ledger/1800 Custom_BiscuitDrum 15 15 2 \"Strings\\schedules\\{{ModId}}_Drexel:Schedule.Dinner\"/2100 Custom_DrexelOffice 10 6 2/2300 Custom_DrexelOffice 12 4 3 drexel_sleep",
+  "rain": "GOTO spring",
+  "8Heart_Tue": "900 Custom_DrexelOffice 10 6 2/1300 Custom_TimberlineTerraces 20 25 2 \"Strings\\schedules\\{{ModId}}_Drexel:Schedule.Inspection\"/1600 Custom_DrexelOffice 10 6 2/2200 Custom_DrexelOffice 12 4 3 drexel_sleep"
+}}]}

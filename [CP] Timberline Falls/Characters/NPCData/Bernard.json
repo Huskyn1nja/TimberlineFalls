@@ -1,0 +1,95 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Bernard",
+      "FromFile": "characters/Sprites/Bernard.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Bernard",
+      "FromFile": "characters/Portraits/Bernard.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Bernard.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Bernard.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Bernard": {
+          "DisplayName": "{{i18n:Bernard.Name}}",
+          "BirthSeason": "Winter",
+          "BirthDay": 28,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Negative",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_BernardShack",
+              "Tile": { "X": 3, "Y": 5 },
+              "Direction": "right"
+            }
+          ],
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "FriendsAndFamily": {
+            "{{ModId}}_Vance": "acquaintance"
+          },
+          "WinterStarParticipant": true,
+          "WinterStarGifts": [
+            { "ItemId": "(O)579", "MinStack": 1 }
+          ],
+          "ItemDeliveryQuests": true,
+          "PerfectionScore": true,
+          "CanVisitIsland": false,
+          "HiddenProfileEmoteSound": null,
+          "HiddenProfileEmoteDuration": -1,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 4,
+          "HiddenProfileEmoteFrameDuration": 200.0
+        }
+      }
+    },
+{
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Bernard": "{{i18n:Bernard.Gift.Love}}/(O)579 (O)580 (O)581 (O)582 (O)583 (O)584 (O)585 (O)103 (O)104 (O)105 (O)769/{{i18n:Bernard.Gift.Like}}/(O)305 (O)382 (O)390 (O)724 (O)725 (O)726/{{i18n:Bernard.Gift.Dislike}}/(O)Flowers_Category (O)Sweet_Category/{{i18n:Bernard.Gift.Hate}}/(O)168 (O)169 (O)170 (O)171 (O)172 (O)276/{{i18n:Bernard.Gift.Neutral}}/(O)395/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "Bernard_Dig": "16/17 17 18 18 16 16/18",
+        "Bernard_Sit": "1000/20/20",
+        "Bernard_Sleep": "1000/24/0"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Bernard": {
+          "Name": "{{ModId}}_Bernard",
+          "LovedTags": [ "Strong", "Bitter" ],
+          "LikedTags": [ "Salty" ],
+          "DislikedTags": [ "Sweet", "Fun", "Candy" ]
+        }
+      }
+    }
+  ]
+}

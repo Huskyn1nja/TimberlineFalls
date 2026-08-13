@@ -1,0 +1,32 @@
+{
+  "Changes": [
+    {
+      "LogName": "Elara Events - Office",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_StationOffice",
+      "Entries": {
+        "{{ModId}}_Elara2Heart/f {{ModId}}_Elara 500": "none/-1000 -1000/farmer 9 12 0 {{ModId}}_Elara 9 6 2/skippable/pause 1000/move farmer 0 -4 0/speak {{ModId}}_Elara \"{{i18n:Elara.Event.2Heart.1}}\"/pause 500/speak {{ModId}}_Elara \"{{i18n:Elara.Event.2Heart.2}}\"/quickQuestion {{i18n:Elara.Event.2Heart.Q}}#{{i18n:Elara.Event.2Heart.A1}}#{{i18n:Elara.Event.2Heart.A2}}#{{i18n:Elara.Event.2Heart.A3}}(break)speak {{ModId}}_Elara \"{{i18n:Elara.Event.2Heart.R1}}\"\\friendship {{ModId}}_Elara -20(break)speak {{ModId}}_Elara \"{{i18n:Elara.Event.2Heart.R2}}\"\\friendship {{ModId}}_Elara 50(break)speak {{ModId}}_Elara \"{{i18n:Elara.Event.2Heart.R3}}\"\\friendship {{ModId}}_Elara 20/pause 500/speak {{ModId}}_Elara \"{{i18n:Elara.Event.2Heart.3}}\"/end",
+        
+        "{{ModId}}_Elara6Heart/f {{ModId}}_Elara 1500/w rainy": "none/-1000 -1000/farmer 9 12 0 {{ModId}}_Elara 4 8 2/skippable/pause 500/move farmer -3 -4 3/pause 500/shake {{ModId}}_Elara 1000/speak {{ModId}}_Elara \"{{i18n:Elara.Event.6Heart.1}}\"/pause 500/faceDirection {{ModId}}_Elara 1/speak {{ModId}}_Elara \"{{i18n:Elara.Event.6Heart.2}}\"/pause 500/speak {{ModId}}_Elara \"{{i18n:Elara.Event.6Heart.3}}\"/quickQuestion {{i18n:Elara.Event.6Heart.Q}}#{{i18n:Elara.Event.6Heart.A1}}#{{i18n:Elara.Event.6Heart.A2}}(break)speak {{ModId}}_Elara \"{{i18n:Elara.Event.6Heart.R1}}\"\\friendship {{ModId}}_Elara 50(break)speak {{ModId}}_Elara \"{{i18n:Elara.Event.6Heart.R2}}\"\\friendship {{ModId}}_Elara 20/pause 500/speak {{ModId}}_Elara \"{{i18n:Elara.Event.6Heart.4}}\"/end",
+
+        "{{ModId}}_Elara8Heart/f {{ModId}}_Elara 2000": "none/-1000 -1000/farmer 9 12 0 {{ModId}}_Elara 12 4 2/skippable/pause 500/move farmer 3 -6 0/pause 500/emote {{ModId}}_Elara 28/speak {{ModId}}_Elara \"{{i18n:Elara.Event.8Heart.1}}\"/pause 500/speak {{ModId}}_Elara \"{{i18n:Elara.Event.8Heart.2}}\"/pause 500/faceDirection {{ModId}}_Elara 2/speak {{ModId}}_Elara \"{{i18n:Elara.Event.8Heart.3}}\"/pause 1000/speak {{ModId}}_Elara \"{{i18n:Elara.Event.8Heart.4}}\"/end"
+      }
+    },
+    {
+      "LogName": "Elara Events - Jett's Garage",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_JettGarage",
+      "Entries": {
+        "{{ModId}}_Elara4Heart/f {{ModId}}_Elara 1000": "none/-1000 -1000/farmer 5 15 0 {{ModId}}_Elara 10 10 0 {{ModId}}_Jett 10 8 2/skippable/pause 500/speak {{ModId}}_Elara \"{{i18n:Elara.Event.4Heart.1}}\"/pause 500/speak {{ModId}}_Jett \"{{i18n:Elara.Event.4Heart.2}}\"/pause 500/speak {{ModId}}_Elara \"{{i18n:Elara.Event.4Heart.3}}\"/move farmer 4 -4 0/faceDirection {{ModId}}_Elara 2/speak {{ModId}}_Elara \"{{i18n:Elara.Event.4Heart.4}}\"/quickQuestion {{i18n:Elara.Event.4Heart.Q}}#{{i18n:Elara.Event.4Heart.A1}}#{{i18n:Elara.Event.4Heart.A2}}(break)speak {{ModId}}_Elara \"{{i18n:Elara.Event.4Heart.R1}}\"\\friendship {{ModId}}_Elara 50\\friendship {{ModId}}_Jett -20(break)speak {{ModId}}_Elara \"{{i18n:Elara.Event.4Heart.R2}}\"\\friendship {{ModId}}_Elara -20\\friendship {{ModId}}_Jett 50/pause 500/faceDirection {{ModId}}_Elara 0/speak {{ModId}}_Elara \"{{i18n:Elara.Event.4Heart.5}}\"/end"
+      }
+    },
+    {
+      "LogName": "Elara Events - Town/Outdoors",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_TimberlineFalls",
+      "Entries": {
+        "{{ModId}}_Elara10Heart/f {{ModId}}_Elara 2500/w sunny": "none/-1000 -1000/farmer 80 50 0 {{ModId}}_Elara 80 40 2/skippable/pause 1000/move farmer 0 -8 0/pause 500/speak {{ModId}}_Elara \"{{i18n:Elara.Event.10Heart.1}}\"/pause 500/speak {{ModId}}_Elara \"{{i18n:Elara.Event.10Heart.2}}\"/pause 500/speak {{ModId}}_Elara \"{{i18n:Elara.Event.10Heart.3}}\"/pause 500/speak {{ModId}}_Elara \"{{i18n:Elara.Event.10Heart.4}}\"/end"
+      }
+    }
+  ]
+}

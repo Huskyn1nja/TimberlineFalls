@@ -1,0 +1,19 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Gustavo",
+			"Entries":
+{
+
+        "spring": "800 Custom_TacoShack 12 5 2/2300 Custom_TacoShack 3 9 3 gustavo_sleep",
+        
+        "summer": "GOTO spring",
+        "fall": "GOTO spring",
+        "winter": "GOTO spring",
+        "Tue": "GOTO spring",
+        "Sat": "GOTO spring",
+        "Sun": "GOTO spring",
+        "rain": "GOTO spring"
+}}]}
+  

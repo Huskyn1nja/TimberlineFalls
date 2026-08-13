@@ -1,0 +1,126 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Jax",
+      "FromFile": "characters/Sprites/Jax.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Jax",
+      "FromFile": "characters/Portraits/Jax.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Jax.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Jax.json"
+    },
+    {
+      "LogName": "Jax Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Jax": {
+          "DisplayName": "{{i18n:Jax.Name}}",
+          "TextureName": "{{ModId}}_Jax",
+          "BirthSeason": "Fall",
+          "BirthDay": 13,
+          "HomeRegion": "Other",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Negative",
+          "CanBeRomanced": true,
+          "CanReceiveGifts": true,
+          "IntroductionsQuest": false,
+          "PerfectionScore": true,
+          "EngagementItem": "{{ModId}}_SpikedCollar",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_TimberlineTerraces",
+              "Tile": { "X": 10, "Y": 6 },
+              "Direction": "down"
+            }
+          ],
+          "SpouseRoom": {
+            "MapAsset": "Maps/{{ModId}}_SpouseRooms",
+            "MapSourceRect": { "X": 24, "Y": 0, "Width": 6, "Height": 9 }
+          },
+          "SpousePatio": {
+            "MapAsset": "Maps/{{ModId}}_SpousePatios",
+            "MapSourceRect": { "X": 16, "Y": 0, "Width": 4, "Height": 4 }
+          },
+          "Size": {
+            "X": 16,
+            "Y": 32
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Jax Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Jax": "{{i18n:Jax.Gift.Love}}/73 305 66/{{i18n:Jax.Gift.Like}}/category_gems 395/{{i18n:Jax.Gift.Dislike}}/category_flowers 221/{{i18n:Jax.Gift.Hate}}/167 168 169 220/{{i18n:Jax.Gift.Neutral}}/category_junk"
+      }
+    },
+    {
+      "LogName": "Jax Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "jax_phone": "16/16 16 17 17 18 18 19 19/16/Strings\\animationDescriptions:Jax.Phone",
+        "jax_sketching": "20/20 20 20 21 21 21/20/Strings\\animationDescriptions:Jax.Sketching"
+      }
+    },
+    {
+      "LogName": "Jax Animation Strings",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "Jax.Phone": "{{i18n:Jax.Animation.Phone}}",
+        "Jax.Sketching": "{{i18n:Jax.Animation.Sketching}}"
+      }
+    },
+    {
+      "LogName": "Jax Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Jax": {
+          "Name": "{{ModId}}_Jax",
+          "LovedTags": [ "BlackCoffee", "Salty", "Spicy" ],
+          "LikedTags": [ "Candy" ],
+          "DislikedTags": [ "Healthy" ],
+          "HatedTags": [ "Jojacorn" ]
+        }
+      }
+    },
+    {
+      "LogName": "Jax Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Jax": {
+          "NPCName": "{{ModId}}_Jax",
+          "Reactions": [
+            {
+              "Tag": "fall_movie_0",
+              "Response": "love"
+            },
+            {
+              "Tag": "spring_movie_0",
+              "Response": "dislike"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

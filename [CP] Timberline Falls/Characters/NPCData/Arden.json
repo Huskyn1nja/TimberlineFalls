@@ -1,0 +1,199 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Arden",
+      "FromFile": "characters/Sprites/Arden.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Arden",
+      "FromFile": "characters/Portraits/Arden.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Arden.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Arden.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "Huskyn1nja.TimberFalls_Arden": {
+          "DisplayName": "{{i18n:Arden.Name}}",
+          "TextureName": "{{ModId}}_Arden",
+          "Portrait": "Portraits/{{ModId}}_Arden",
+          "BirthSeason": "Fall",
+          "BirthDay": 28,
+          "HomeRegion": "Other",
+          "Gender": "Undefined",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Neutral",
+          "CanBeRomanced": true,
+          "CanReceiveGifts": true,
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "PerfectionScore": true,
+          "EngagementItem": "{{ModId}}_AmberClasp",
+          "SpawnIfMissing": true,
+		  "KissSpriteIndex": 17,
+		  "KissSpriteFacingRight": "False",
+          "Appearance": [
+            {
+              "Id": "Huskyn1nja.TimberFallsArden",
+              "Sprite": "Characters/{{ModId}}_Arden",
+              "Portrait": "Portraits/{{ModId}}_Arden",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            }
+          ],
+          "FriendsAndFamily": {
+            "{{ModId}}_Jett": "acquaintance",
+            "Gunther": "rival"
+          },
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_Antiquary",
+              "Tile": {
+                "X": 7,
+                "Y": 4
+              },
+              "Direction": "down"
+            }
+          ],
+          "WinterStarGifts": [
+            {
+              "Id": "Green Tea",
+              "ItemId": "(O)614",
+              "MinStack": 1,
+              "MaxStack": 5
+            },
+            {
+              "Id": "Pearl",
+              "ItemId": "(O)797",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "SpouseRoom": {
+            "MapAsset": "{{ModId}}_SpouseRooms",
+            "MapSourceRect": {
+              "X": 18,
+              "Y": 0,
+              "Width": 6,
+              "Height": 9
+            }
+          },
+          "SpousePatio": {
+            "MapAsset": "{{ModId}}_SpousePatios",
+            "MapSourceRect": {
+              "X": 12,
+              "Y": 0,
+              "Width": 4,
+              "Height": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Arden": "{{i18n:Arden.Gift.Love}}/(O)103 (O)108/{{i18n:Arden.Gift.Like}}/(O)4/{{i18n:Arden.Gift.Dislike}}/(O)330/{{i18n:Arden.Gift.Hate}}/(O)168 (O)169/{{i18n:Arden.Gift.Neutral}}/(O)388"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "arden_sleep": "16/16/16",
+        "arden_dust": "18/18 19 19/18",
+        "arden_catalog": "20/21 22/22",
+        "arden_read": "23/23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 24 24/24",
+		"arden_inspect": "27/27/27"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Arden": {
+          "Name": "{{ModId}}_Arden",
+          "LovedTags": [
+            "Tea",
+            "Dry"
+          ],
+          "LikedTags": [
+            "Healthy"
+          ],
+          "DislikedTags": [
+            "Greasy",
+            "Nachos",
+            "Salty"
+          ],
+          "HatedTags": [
+            "Jojacorn"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Arden": {
+          "NPCName": "{{ModId}}_Arden",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "love"
+            },
+            {
+              "Tag": "summer_movie_1",
+              "Response": "dislike"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "{{ModId}}_Arden_MarriageUnlocked": "{{i18n:Arden.Mail.MarriageUnlocked}}"
+      },
+      "When": {
+        "Query: 'WORLD_STATE_FIELD LostBooksFound 20 999'": "true",
+        "Query: 'WORLD_STATE_FIELD museumItems 60 999'": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Arden",
+      "Entries": {
+        "Tue": "610 Custom_Antiquary 10 9 2/1000 ArchaeologyHouse 15 10 0 arden_catalog \"Strings\\schedules\\{{ModId}}_Arden:Schedule.Museum.Verify\"/1600 Custom_Antiquary 9 19 2/2200 Custom_Antiquary 10 9 3 arden_sleep"
+      },
+      "When": {
+        "Query: 'WORLD_STATE_FIELD LostBooksFound 20 999'": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Arden",
+      "Entries": {
+        "Sat": "610 Custom_Antiquary 10 9 2/1200 Custom_Antiquary 5 5 2 arden_catalog \"Strings\\schedules\\{{ModId}}_Arden:Schedule.Archive.Work\"/1800 Custom_Antiquary 10 9 3 arden_sleep"
+      },
+      "When": {
+        "HasFlag": "{{ModId}}_ArchiveRestored"
+      }
+    }
+  ]
+}

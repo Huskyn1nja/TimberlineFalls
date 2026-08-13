@@ -1,0 +1,18 @@
+{
+	"Name": "TimberlineFalls FTM",
+	"Author": "Huskyn1nja",
+	"Version": "1.0.0",
+	"UniqueID": "Huskyn1nja.TimberFallsFTM",
+	"MinimumApiVersion": "4.0.0",
+	"ContentPackFor": {
+		"UniqueID": "Esca.FarmTypeManager",
+		"MinimumVersion": "1.10.1"
+	},
+"Dependencies": [
+   
+ {
+ "UniqueID": "Huskyn1nja.TimberFalls",
+                "IsRequired": true
+ }
+		]
+}

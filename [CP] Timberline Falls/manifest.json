@@ -1,0 +1,44 @@
+{
+   "Name": "Timberline Falls",
+   "Author": "Huskyn1nja",
+   "Version": "1.8.0",
+   "Description": "",
+   "UniqueID": "Huskyn1nja.TimberFalls",
+   "MinimumApiVersion": "4.0.0",
+   "UpdateKeys": ["Nexus:38055"],
+
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+  "Dependencies": [   
+  
+   {
+        "UniqueID": "DaisyNiko.Tilesheets",
+        "IsRequired": "True"
+     },
+	    {
+        "UniqueID": "Esca.FarmTypeManager",
+        "IsRequired": "True"
+     },
+	 {
+		         "UniqueID": "mushymato.mmap",
+        "IsRequired": "True"
+		     },
+				 {
+		         "UniqueID": "Esca.EMP",
+        "IsRequired": "True"
+		     }, 
+			 				 {
+		         "UniqueID": "Spiderbuttons.CustomScheduleKeys",
+        "IsRequired": "True"
+		     }, 
+			 {
+      "UniqueID": "Huskyn1nja.TimberFallsCode",
+      "IsRequired": true
+    }
+  ]
+
+
+}
+
+

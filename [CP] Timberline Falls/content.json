@@ -1,0 +1,356 @@
+{
+	"Format": "2.9.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Timberline_Items",
+			"FromFile": "Tilesheets/Timberline_Items.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Timberline_Furniture",
+			"FromFile": "Tilesheets/Timberline_Furniture.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Timberline_BC",
+			"FromFile": "Tilesheets/Timberline_BC.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/TFBuffs",
+			"FromFile": "Tilesheets/TFBuffs.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_AquariumFish",
+			"FromFile": "Tilesheets/Timberline_AquariumFish.png"
+		},
+			{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Timberline_Crops",
+			"FromFile": "Tilesheets/TFCrops.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_SpouseRooms",
+			"FromFile": "Maps/TF_spouseRooms.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_SpousePatios",
+			"FromFile": "Maps/TF_spousePatios.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/WorldMap_town",
+			"FromFile": "Tilesheets/Spring_TFMap.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/HuskySheet.Tfalls",
+			"FromFile": "maps/HuskySheet.Tfalls.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/HuskySheet.TfallsIndoor",
+			"FromFile": "maps/HuskySheet.TfallsIndoor.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/TF_Buildings",
+			"FromFile": "maps/{{season}}_Timberfalls_Buildings.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls",
+			"FromFile": "maps/TF_Timberline_Town.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_JettGarage",
+			"FromFile": "maps/TF_JettGarage.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_Antiquary",
+			"FromFile": "maps/TF_Antequary.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_GageCottage",
+			"FromFile": "maps/TF_GageCottage.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_TTLobby",
+			"FromFile": "maps/TF_TTLobby.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_BiscuitDrum",
+			"FromFile": "maps/TF_BiscuitDrum.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_BuyCo",
+			"FromFile": "maps/TF_BuyCo.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_Cemetary",
+			"FromFile": "maps/TF_Cemetary.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_Clinic",
+			"FromFile": "maps/TF_Clinic.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_ElaraOffice",
+			"FromFile": "maps/TF_ElaraOffice.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_Dumpster",
+			"FromFile": "maps/TF_Dumpster.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_RileyCabin",
+			"FromFile": "maps/TF_RileyCabin.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_DrexelOffice",
+			"FromFile": "maps/TF_DrexelOffice.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_HikingTrail",
+			"FromFile": "maps/TF_HikingTrail.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_MaraCabin",
+			"FromFile": "maps/TF_MaraCabin.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_Munitions",
+			"FromFile": "maps/TF_Munitions.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_PepperPit",
+			"FromFile": "maps/TF_PepperPit.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_BernardShack",
+			"FromFile": "maps/TF_BernardShack.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_SilasCabin",
+			"FromFile": "maps/TF_SilasCabin.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_Salon",
+			"FromFile": "maps/TF_Salon.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_TTB1F1",
+			"FromFile": "maps/TF_TTB1F1.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_TTB1F2",
+			"FromFile": "maps/TF_TTB1F2.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_RemyVan",
+			"FromFile": "maps/TF_RemyVan.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_QuarryCave",
+			"FromFile": "maps/TF_QuarryCave.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/Custom_TimberlineFalls_TacoShack",
+			"FromFile": "maps/TF_TacoShack.tmx"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Audio.json"
+		},
+				{
+			"Action": "Include",
+			"FromFile": "Data/Buffs.json"
+		},
+				{
+			"Action": "Include",
+			"FromFile": "Data/Crops.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/CraftingRecipes.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Fish.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/GarbageCans.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Locations.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Machines.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/MapAnimations.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/MapStrings.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Objects.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Patches.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Quests.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Shops.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/SpecialOrders.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Weddings.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "Data/Mod_Compatibility/TF_CJBCheats.json"
+		},
+		{
+			"Action": "Load",
+			"Target": "Data/Events/Custom_Antiquary,Data/Events/Custom_BiscuitDrum,Data/Events/Custom_Cemetery,Data/Events/Custom_HikingPath,Data/Events/Custom_RileyCabin,Data/Events/Custom_TimberlineFalls,Data/Events/Custom_BiscuitDrum,Data/Events/Custom_BuyCo,Data/Events/Custom_PepperPit,Data/Events/Custom_Salon",
+			"FromFile": "data/blank.json"
+		},
+		{
+			"Action": "Load",
+			"Target":"Characters/Dialogue/{{ModId}}_Arden,Characters/Schedules/{{ModId}}_Arden,Characters/Dialogue/{{ModId}}_Bea,Characters/Schedules/{{ModId}}_Bea,Characters/Dialogue/{{ModId}}_Bernard,Characters/Schedules/{{ModId}}_Bernard,Characters/Dialogue/{{ModId}}_Blaise,Characters/Schedules/{{ModId}}_Blaise,Characters/Dialogue/{{ModId}}_Cassidy,Characters/Schedules/{{ModId}}_Cassidy,Characters/Dialogue/{{ModId}}_Clark,Characters/Schedules/{{ModId}}_Clark,Characters/Dialogue/{{ModId}}_Dion,Characters/Schedules/{{ModId}}_Dion,Characters/Dialogue/{{ModId}}_Drexel,Characters/Schedules/{{ModId}}_Drexel,Characters/Dialogue/{{ModId}}_Elara,Characters/Schedules/{{ModId}}_Elara,Characters/Dialogue/{{ModId}}_Gustavo,Characters/Schedules/{{ModId}}_Gustavo,Characters/Dialogue/{{ModId}}_Hisstopher,Characters/Schedules/{{ModId}}_Hisstopher,Characters/Dialogue/{{ModId}}_Jax,Characters/Schedules/{{ModId}}_Jax,Characters/Dialogue/{{ModId}}_Jett,Characters/Schedules/{{ModId}}_Jett,Characters/Dialogue/{{ModId}}_Julius,Characters/Schedules/{{ModId}}_Julius,Characters/Dialogue/{{ModId}}_Mabel,Characters/Schedules/{{ModId}}_Mabel,Characters/Dialogue/{{ModId}}_Mara,Characters/Schedules/{{ModId}}_Mara,Characters/Dialogue/{{ModId}}_Orson,Characters/Schedules/{{ModId}}_Orson,Characters/Dialogue/{{ModId}}_Remy,Characters/Schedules/{{ModId}}_Remy,Characters/Dialogue/{{ModId}}_Riley,Characters/Schedules/{{ModId}}_Riley,Characters/Dialogue/{{ModId}}_Roxy,Characters/Schedules/{{ModId}}_Roxy,Characters/Dialogue/{{ModId}}_Silas,Characters/Schedules/{{ModId}}_Silas,Characters/Dialogue/{{ModId}}_Vance,Characters/Schedules/{{ModId}}_Vance",
+			"FromFile": "data/blank.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Arden.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Bea.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Bernard.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Blaise.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Cassidy.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Clark.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Dion.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Drexel.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Elara.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Gustavo.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Hisstopher.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Jax.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Jett.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Julius.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Mabel.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Mara.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Orson.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Remy.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Riley.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Roxy.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Silas.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "characters/NPCData/Vance.json"
+		}
+	]
+}

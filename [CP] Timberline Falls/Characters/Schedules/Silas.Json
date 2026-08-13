@@ -1,0 +1,23 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Silas",
+			"Entries":
+{
+  "spring": "GOTO Mon",
+  "summer": "GOTO Mon",
+  "fall": "GOTO Mon",
+  "winter": "GOTO Mon",
+  "GreenRain": "610 Custom_SilasCabin 3 4 0/1300 Custom_SilasCabin 4 5 2 \"Characters\\Dialogue\\{{ModId}}_Silas:GreenRain.Indoor\"/1800 Custom_SilasCabin 3 4 3 Silas_sleep",
+  "rain": "610 Custom_SilasCabin 3 4 0/800 Custom_HikingPath 25 30 2 \"Characters\\Dialogue\\{{ModId}}_Silas:Rain.Walk\"/1400 Custom_HikingPath 40 15 2/1900 Custom_SilasCabin 3 4 0/2300 Custom_SilasCabin 3 4 3 Silas_sleep",
+  "Mon": "610 Custom_SilasCabin 3 4 0/730 Custom_HikingPath 14 19 2 \"Characters\\Dialogue\\{{ModId}}_Silas:Schedule.NatureWatch\"/1300 Custom_HikingPath 45 10 1/1700 Custom_SilasCabin 1 5 0/2100 Custom_SilasCabin 3 4 3 Silas_sleep",
+  "Tue": "610 Custom_SilasCabin 3 4 0/800 Custom_TimberlineFalls 20 65 2 \"Characters\\Dialogue\\{{ModId}}_Silas:Schedule.Solitude\"/1200 Custom_TimberlineFalls 12 11 2/1600 Custom_HikingPath 9 9 2/2000 Custom_SilasCabin 3 4 3 Silas_sleep",
+  "Wed": "610 Custom_SilasCabin 3 4 0/830 Custom_HikingPath 27 32 2/1200 Custom_HikingPath 27 32 2 \"Characters\\Dialogue\\{{ModId}}_Silas:Schedule.Foraging\"/1500 Custom_TimberlineFalls 31 14 2/1900 Custom_SilasCabin 3 4 3 Silas_sleep",
+  "Thu": "610 Custom_SilasCabin 3 4 0/900 Custom_JettGarage 12 8 1 \"Characters\\Dialogue\\{{ModId}}_Silas:Schedule.JettGarage\"/1400 Custom_TimberlineFalls 44 38 2/1800 Custom_SilasCabin 3 4 0/2200 Custom_SilasCabin 3 4 3 Silas_sleep",
+  "Fri": "610 Custom_SilasCabin 3 4 0/900 Custom_Cemetery 10 10 2 \"Characters\\Dialogue\\{{ModId}}_Silas:Schedule.QuietReflection\"/1300 Custom_Cemetery 15 12 0/1700 Custom_HikingPath 5 5 2/2100 Custom_SilasCabin 3 4 3 Silas_sleep",
+  "Sat": "610 Custom_SilasCabin 3 4 0/800 Custom_TimberlineFalls 5 10 2/1200 Town 10 15 2 \"Characters\\Dialogue\\{{ModId}}_Silas:Schedule.TownObservation\"/1600 Custom_HikingPath 19 19 2/2200 Custom_SilasCabin 3 4 3 Silas_sleep",
+  "Sun": "610 Custom_SilasCabin 3 4 0/900 Custom_HikingPath 29 41 2 \"Characters\\Dialogue\\{{ModId}}_Silas:Schedule.DeepWoods\"/1500 Custom_HikingPath 12 11 1/2000 Custom_SilasCabin 3 4 3 Silas_sleep",
+  "marriage_Mon": "800 Custom_HikingPath 14 19 2 \"Characters\\Dialogue\\{{ModId}}_Silas:Marriage.Wander\"/1600 Custom_TimberlineFalls 20 65 0/1800 bed",
+  "marriage_Fri": "830 Custom_Cemetery 10 10 2/1400 Custom_TimberlineFalls 20 65 2/1900 bed"
+}}]}

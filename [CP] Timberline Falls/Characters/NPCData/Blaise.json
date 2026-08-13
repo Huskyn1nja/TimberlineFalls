@@ -1,0 +1,120 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Blaise",
+      "FromFile": "characters/Sprites/Blaise.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Blaise",
+      "FromFile": "characters/Portraits/Blaise.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Blaise.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Blaise.json"
+    },
+    {
+      "LogName": "Blaise Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Blaise": {
+          "DisplayName": "{{i18n:Blaise.Name}}",
+          "TextureName": "{{ModId}}_Blaise",
+          "BirthSeason": "Summer",
+          "BirthDay": 15,
+          "HomeRegion": "Town",
+          "Gender": "Undefined",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": true,
+          "CanReceiveGifts": true,
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "PerfectionScore": true,
+          "EngagementItem": "{{ModId}}_AmberClasp",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_PepperPit",
+              "Tile": { "X": 24, "Y": 6 },
+              "Direction": "down"
+            }
+          ],
+          "WinterStarGifts": [
+            { "Id": "MagmaSauce", "ItemId": "{{ModId}}_MagmaSauce", "MinStack": 1, "MaxStack": 3 },
+            { "Id": "Spicy Eel", "ItemId": "(O)227", "MinStack": 1, "MaxStack": 1 }
+          ],
+          "SpouseRoom": {
+            "MapAsset": "Maps/{{ModId}}_SpouseRooms",
+            "MapSourceRect": { "X": 18, "Y": 0, "Width": 6, "Height": 9 }
+          },
+          "SpousePatio": {
+            "MapAsset": "Maps/{{ModId}}_SpousePatios",
+            "MapSourceRect": { "X": 12, "Y": 0, "Width": 4, "Height": 4 }
+          }
+        }
+      }
+    },
+{
+  "LogName": "Blaise Gift Tastes",
+  "Action": "EditData",
+  "Target": "Data/NPCGiftTastes",
+  "Entries": {
+    "{{ModId}}_Blaise": "{{i18n:Blaise.Gift.Love}}/(O)227 (O)423 (O)400 (O)207/{{i18n:Blaise.Gift.Like}}/(O)274 (O)24 (O)395 (O)247 (O)419/{{i18n:Blaise.Gift.Dislike}}/(O)330 (O)196 (O)167/{{i18n:Blaise.Gift.Hate}}/(O)168 (O)169 (O)170 (O)171 (O)172/{{i18n:Blaise.Gift.Neutral}}/(O)388"
+  }
+},
+    {
+      "LogName": "Blaise Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "Blaise_sleep": "20/20/20",
+        "Blaise_cooking": "17/17 17 17 17 18 18 18 18 19 19 19 19 19 19 19 18/17",
+		"Blaise_drinking": "30/30 30 30 30 30 30 30 31 31 31 31 31 32 32 32 32 32 33 33 33 33 33 34 34 34 34 34 35 35 35 35 34 34 34 34 34 33 33 33 33 33 32 32 32 32 32 31 31 31 31 31/30"
+      }
+    },
+
+    {
+      "LogName": "Blaise Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Blaise": {
+          "Name": "{{ModId}}_Blaise",
+          "LovedTags": [ "Spicy", "Salty" ],
+          "LikedTags": [ "Healthy" ],
+          "DislikedTags": [ "Sweet", "Candy" ],
+          "HatedTags": [ "Jojacorn", "Bland" ]
+        }
+      }
+    },
+    {
+      "LogName": "Blaise Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Blaise": {
+          "NPCName": "{{ModId}}_Blaise",
+          "Reactions": [
+            {
+              "Tag": "summer_movie_1",
+              "Response": "love"
+            },
+            {
+              "Tag": "fall_movie_0",
+              "Response": "dislike"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

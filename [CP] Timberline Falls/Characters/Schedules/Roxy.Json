@@ -1,0 +1,24 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Roxy",
+			"Entries":
+{
+  "rain": "800 Custom_BuyCo 34 17 2 roxy_cashier/1300 Custom_BuyCo 5 2 0 \"Characters\\Dialogue\\{{ModId}}_Roxy:Schedule.SmokeBreak\"/1500 Custom_BuyCo 12 10 1 square_3_3/2000 Custom_BuyCo 5 5 0/2300 bed",
+  "Mon": "800 Custom_BuyCo 34 17 2 roxy_cashier/1300 Custom_BuyCo 5 2 0 \"Characters\\Dialogue\\{{ModId}}_Roxy:Schedule.SmokeBreak\"/1500 Custom_BuyCo 20 5 1 square_3_3/1800 Custom_BuyCo 34 17 2 roxy_cashier/2200 bed",
+  "Tue": "800 Custom_BuyCo 34 17 2 roxy_cashier/1300 Custom_BuyCo 5 2 0/1500 Custom_BuyCo 8 15 1/1800 Custom_BuyCo 34 17 2 roxy_cashier/2200 bed",
+  "Thu": "800 Custom_BuyCo 34 17 2/1600 Custom_JettGarage 13 7 1 \"Characters\\Dialogue\\{{ModId}}_Roxy:Schedule.Jett\"/2000 Custom_BuyCo 5 5 0/2300 bed",
+  "Fri": "800 Custom_BuyCo 34 17 2 roxy_cashier/1200 Custom_BuyCo 34 17 2/1700 Custom_BuyCo 20 5 1/2300 bed",
+  "Sat": "800 Custom_BuyCo 34 17 2/1200 Custom_BuyCo 34 17 2 \"Characters\\Dialogue\\{{ModId}}_Roxy:Schedule.BusySaturday\"/1800 Custom_JettGarage 4 5 0 \"Characters\\Dialogue\\{{ModId}}_Roxy:Schedule.Crash\"/2300 Custom_JettGarage 1 4 3 roxy_sleep",
+  "Sun": "GOTO Sat",
+  "spring": "GOTO Mon",
+  "summer": "GOTO Mon",
+  "fall": "GOTO Mon",
+  "winter": "GOTO Mon",
+  "GigNight": "800 Custom_BuyCo 34 17 2/1500 Custom_BuyCo 5 2 0/1700 Custom_BiscuitDrum 7 9 2 roxy_play_bass \"Characters\\Dialogue\\{{ModId}}_Roxy:Schedule.Gig\"/2300 bed",
+  "Busking": "1000 Town 45 75 2 roxy_play_bass \"Characters\\Dialogue\\{{ModId}}_Roxy:Schedule.Busking\"/1600 Custom_PepperPit 5 5 1/2200 bed",
+  "marriage_Mon": "800 Custom_BuyCo 34 17 2/1000 Custom_JettGarage 12 8 1/1500 Town 45 75 2/1800 BusStop 12 10 3/2100 bed",
+  "marriage_Fri": "800 Custom_PepperPit 8 8 2/1200 Town 40 50 2/1600 Custom_PepperPit 8 8 2/2200 bed",
+  "marriage_default": "900 Farm_SpousePatio 2 1 0/1100 roxy_play_bass/1500 Farm_House 5 5 0/1800 roxy_play_bass/2100 bed"
+}}]}

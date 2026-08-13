@@ -1,0 +1,17 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Orson",
+			"Entries":
+{
+  "spring": "900 Custom_GageCottage 4 4 3 orson_reading/1300 Custom_Buyco 15 15 2 \"Strings\\schedules\\{{ModId}}_Orson:Schedule.BuyCo\"/1700 Custom_GageCottage 3 8 1 orson_whittling/2100 Custom_GageCottage 8 8 0",
+  "summer": "GOTO spring",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring",
+  "Wed": "1000 Custom_TimberlineFalls 60 55 2 \"Strings\\schedules\\{{ModId}}_Orson:Schedule.Falls\"/1500 Custom_GageCottage 3 8 1 orson_whittling/2100 Custom_GageCottage 8 8 0",
+  "Fri": "900 Custom_GageCottage 4 4 3 orson_reading/1400 Custom_GageCottage 3 8 1 orson_whittling/1700 Custom_BiscuitDrum 8 9 2 \"Strings\\schedules\\{{ModId}}_Orson:Schedule.DateNight\"/2100 Custom_GageCottage 8 8 0",
+  "rain": "900 Custom_GageCottage 4 4 3 orson_reading/1400 Custom_GageCottage 3 8 1 orson_whittling \"Strings\\schedules\\{{ModId}}_Orson:Schedule.Rain\"/2100 Custom_GageCottage 8 8 0",
+  "8Heart_Tue": "900 Custom_GageCottage 4 4 3 orson_reading/1200 Custom_JettGarage 8 8 1 \"Strings\\schedules\\{{ModId}}_Orson:Schedule.Garage\"/1700 Custom_GageCottage 3 8 1/2100 Custom_GageCottage 8 8 0",
+  "8Heart_Thu": "GOTO 8Heart_Tue"
+}}]}

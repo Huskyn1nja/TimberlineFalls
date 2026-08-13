@@ -1,0 +1,31 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Remy",
+			"Entries":
+{
+  "Mon": "610 Custom_RemyVan 6 8 2 Remy_Headphones/800 Custom_TimberlineFalls 31 36 2 Remy_Busking/1300 Custom_TimberlineFalls 48 40 2 Remy_Busking \"Strings\\schedules\\{{ModId}}_Remy:Busking.Park\"/1800 Custom_RemyVan 14 9 3 Remy_sleep",
+  "Tue": "610 Custom_RemyVan 6 8 2 Remy_Headphones/900 Custom_HikingPath 15 25 2 Remy_Busking \"Strings\\schedules\\{{ModId}}_Remy:Busking.Nature\"/1600 Custom_Antiquary 4 5 0/2100 Custom_RemyVan 14 9 3 Remy_sleep",
+  "Wed": "610 Custom_RemyVan 6 8 2 Remy_Headphones/900 Custom_BuyCo 20 22 0 \"Strings\\schedules\\{{ModId}}_Remy:Busking.BuyCo\"/1100 Custom_TimberlineFalls 56 32 2 Remy_Busking \"Strings\\schedules\\{{ModId}}_Remy:Busking.Train\"/1700 Custom_Antiquary 10 19 2/2200 Custom_RemyVan 14 9 3 Remy_sleep",
+  "Thu": "GOTO Mon",
+  "Fri": "610 Custom_RemyVan 6 8 2 Remy_Headphones/1000 Custom_TimberlineFalls 48 40 2 Remy_Busking \"Strings\\schedules\\{{ModId}}_Remy:Busking.Park\"/1600 Custom_TimberlineFalls 55 7 2 Remy_Busking \"Strings\\schedules\\{{ModId}}_Remy:Busking.Saloon\"/2300 Custom_RemyVan 14 9 3 Remy_sleep",
+  "Sat": "610 Custom_RemyVan 6 8 2 Remy_Headphones/1000 Custom_TimberlineFalls 39 52 2/1400 Custom_Antiquary 10 9 2/2000 Custom_RemyVan 14 9 3 Remy_sleep",
+  "Sun": "610 Custom_RemyVan 6 8 2 Remy_Headphones/1100 Custom_TimberlineFalls 48 40 2 Remy_Busking \"Strings\\schedules\\{{ModId}}_Remy:Busking.Park\"/1800 Custom_RemyVan 14 9 3 Remy_sleep",
+  "spring_4": "610 Custom_RemyVan 6 8 2 Remy_Headphones/1000 Town 65 34 2 Remy_Busking \"Strings\\schedules\\{{ModId}}_Remy:Busking.PelicanTown\"/1800 Custom_RemyVan 14 9 3 Remy_sleep",
+  "spring_18": "GOTO spring_4",
+  "summer_7": "GOTO spring_4",
+  "summer_21": "GOTO spring_4",
+  "fall_10": "GOTO spring_4",
+  "fall_22": "GOTO spring_4",
+  "winter_8": "GOTO spring_4",
+  "winter_19": "GOTO spring_4",
+  "spring": "GOTO Mon",
+  "summer": "GOTO Mon",
+  "fall": "GOTO Mon",
+  "winter": "GOTO Mon",
+  "rain": "610 Custom_RemyVan 6 8 2 Remy_Headphones/900 Custom_Antiquary 8 19 2/1800 Custom_RemyVan 14 9 3 Remy_sleep",
+  "storm": "GOTO rain",
+  "marriage_Mon": "800 Custom_TimberlineFalls 31 36 2 Remy_Busking/1700 bed",
+  "marriage_Fri": "1200 Custom_TimberlineFalls 55 7 2 Remy_Busking/2100 bed"
+}}]}

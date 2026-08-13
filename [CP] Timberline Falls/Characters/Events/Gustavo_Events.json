@@ -1,0 +1,20 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_TacoShack",
+      "Entries": {
+        "9999901/f {{ModId}}_Gustavo 500/t 600 2600": "none/-1000 -1000/farmer 5 5 0 {{ModId}}_Gustavo 6 6 3/skippable/pause 500/emote {{ModId}}_Gustavo 12/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.2Heart.1}}\"/pause 500/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.2Heart.2}}\"/faceDirection {{ModId}}_Gustavo 0/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.2Heart.3}}\"/quickQuestion \"{{i18n:Gustavo.Event.2Heart.Q}}#{{i18n:Gustavo.Event.2Heart.A1}}#{{i18n:Gustavo.Event.2Heart.A2}}\"(break)speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.2Heart.R1}}\"(break)speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.2Heart.R2}}\"/end",
+        "9999903/f {{ModId}}_Gustavo 1500/t 1800 2200": "none/-1000 -1000/farmer 5 5 0 {{ModId}}_Gustavo 6 6 1/skippable/pause 1000/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.6Heart.1}}\"/move {{ModId}}_Gustavo 0 1 2/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.6Heart.2}}\"/pause 500/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.6Heart.3}}\"/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.6Heart.4}}\"/end",
+        "9999905/f {{ModId}}_Gustavo 2500/t 1800 2200": "none/-1000 -1000/farmer 5 5 0 {{ModId}}_Gustavo 6 6 2/skippable/pause 500/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.10Heart.1}}\"/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.10Heart.2}}\"/pause 800/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.10Heart.3}}\"/faceDirection {{ModId}}_Gustavo 1/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.10Heart.4}}\"/end"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_BiscuitDrum",
+      "Entries": {
+        "9999902/f {{ModId}}_Gustavo 1000/t 900 1700": "none/-1000 -1000/farmer 5 5 0 {{ModId}}_Gustavo 6 6 1 Bea 7 6 3/skippable/pause 500/shake {{ModId}}_Gustavo 500/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.4Heart.1}}\"/speak Bea \"{{i18n:Gustavo.Event.4Heart.2}}\"/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.4Heart.3}}\"/emote Bea 12/speak Bea \"{{i18n:Gustavo.Event.4Heart.4}}\"/move farmer 0 1 0/speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.4Heart.5}}\"/quickQuestion \"{{i18n:Gustavo.Event.4Heart.Q}}#{{i18n:Gustavo.Event.4Heart.A1}}#{{i18n:Gustavo.Event.4Heart.A2}}\"(break)speak {{ModId}}_Gustavo \"{{i18n:Gustavo.Event.4Heart.R1}}\"\\friendship {{ModId}}_Gustavo 20\\friendship Bea -10(break)speak Bea \"{{i18n:Gustavo.Event.4Heart.R2}}\"\\friendship Bea 20\\friendship {{ModId}}_Gustavo -10/end"
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Vance",
+      "FromFile": "characters/Sprites/Vance.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Vance",
+      "FromFile": "characters/Portraits/Vance.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Vance.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Vance.json"
+    },
+    {
+      "LogName": "NPC Add - Vance",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Vance": {
+          "DisplayName": "{{i18n:Vance.Name}}",
+          "TextureName": "{{ModId}}_Vance",
+          "BirthSeason": "Winter",
+          "BirthDay": 23,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Negative",
+          "CanBeRomanced": false,
+          "IsDarkSkinned": false,
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "PerfectionScore": true,
+          "WinterStarGifts": [
+            { "Id": "Bomb", "ItemId": "(O)287", "MinStack": 3, "MaxStack": 5 },
+            { "Id": "Life Elixir", "ItemId": "(O)773", "MinStack": 1, "MaxStack": 1 }
+          ],
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_Munitions",
+              "Tile": { "X": 18, "Y": 4 },
+              "Direction": "Left"
+            }
+          ],
+          "FriendsAndFamily": {
+            "{{ModId}}_Jett": "acquaintance",
+            "Marlon": "mentor"
+          }
+        }
+      }
+    },
+    {
+      "LogName": "VanceGift Tastes ",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Vance": "{{i18n:Vance.Gift.Love}}/769 768 286 287 288/{{i18n:Vance.Gift.Like}}/395 303/{{i18n:Vance.Gift.Dislike}}/72/{{i18n:Vance.Gift.Hate}}/167 168 169 170 171 172/{{i18n:Vance.Gift.Neutral}}/388 390/"
+      }
+    },
+    
+    // --- ANIMATIONS ---
+    {
+      "LogName": "Vance Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "Vance_sleep": "12/12/12/Strings\\animationDescriptions:Vance.Sleep"
+      }
+    },
+    {
+      "LogName": "Vance Animation Strings",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "Vance.Sleep": "{{i18n:Vance.Animation.Sleep}}"
+      }
+    },
+
+    // --- MOVIE THEATER DATA ---
+    {
+      "LogName": "Vance Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Vance": {
+          "Name": "{{ModId}}_Vance",
+          "LovedTags": ["Salty", "Greasy", "Meat", "Nachos"],
+          "LikedTags": ["Sour", "Coffee"],
+          "DislikedTags": ["Sweet", "Candy", "Sugar"],
+          "HatedTags": ["Marshmallow", "Chocolate"]
+        }
+      }
+    },
+    {
+      "LogName": "Vance Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Vance": {
+          "NPCName": "{{ModId}}_Vance",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0", 
+              "Response": "dislike"
+            },
+            {
+              "Tag": "summer_movie_1", 
+              "Response": "love"
+            },
+            {
+              "Tag": "fall_movie_0", 
+              "Response": "like"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

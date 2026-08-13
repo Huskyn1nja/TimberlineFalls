@@ -1,0 +1,104 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Riley",
+      "FromFile": "characters/Sprites/Riley.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Riley",
+      "FromFile": "characters/Portraits/Riley.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Riley.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Riley.json"
+    },
+    {
+      "LogName": "Riley Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Riley": {
+          "DisplayName": "{{i18n:Riley.Name}}",
+          "TextureName": "{{ModId}}_Riley",
+          "BirthSeason": "Summer",
+          "BirthDay": 22,
+          "HomeRegion": "Other",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Negative",
+          "CanBeRomanced": true,
+          "CanReceiveGifts": true,
+          "IntroductionsQuest": false,
+          "PerfectionScore": true,
+          "EngagementItem": "(O)458",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_RileyCabin",
+              "Tile": { "X": 4, "Y": 4 },
+              "Direction": "down"
+            }
+          ],
+          "SpouseRoom": {
+            "MapAsset": "Maps/{{ModId}}_SpouseRooms",
+            "MapSourceRect": { "X": 32, "Y": 0, "Width": 6, "Height": 9 }
+          },
+          "SpousePatio": {
+            "MapAsset": "Maps/{{ModId}}_SpousePatios",
+            "MapSourceRect": { "X": 20, "Y": 0, "Width": 4, "Height": 4 }
+          },
+          "Size": { "X": 16, "Y": 32 }
+        }
+      }
+    },
+    {
+      "LogName": "Riley Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Riley": "{{i18n:Riley.Gift.Love}}/348 395 605/{{i18n:Riley.Gift.Like}}/category_artisan_goods 388/{{i18n:Riley.Gift.Dislike}}/category_junk/{{i18n:Riley.Gift.Hate}}/167 168 169 771/{{i18n:Riley.Gift.Neutral}}/category_forage"
+      }
+    },
+    {
+      "LogName": "Riley Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "riley_writing": "16/16 16 17 17 18 18 19 19/16/Strings\\animationDescriptions:Riley.Writing",
+        "riley_pondering": "20/20 20 21 21 22 22/20/Strings\\animationDescriptions:Riley.Pondering"
+      }
+    },
+    {
+      "LogName": "Riley Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Riley": {
+          "Name": "{{ModId}}_Riley",
+          "LovedTags": [ "Wine", "Tea", "Healthy" ],
+          "LikedTags": [ "Salty" ],
+          "DislikedTags": [ "Sweet", "Jojacorn" ],
+          "HatedTags": [ "Candy" ]
+        }
+      }
+    },
+    {
+      "LogName": "Riley Schedule - 8 Heart Shift",
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Riley",
+      "Entries": {
+        "Mon": "GOTO 8Heart_Mon",
+        "Fri": "GOTO 8Heart_Fri"
+      },
+      "When": { "Hearts:{{ModId}}_Riley": "8, 9, 10, 11, 12, 13, 14" }
+    }
+  ]
+}

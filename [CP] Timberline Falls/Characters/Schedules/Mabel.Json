@@ -1,0 +1,16 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Mabel",
+			"Entries":
+{
+  "spring": "900 Custom_GageCottage 3 4 2 mabel_baking \"Strings\\schedules\\{{ModId}}_Mabel:Schedule.Baking\"/1300 Custom_GageCottage 6 5 2 mabel_knitting/1800 Custom_GageCottage 3 4 3/2200 Custom_GageCottage 8 8 0",
+  "summer": "GOTO spring",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring",
+  "Fri": "900 Custom_GageCottage 3 4 2 mabel_baking/1400 Custom_GageCottage 6 5 2 mabel_knitting/1700 Custom_BiscuitDrum 8 10 2 \"Strings\\schedules\\{{ModId}}_Mabel:Schedule.DateNight\"/2100 Custom_GageCottage 8 8 0",
+  "Sun": "1000 Custom_TimberlineFalls 60 50 2 \"Strings\\schedules\\{{ModId}}_Mabel:Schedule.Walk\"/1500 Custom_GageCottage 6 5 2 mabel_knitting/2000 Custom_GageCottage 8 8 0",
+  "rain": "900 Custom_GageCottage 3 4 2 mabel_baking/1400 Custom_GageCottage 6 5 2 mabel_knitting \"Strings\\schedules\\{{ModId}}_Mabel:Schedule.Rain\"/2100 Custom_GageCottage 8 8 0",
+  "8Heart_Wed": "900 Custom_GageCottage 3 4 2 mabel_baking/1200 Custom_BiscuitDrum 10 12 2 \"Strings\\schedules\\{{ModId}}_Mabel:Schedule.Delivery\"/1600 Custom_GageCottage 6 5 2 mabel_knitting/2100 Custom_GageCottage 8 8 0"
+}}]}

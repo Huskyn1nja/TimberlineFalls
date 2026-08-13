@@ -1,0 +1,137 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Silas",
+      "FromFile": "characters/Sprites/Silas.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Silas",
+      "FromFile": "characters/Portraits/Silas.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Silas.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Silas.json"
+    },
+	
+    {
+      "LogName": "NPC Add - Silas",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Silas": {
+          "DisplayName": "{{i18n:Silas.Name}}",
+          "TextureName": "{{ModId}}_Silas",
+          "BirthSeason": "Winter",
+          "BirthDay": 23,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Negative",
+          "CanBeRomanced": false,
+          "IsDarkSkinned": false,
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "PerfectionScore": true,
+          "WinterStarGifts": [
+            { "Id": "Bomb", "ItemId": "(O)287", "MinStack": 3, "MaxStack": 5 },
+            { "Id": "Life Elixir", "ItemId": "(O)773", "MinStack": 1, "MaxStack": 1 }
+          ],
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SilasCabin",
+              "Tile": { "X": 2, "Y": 4 },
+              "Direction": "Left"
+            }
+          ],
+          "FriendsAndFamily": {
+            "{{ModId}}_Jett": "acquaintance"
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Silas - Unlock Romance ",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Silas": {
+          "CanBeRomanced": true
+        }
+      },
+      "When": {
+        "HasFlag": "Silas_Walls_Down"
+      }
+    },
+    {
+      "LogName": "Silas Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Silas": "{{i18n:Silas.Gift.Love}}/769 768 286 287 288/{{i18n:Silas.Gift.Like}}/395 303/{{i18n:Silas.Gift.Dislike}}/72/{{i18n:Silas.Gift.Hate}}/167 168 169 170 171 172/{{i18n:Silas.Gift.Neutral}}/388 390/"
+      }
+    },
+    {
+      "LogName": "Silas Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "Silas_sleep": "12/12/12/Strings\\animationDescriptions:Silas.Sleep"
+      }
+    },
+    {
+      "LogName": "Silas Animation Strings",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "Silas.Sleep": "{{i18n:Silas.Animation.Sleep}}"
+      }
+    },
+    {
+      "LogName": "Silas Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Silas": {
+          "Name": "{{ModId}}_Silas",
+          "LovedTags": ["Salty", "Greasy", "Meat", "Nachos"],
+          "LikedTags": ["Sour", "Coffee"],
+          "DislikedTags": ["Sweet", "Candy", "Sugar"],
+          "HatedTags": ["Marshmallow", "Chocolate"]
+        }
+      }
+    },
+    {
+      "LogName": "Silas Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Silas": {
+          "NPCName": "{{ModId}}_Silas",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0", 
+              "Response": "dislike"
+            },
+            {
+              "Tag": "summer_movie_1", 
+              "Response": "love"
+            },
+            {
+              "Tag": "fall_movie_0", 
+              "Response": "like"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Item.AmberClasp.Name": "The Amber Clasp",
+  "Item.AmberClasp.Desc": "Fossilized resin encased in iron. A Timberline custom. An emblem of ties that bind the present in place.",
+  "Proposal.RejectVanilla.Generic": "I can't accept this.",
+  "AmberClasp.Reject.Unavailable": "I'm not ready for that kind of commitment right now.",
+  "AmberClasp.Reject.LowHearts": "I don't know you well enough for that yet.",
+  "AmberClasp.Accept.Generic": "Yes! I accept!",
+  "Jett.Proposal.Accept": "Is this... Amber? You want to save this? Us? ...I never thought I could commit to something this complicated. But with you? Yeah, let’s do it. I’m all yours.$h",
+  "Jett.Proposal.RejectVanilla": "A shell? The old sea dog down by the coast sells these. It’s nice, really... but I need something rugged. Something that can take a bit of abuse. Something that won’t break so easily.",
+  "Arden.Proposal.RejectVanilla": "A shell? I believe the coastal settlements use these. It's a charming superstition, but... it's not *us*, is it? It's too... temporary.",
+  "Arden.Proposal.RejectFear": "Amber... preserved forever. It's beautiful. But I... I can't accept it. We agreed to stay safe, remember? If I take this, I risk losing everything. I can't do it.$s",
+  "Arden.Proposal.Accept": "Amber. A moment frozen in time... held by iron. You remembered.$l#$b#Yes. I will take it. Even if it breaks one day... having it now is worth the cost. I'm yours.",
+  "Roxy.Proposal.RejectVanilla": "Whoa! Is that... a Mermaid's Pendant? Ideally, this is where I scream and cry and we plan a wedding. But... no. I can't do the white dress. I can't do the ceremony.$s#$b#But... I hate my apartment. And I... kinda don't hate you. So how about this: I move in. We're partners. Roommates with benefits. We figure it out. Deal?$l",
+  "Roxy.Proposal.Accept": "An Amber Clasp? Seriously? That's so... old school. And permanent. ...Okay. Yeah. Put it on me before I panic.",
+  "Cassidy.Proposal.Accept": "An Amber Clasp?! For me?! Oh my Yoba! Yes! A thousand times yes! Wait, I need to breathe! Yes!",
+  "Cassidy.Proposal.RejectVanilla": "A pendant? It's pretty... but I don't think I can wear jewelry while I work. Sorry!"
+}

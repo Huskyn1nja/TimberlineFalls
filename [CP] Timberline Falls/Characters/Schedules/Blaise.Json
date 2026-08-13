@@ -1,0 +1,24 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Blaise",
+			"Entries":
+{
+  "Mon": "610 Custom_PepperPit 24 6 2/800 Custom_PepperPit 10 12 0 Blaise_cooking/1300 Custom_PepperPit 20 15 2 square_3_3 \"Strings\\schedules\\{{ModId}}_Blaise:Schedule.TastingArea\"/1900 Custom_TimberlineFalls 50 40 2 \"Strings\\schedules\\{{ModId}}_Blaise:Schedule.EveningWalk\"/2200 Custom_PepperPit 24 6 3 Blaise_sleep",
+  "Tue": "610 Custom_PepperPit 24 6 2/900 Custom_HikingPath 20 25 2 square_5_5 \"Strings\\schedules\\{{ModId}}_Blaise:Schedule.Foraging\"/1500 Custom_PepperPit 10 12 0 Blaise_cooking/2100 Custom_PepperPit 24 6 3 Blaise_sleep",
+  "Wed": "GOTO Mon",
+  "Thu": "610 Custom_PepperPit 24 6 2/1000 Custom_Munitions 12 8 0 \"Strings\\schedules\\{{ModId}}_Blaise:Schedule.Munitions\"/1400 Custom_PepperPit 20 15 2 square_3_3/2200 Custom_PepperPit 24 6 3 Blaise_sleep",
+  "Fri": "610 Custom_PepperPit 24 6 2/800 Custom_PepperPit 10 12 0 Blaise_cooking/1400 Custom_PepperPit 20 15 2/2000 Custom_BiscuitDrum 12 14 3/2400 Custom_PepperPit 24 6 3 Blaise_sleep",
+  "Sat": "610 Custom_PepperPit 24 6 2/1000 Custom_TimberlineFalls 80 20 2 \"Strings\\schedules\\{{ModId}}_Blaise:Schedule.CheckingPlants\"/1600 Custom_PepperPit 20 15 2/2300 Custom_PepperPit 24 6 3 Blaise_sleep",
+  "Sun": "610 Custom_PepperPit 24 6 2/900 Custom_HikingPath 40 10 2/1400 Custom_PepperPit 10 12 0 Blaise_cooking/2000 Custom_PepperPit 24 6 3 Blaise_sleep",
+  "spring": "GOTO Mon",
+  "summer": "GOTO Mon",
+  "fall": "GOTO Mon",
+  "winter": "GOTO Mon",
+  "GreenRain": "610 Custom_PepperPit 24 6 2/1000 Custom_PepperPit 10 12 0 Blaise_cooking \"Strings\\schedules\\{{ModId}}_Blaise:Weather.GreenRain\"/2300 Custom_PepperPit 24 6 3 Blaise_sleep",
+  "rain": "610 Custom_PepperPit 24 6 2/800 Custom_PepperPit 10 12 0 Blaise_cooking/1600 Custom_PepperPit 20 15 2/2200 Custom_PepperPit 24 6 3 Blaise_sleep",
+  "marriage_Mon": "800 Custom_PepperPit 10 12 0 Blaise_cooking/1500 Custom_PepperPit 20 15 2/2000 bed",
+  "marriage_Fri": "900 Custom_HikingPath 20 25 2/1400 Custom_PepperPit 10 12 0 Blaise_cooking/2100 bed",
+  "marriage_default": "900 Farm_SpousePatio 2 1 0/1200 Custom_PepperPit 20 15 2/1800 Custom_TimberlineFalls 50 40 2/2200 bed"
+}}]}

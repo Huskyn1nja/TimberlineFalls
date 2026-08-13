@@ -1,0 +1,44 @@
+{
+  "Changes": [
+    {
+      "LogName": "Orson Events - BuyCo",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_Buyco",
+      "Entries": {
+        "{{ModId}}_Orson2Heart/f {{ModId}}_Orson 500": "none/-1000 -1000/farmer 15 20 0 {{ModId}}_Orson 15 15 2/skippable/pause 500/move farmer 0 -3 0/pause 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.2Heart.1}}\"/pause 500/emote {{ModId}}_Orson 12/speak {{ModId}}_Orson \"{{i18n:Orson.Event.2Heart.2}}\"/quickQuestion {{i18n:Orson.Event.2Heart.Q}}#{{i18n:Orson.Event.2Heart.A1}}#{{i18n:Orson.Event.2Heart.A2}}#{{i18n:Orson.Event.2Heart.A3}}(break)speak {{ModId}}_Orson \"{{i18n:Orson.Event.2Heart.R1}}\"\\friendship {{ModId}}_Orson 50(break)speak {{ModId}}_Orson \"{{i18n:Orson.Event.2Heart.R2}}\"\\friendship {{ModId}}_Orson -20(break)speak {{ModId}}_Orson \"{{i18n:Orson.Event.2Heart.R3}}\"\\friendship {{ModId}}_Orson 20/pause 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.2Heart.3}}\"/end"
+      }
+    },
+    {
+      "LogName": "Orson Events - Gage Cottage",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_GageCottage",
+      "Entries": {
+        "{{ModId}}_Orson4Heart/f {{ModId}}_Orson 1000": "none/-1000 -1000/farmer 4 9 0 {{ModId}}_Orson 6 5 2/skippable/pause 1000/move farmer 2 -3 1/pause 500/shake {{ModId}}_Orson 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.4Heart.1}}\"/pause 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.4Heart.2}}\"/pause 500/faceDirection {{ModId}}_Orson 3/speak {{ModId}}_Orson \"{{i18n:Orson.Event.4Heart.3}}\"/pause 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.4Heart.4}}\"/end"
+      }
+    },
+    {
+      "LogName": "Orson Events - Outdoors",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_TimberlineFalls",
+      "Entries": {
+        "{{ModId}}_Orson6Heart/f {{ModId}}_Orson 1500/w sunny": "none/-1000 -1000/farmer 60 55 0 {{ModId}}_Orson 60 50 2/skippable/pause 1000/move farmer 0 -4 0/pause 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.6Heart.1}}\"/pause 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.6Heart.2}}\"/pause 500/faceDirection {{ModId}}_Orson 2/speak {{ModId}}_Orson \"{{i18n:Orson.Event.6Heart.3}}\"/quickQuestion {{i18n:Orson.Event.6Heart.Q}}#{{i18n:Orson.Event.6Heart.A1}}#{{i18n:Orson.Event.6Heart.A2}}(break)speak {{ModId}}_Orson \"{{i18n:Orson.Event.6Heart.R1}}\"\\friendship {{ModId}}_Orson 50(break)speak {{ModId}}_Orson \"{{i18n:Orson.Event.6Heart.R2}}\"\\friendship {{ModId}}_Orson 20/pause 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.6Heart.4}}\"/end"
+      }
+    },
+    {
+      "LogName": "Orson Events - Jett's Garage",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_JettGarage",
+      "Entries": {
+        "{{ModId}}_Orson8Heart/f {{ModId}}_Orson 2000": "none/-1000 -1000/farmer 8 15 0 {{ModId}}_Jett 10 10 2 {{ModId}}_Orson 10 12 0/skippable/pause 500/speak {{ModId}}_Jett \"{{i18n:Orson.Event.8Heart.1}}\"/pause 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.8Heart.2}}\"/pause 500/speak {{ModId}}_Jett \"{{i18n:Orson.Event.8Heart.3}}\"/pause 500/move farmer 2 -3 1/faceDirection {{ModId}}_Orson 3/speak {{ModId}}_Orson \"{{i18n:Orson.Event.8Heart.4}}\"/pause 500/faceDirection {{ModId}}_Orson 0/speak {{ModId}}_Orson \"{{i18n:Orson.Event.8Heart.5}}\"/end"
+      }
+    },
+    {
+      "LogName": "Orson Events - Biscuit Drum",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_BiscuitDrum",
+      "Entries": {
+        "{{ModId}}_Orson10Heart/f {{ModId}}_Orson 2500": "none/-1000 -1000/farmer 8 15 0 {{ModId}}_Orson 8 9 2 {{ModId}}_Mabel 9 9 2/skippable/pause 500/move farmer 0 -4 0/pause 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.10Heart.1}}\"/pause 500/speak {{ModId}}_Mabel \"{{i18n:Orson.Event.10Heart.2}}\"/pause 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.10Heart.3}}\"/pause 500/speak {{ModId}}_Orson \"{{i18n:Orson.Event.10Heart.4}}\"/end"
+      }
+    }
+  ]
+}

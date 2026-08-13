@@ -1,0 +1,86 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Mara",
+      "FromFile": "characters/Sprites/Mara.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Mara",
+      "FromFile": "characters/Portraits/Mara.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Mara.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Mara.json"
+    },
+    {
+      "LogName": "Mara Definition & Rules",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Mara": {
+          "DisplayName": "{{i18n:Mara.Name}}",
+          "BirthSeason": "Summer",
+          "BirthDay": 22,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Positive",
+          "CanBeRomanced": true,
+          "EngagementItem": "{{ModId}}_AmberClasp",
+          "EngagementCondition": "PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_BlushingPuffer, PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_VeridianGlider, PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_BerryFin, PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_ApricotGoby, PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_OpalBubblefish, PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_RoyalGemFin, PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_SkeletonMinnow, PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_CopperFlounder, PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_RiverUnicorn, PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_FrigidGlower, PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_PineconePerch, PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_GlacialRibbon",
+          "EngagementConditionMessage": "{{i18n:Mara.RejectProposal.NotMasterAngler}}",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_MaraCabin",
+              "Tile": { "X": 14, "Y": 11 },
+              "Direction": "Left"
+            }
+          ],
+          "SpouseRoom": {
+            "MapAsset": "Maps/{{ModId}}_MaraSpouseRoom",
+            "MapSourceRect": { "X": 0, "Y": 0, "Width": 6, "Height": 9 }
+          },
+          "SpousePatio": {
+            "MapAsset": "Maps/{{ModId}}_MaraSpousePatio",
+            "MapSourceRect": { "X": 0, "Y": 0, "Width": 4, "Height": 4 }
+          }
+        }
+      }
+    },
+    {
+        "LogName": "Mara Engagement Strings",
+        "Action": "EditData",
+        "Target": "Data/EngagementDialogue",
+        "Entries": {
+            "{{ModId}}_Mara0": "{{i18n:Mara.Engagement.Accept}}",
+            "{{ModId}}_Mara1": "{{i18n:Mara.Engagement.PostProposal}}"
+        }
+    },
+	{
+      "LogName": "Mara Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Mara": "{{i18n:Mara.Gift.Love}}/797 394 614 688 {{ModId}}_MistMaiden {{ModId}}_RiverMint/{{i18n:Mara.Gift.Like}}/62 70 372 392 -4/{{i18n:Mara.Gift.Dislike}}/390 388/{{i18n:Mara.Gift.Hate}}/382 168 167 169 170 171 172 787/{{i18n:Mara.Gift.Neutral}}/296"
+      }
+    },
+	{
+        "LogName": "Mara animationdescriptions",
+        "Action": "EditData",
+        "Target": "Data/animationdescriptions",
+        "Entries": {
+            "mara_sleep": "16/16/16",
+            "mara_fishing": "18/19/20/21"
+        }
+    }
+  ]
+}

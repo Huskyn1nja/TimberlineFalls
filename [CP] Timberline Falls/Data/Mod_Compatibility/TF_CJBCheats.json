@@ -1,0 +1,50 @@
+{
+  "Changes": [
+   {
+			"Action": "EditData",
+			"Target": "Mods/CJBok.CheatsMenu/Warps",
+			"Entries": {
+				"{{ModId}}_Town": {
+					"Id": "{{ModId}}_Town",
+					"SectionId": "Timberline Falls",
+					"DisplayName": "Town Entrance",
+					"Location": "Custom_TimberlineFalls",
+					"Tile": "28, 65",
+					"Order": 1
+				},
+				"{{ModId}}_BiscuitDrum": {
+					"Id": "{{ModId}}_BiscuitDrum",
+					"SectionId": "Timberline Falls",
+					"DisplayName": "Biscuit Drum",
+					"Location": "Custom_TimberlineFalls",
+					"Tile": "55, 6",
+					"Order": 1
+				},
+					"{{ModId}}_Munitions": {
+					"Id": "{{ModId}}_Munitions",
+					"SectionId": "Timberline Falls",
+					"DisplayName": "Munitions",
+					"Location": "Custom_TimberlineFalls",
+					"Tile": "91, 7",
+					"Order": 1
+				},
+				"{{ModId}}_Trail": {
+					"Id": "{{ModId}}_Trail",
+					"SectionId": "Timberline Falls",
+					"DisplayName": "Hiking Path",
+					"Location": "Custom_HikingPath",
+					"Tile": "9, 39",
+					"Order": 2
+				},
+				"{{ModId}}_Cemetery": {
+					"Id": "{{ModId}}_Cemetery",
+					"SectionId": "Timberline Falls",
+					"DisplayName": "Cemetery",
+					"Location": "Custom_Cemetery",
+					"Tile": "12, 18",
+					"Order": 3
+				}
+			}
+		}
+  ]
+}

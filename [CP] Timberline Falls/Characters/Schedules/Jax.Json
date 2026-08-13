@@ -1,0 +1,20 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Jax",
+			"Entries":
+{
+  "spring": "900 Custom_Salon 16 5 1/1200 Custom_Salon 10 8 2 Jax_gossip \"Strings\\schedules\\{{ModId}}_Jax:Schedule.GossipBreak\"/1600 Custom_Salon 16 5 1/2000 Custom_Salon 5 4 0",
+  "summer": "GOTO spring",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring",
+  "Mon": "GOTO spring",
+  "Tue": "900 Custom_Salon 16 5 1/1300 Custom_BiscuitDrum 10 10 2 \"Strings\\schedules\\{{ModId}}_Jax:Schedule.Placeholder_Coffee\"/1600 Custom_Salon 16 5 1/2000 Custom_Salon 5 4 0",
+  "Wed": "GOTO spring",
+  "Thu": "900 Custom_Salon 16 5 1/1400 Custom_Buyco 10 10 2 \"Strings\\schedules\\{{ModId}}_Jax:Schedule.Placeholder_Shopping\"/1800 Custom_Salon 16 5 1/2000 Custom_Salon 5 4 0",
+  "Fri": "GOTO spring",
+  "Sat": "900 Custom_Salon 16 5 1/1700 Town 20 20 2 \"Strings\\schedules\\{{ModId}}_Jax:Schedule.Placeholder_Social\"/2200 Custom_Salon 5 4 0",
+  "Sun": "1000 Custom_TimberlineFalls 50 50 2 \"Strings\\schedules\\{{ModId}}_Jax:Schedule.Placeholder_DayOff\"/1600 Custom_Salon 16 5 1/2000 Custom_Salon 5 4 0",
+  "rain": "900 Custom_Salon 16 5 1/1200 Custom_Salon 10 8 2 Jax_gossip/2000 Custom_Salon 5 4 0"
+}}]}

@@ -1,0 +1,32 @@
+{
+  "Changes": [
+    {
+      "LogName": "Drexel Events - Office",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_DrexelOffice",
+      "Entries": {
+        "{{ModId}}_Drexel2Heart/f {{ModId}}_Drexel 500": "none/-1000 -1000/farmer 10 12 0 {{ModId}}_Drexel 10 6 2/skippable/pause 500/move farmer 0 -4 0/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.2Heart.1}}\"/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.2Heart.2}}\"/quickQuestion {{i18n:Drexel.Event.2Heart.Q}}#{{i18n:Drexel.Event.2Heart.A1}}#{{i18n:Drexel.Event.2Heart.A2}}#{{i18n:Drexel.Event.2Heart.A3}}(break)speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.2Heart.R1}}\"\\friendship {{ModId}}_Drexel 20(break)speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.2Heart.R2}}\"\\friendship {{ModId}}_Drexel -20(break)speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.2Heart.R3}}\"\\emote {{ModId}}_Drexel 12\\friendship {{ModId}}_Drexel 50/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.2Heart.3}}\"/end",
+        
+        "{{ModId}}_Drexel6Heart/f {{ModId}}_Drexel 1500": "none/-1000 -1000/farmer 10 12 0 {{ModId}}_Drexel 5 8 1/skippable/pause 1000/move farmer 0 -4 0/move farmer -3 0 3/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.6Heart.1}}\"/pause 500/faceDirection {{ModId}}_Drexel 2/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.6Heart.2}}\"/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.6Heart.3}}\"/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.6Heart.4}}\"/end",
+
+        "{{ModId}}_Drexel8Heart/f {{ModId}}_Drexel 2000": "none/-1000 -1000/farmer 10 12 0 {{ModId}}_Drexel 10 6 2/skippable/pause 500/move farmer 0 -4 0/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.8Heart.1}}\"/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.8Heart.2}}\"/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.8Heart.3}}\"/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.8Heart.4}}\"/pause 500/action AddMail {{ModId}}_Drexel_CanRent/message \"{{i18n:Drexel.Event.8Heart.Reward}}\"/end"
+      }
+    },
+    {
+      "LogName": "Drexel Events - Terraces",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_TimberlineTerraces",
+      "Entries": {
+        "{{ModId}}_Drexel4Heart/f {{ModId}}_Drexel 1000": "none/-1000 -1000/farmer 12 15 0 {{ModId}}_Drexel 12 10 2/skippable/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.4Heart.1}}\"/pause 500/shake {{ModId}}_Drexel 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.4Heart.2}}\"/pause 500/move farmer 0 -4 0/emote farmer 16/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.4Heart.3}}\"/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.4Heart.4}}\"/end"
+      }
+    },
+    {
+      "LogName": "Drexel Events - Biscuit Drum",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_BiscuitDrum",
+      "Entries": {
+        "{{ModId}}_Drexel10Heart/f {{ModId}}_Drexel 2500": "none/-1000 -1000/farmer 15 18 0 {{ModId}}_Drexel 15 15 2/skippable/pause 500/move farmer 0 -2 0/emote {{ModId}}_Drexel 16/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.10Heart.1}}\"/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.10Heart.2}}\"/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.10Heart.3}}\"/pause 500/speak {{ModId}}_Drexel \"{{i18n:Drexel.Event.10Heart.4}}\"/end"
+      }
+    }
+  ]
+}

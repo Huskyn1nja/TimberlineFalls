@@ -1,0 +1,133 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Bea",
+      "FromFile": "characters/Sprites/Bea.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Bea",
+      "FromFile": "characters/Portraits/Bea.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Bea.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Bea.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Bea": {
+          "DisplayName": "{{i18n:Bea.Name}}",
+          "BirthSeason": "Fall",
+          "BirthDay": 14,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_BiscuitDrum",
+              "Tile": { "X": 5, "Y": 4 },
+              "Direction": "Down"
+            }
+          ],
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "FriendsAndFamily": {
+            "Cassidy": "daughter"
+          },
+          "WinterStarParticipant": "true",
+          "WinterStarGifts": [
+            { "ItemId": "(O){{ModId}}_BiscuitPlatter", "MinStack": 1 }
+          ],
+          "ItemDeliveryQuests": true,
+          "PerfectionScore": true,
+          "CanVisitIsland": "true",
+          "HiddenProfileEmoteSound": null,
+          "HiddenProfileEmoteDuration": -1,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 4,
+          "HiddenProfileEmoteFrameDuration": 200.0
+        }
+      }
+    },
+{
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Bea": "{{i18n:Bea.Gift.Love}}/(O)206 (O)221 (O)731 (O){{ModId}}_EmberBerry (O)Catfish (O)Yam (O)611 (O)207 (O)732/{{i18n:Bea.Gift.Like}}/(O)432 (O)Milk_Category (O)Egg_Category (O)Cheese_Category (O)Vegetable_Category (O)Cooking_Category/{{i18n:Bea.Gift.Dislike}}/(O)303 (O)Daffodil (O)JojaCola (O)152 (O)153/{{i18n:Bea.Gift.Hate}}/(O)168 (O)167 (O)68 (O)766/{{i18n:Bea.Gift.Neutral}}/(O)395/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "Bea_Taste": "250/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 18 18 18 18 18 18 18 18 18 18 18 18 18 18/21",
+        "Bea_Stir": "150/19 20 21/0 24",
+        "Bea_Chop": "200/22 23/0 -48",
+        "Bea_Sleep": "1000/24/0"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Bea": {
+          "Name": "Bea",
+          "LovedTags": [ "Salty", "Hot", "Gourmet" ],
+          "LikedTags": [ "Sweet", "Fatty" ],
+          "DislikedTags": [ "Joja", "Sour", "Cold" ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Bea": {
+          "NPCName": "Bea",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "like",
+              "SpecialResponses": {
+                "BeforeMovie": { "Text": "{{i18n:Bea.Movie.Spring0.Before}}" },
+                "DuringMovie": { "Text": "{{i18n:Bea.Movie.Spring0.During}}" },
+                "AfterMovie": { "Text": "{{i18n:Bea.Movie.Spring0.After}}" }
+              }
+            },
+            {
+              "Tag": "summer_movie_1",
+              "Response": "dislike",
+              "SpecialResponses": {
+                "BeforeMovie": { "Text": "{{i18n:Bea.Movie.Summer1.Before}}" },
+                "DuringMovie": { "Text": "{{i18n:Bea.Movie.Summer1.During}}" },
+                "AfterMovie": { "Text": "{{i18n:Bea.Movie.Summer1.After}}" }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "BeaWelcomeLetter": "{{i18n:Bea.Mail.WelcomeLetter}}",
+        "BeaRecipeMail": "{{i18n:Bea.Mail.RecipeMail}} %item object 200 1 %%"
+      }
+    }
+  ]
+}

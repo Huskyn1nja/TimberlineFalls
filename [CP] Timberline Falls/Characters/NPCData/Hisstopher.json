@@ -1,0 +1,135 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Hisstopher",
+      "FromFile": "characters/Sprites/Hisstopher.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Hisstopher",
+      "FromFile": "characters/Portraits/Hisstopher.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Hisstopher.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Hisstopher.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Hisstopher": {
+          "DisplayName": "{{i18n:Hisstopher.Name}}",
+          "BirthSeason": "Spring",
+          "BirthDay": 12,
+          "HomeRegion": "Other",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Negative",
+          "CanBeRomanced": false,
+          "CanBeRoommate": true,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_Dumpster",
+              "Tile": { "X": 5, "Y": 4 },
+              "Direction": "Down"
+            }
+          ],
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "FriendsAndFamily": {},
+          "WinterStarParticipant": "false",
+          "WinterStarGifts": [
+            { "ItemId": "(O)168", "MinStack": 1 }, 
+            { "ItemId": "(O)684", "MinStack": 5 }
+          ],
+		   "SpouseRoom": {
+            "MapAsset": "{{ModId}}_SpouseRooms",
+            "MapSourceRect": {
+              "X": 24,
+              "Y": 0,
+              "Width": 6,
+              "Height": 9
+            }
+          },
+          "SpousePatio": {
+            "MapAsset": "{{ModId}}_SpousePatios",
+            "MapSourceRect": {
+              "X": 16,
+              "Y": 0,
+              "Width": 4,
+              "Height": 4
+            }
+          },
+          "ItemDeliveryQuests": false,
+          "PerfectionScore": true,
+          "CanVisitIsland": false,
+          "HiddenProfileEmoteSound": "hiss",
+          "HiddenProfileEmoteDuration": -1,
+          "HiddenProfileEmoteStartFrame": 16,
+          "HiddenProfileEmoteFrameCount": 4,
+          "HiddenProfileEmoteFrameDuration": 200.0,
+
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Hisstopher": "{{i18n:Hisstopher.Gift.Love}}/(O)168 (O)684 (O)731 (O){{ModId}}_TrashSnack (O)Catfish (O)Yam (O){{ModId}}_HalfEatenPizza/{{i18n:Hisstopher.Gift.Like}}/(O)432 (O)Forage_Category (O)Egg_Category/{{i18n:Hisstopher.Gift.Dislike}}/(O)303 (O)Daffodil (O)JojaCola/{{i18n:Hisstopher.Gift.Hate}}/(O)167 (O)68 (O)766/{{i18n:Hisstopher.Gift.Neutral}}/(O)395/"
+      }
+    },
+       {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Hisstopher": {
+          "Name": "Hisstopher",
+          "LovedTags": [ "Salty", "Joja", "Fatty" ],
+          "LikedTags": [ "Sweet", "Cold" ],
+          "DislikedTags": [ "Gourmet", "Sour", "Hot" ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Hisstopher": {
+          "NPCName": "Hisstopher",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "like",
+              "SpecialResponses": {
+                "BeforeMovie": { "Text": "{{i18n:Hisstopher.Movie.Spring0.Before}}" },
+                "DuringMovie": { "Text": "{{i18n:Hisstopher.Movie.Spring0.During}}" },
+                "AfterMovie": { "Text": "{{i18n:Hisstopher.Movie.Spring0.After}}" }
+              }
+            },
+            {
+              "Tag": "summer_movie_1",
+              "Response": "dislike",
+              "SpecialResponses": {
+                "BeforeMovie": { "Text": "{{i18n:Hisstopher.Movie.Summer1.Before}}" },
+                "DuringMovie": { "Text": "{{i18n:Hisstopher.Movie.Summer1.During}}" },
+                "AfterMovie": { "Text": "{{i18n:Hisstopher.Movie.Summer1.After}}" }
+              }
+            }
+          ]
+        }
+      }
+    },
+
+  ]
+}

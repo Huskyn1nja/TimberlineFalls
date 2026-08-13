@@ -1,0 +1,109 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Julius",
+      "FromFile": "characters/Sprites/Julius.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Julius",
+      "FromFile": "characters/Portraits/Julius.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Julius.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Julius.json"
+    },
+    {
+      "LogName": "Julius Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Julius": {
+          "DisplayName": "{{i18n:Julius.Name}}",
+          "TextureName": "{{ModId}}_Julius",
+          "BirthSeason": "Winter",
+          "BirthDay": 11,
+          "HomeRegion": "Other",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Negative",
+          "CanBeRomanced": false,
+          "CanReceiveGifts": true,
+          "IntroductionsQuest": false,
+          "PerfectionScore": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_Clinic",
+              "Tile": { "X": 20, "Y": 23 },
+              "Direction": "left"
+            }
+          ],
+          "Size": { "X": 16, "Y": 32 }
+        }
+      }
+    },
+    {
+      "LogName": "Julius Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Julius": "{{i18n:Julius.Gift.Love}}/613 614/{{i18n:Julius.Gift.Like}}/category_fruits category_vegetables/{{i18n:Julius.Gift.Dislike}}/category_junk/{{i18n:Julius.Gift.Hate}}/220 221 731 204 346/{{i18n:Julius.Gift.Neutral}}/category_minerals"
+      }
+    },
+    {
+      "LogName": "Julius Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "julius_scrubbing": "16/16 16 17 17 18 18 19 19/16/Strings\\animationDescriptions:Julius.Scrubbing",
+        "julius_charting": "20/20 20 21 21 21 20 22 22/20/Strings\\animationDescriptions:Julius.Charting"
+      }
+    },
+    {
+      "LogName": "Julius Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Julius": {
+          "Name": "{{ModId}}_Julius",
+          "LovedTags": [ "Healthy", "Water" ],
+          "LikedTags": [ "Salty" ],
+          "DislikedTags": [ "Spicy" ],
+          "HatedTags": [ "Sweet", "Candy", "Jojacorn", "Sticky" ]
+        }
+      }
+    },
+    {
+      "LogName": "Julius Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Julius": {
+          "NPCName": "{{ModId}}_Julius",
+          "Reactions": [
+            { "Tag": "summer_movie_0", "Response": "love" },
+            { "Tag": "spring_movie_0", "Response": "dislike" }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Julius Schedule - 8 Heart Shift",
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Julius",
+      "Entries": {
+        "Tue": "GOTO 8Heart_Tue",
+        "Thu": "GOTO 8Heart_Thu"
+      },
+      "When": { "Hearts:{{ModId}}_Julius": "8, 9, 10" }
+    }
+  ]
+}

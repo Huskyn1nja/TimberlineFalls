@@ -1,0 +1,103 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Roxy",
+      "FromFile": "characters/Sprites/Roxy.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Roxy",
+      "FromFile": "characters/Portraits/Roxy.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Roxy.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Roxy.json"
+    },
+
+    // --- CHARACTER DISPOSITION ---
+    {
+      "LogName": "Roxy Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Roxy": {
+          "DisplayName": "{{i18n:Roxy.Name}}",
+          "BirthSeason": "Spring",
+          "BirthDay": 10,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Negative",
+          "CanBeRomanced": true,
+          "EngagementItem": "{{ModId}}_AmberClasp",
+          "CanVisitIsland": true,
+          "WinterStarParticipant": true,
+          "PerfectionScore": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_TimberTerraceB1F1",
+              "Tile": { "X": 7, "Y": 15 },
+              "Direction": "down"
+            }
+          ],
+          "SpouseRoom": {
+            "MapAsset": "Maps/{{ModId}}_RoxySpouseRoom",
+            "MapSourceRect": { "X": 0, "Y": 0, "Width": 6, "Height": 9 }
+          },
+          "SpousePatio": {
+            "MapAsset": "Maps/{{ModId}}_RoxySpousePatio",
+            "MapSourceRect": { "X": 0, "Y": 0, "Width": 4, "Height": 4 }
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Roxy Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Roxy": "{{i18n:Roxy.Gift.Love}}/(O)206 (O)221 (O)605 (O)608 (O)896/{{i18n:Roxy.Gift.Like}}/(O)432 (O)348 (O)382 (O)88/{{i18n:Roxy.Gift.Dislike}}/(O)303 (O)Daffodil (O)JojaCola/{{i18n:Roxy.Gift.Hate}}/(O)16 (O)18 (O)20 (O)22 (O)24/{{i18n:Roxy.Gift.Neutral}}/(O)395/"
+      }
+    },
+    {
+      "LogName": "Roxy Mail",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "{{ModId}}_Roxy_BuskingUnlocked": "{{i18n:Roxy.Mail.BuskingUnlocked}}"
+      }
+    },
+
+    // --- ANIMATIONS ---
+    {
+      "LogName": "Roxy Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "roxy_cashier": "16/16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 20 20 20 20 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 20 20 20 19 19 18 18 18 17 17 17 17 16 16 16 16 16 16 16/16//offset 0 45",
+        "roxy_sleep": "18/18/18"
+      }
+    },
+
+    // --- CONDITIONAL SCHEDULES ---
+    {
+      "LogName": "Roxy Schedule - Gig Unlocked (Fri)",
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Roxy",
+      "Entries": {
+        "Fri": "GOTO Schedule.Gig"
+      },
+      "When": {
+        "HasFlag": "{{ModId}}_Roxy_GigUnlocked"
+      }
+    }
+  ]
+}

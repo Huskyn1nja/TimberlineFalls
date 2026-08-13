@@ -1,0 +1,109 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Elara",
+      "FromFile": "characters/Sprites/Elara.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Elara",
+      "FromFile": "characters/Portraits/Elara.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Elara.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Elara.json"
+    },
+    {
+      "LogName": "Elara Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Elara": {
+          "DisplayName": "{{i18n:Elara.Name}}",
+          "TextureName": "{{ModId}}_Elara",
+          "BirthSeason": "Spring",
+          "BirthDay": 2,
+          "HomeRegion": "Other",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Neutral",
+          "CanBeRomanced": false,
+          "CanReceiveGifts": true,
+          "IntroductionsQuest": false,
+          "PerfectionScore": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_StationOffice",
+              "Tile": { "X": 15, "Y": 4 },
+              "Direction": "right"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Elara Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Elara": "{{i18n:Elara.Gift.Love}}/73 787 334/{{i18n:Elara.Gift.Like}}/category_artisan_goods 338 335/{{i18n:Elara.Gift.Dislike}}/category_forage category_flowers/{{i18n:Elara.Gift.Hate}}/346 348 330/{{i18n:Elara.Gift.Neutral}}/category_junk"
+      }
+    },
+    {
+      "LogName": "Elara Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "elara_sleep": "16/16/16",
+
+      }
+    },
+
+    {
+      "LogName": "Elara Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Elara": {
+          "Name": "{{ModId}}_Elara",
+          "LovedTags": [ "BlackCoffee", "Healthy" ],
+          "LikedTags": [ "Salty" ],
+          "DislikedTags": [ "Sweet", "Candy" ],
+          "HatedTags": [ "Sticky", "Messy" ]
+        }
+      }
+    },
+    {
+      "LogName": "Elara Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Elara": {
+          "NPCName": "{{ModId}}_Elara",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "dislike"
+            },
+            {
+              "Tag": "fall_movie_0",
+              "Response": "love"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

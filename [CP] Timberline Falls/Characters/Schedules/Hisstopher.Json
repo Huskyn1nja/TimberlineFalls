@@ -1,0 +1,21 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Hisstopher",
+			"Entries":
+{
+  "spring": "610 Custom_BiscuitDrum 10 13 2 Bea_Chop/830 Custom_BiscuitDrum 14 13 0 Bea_Stir/1100 Custom_BiscuitDrum 5 13 2 Bea_Taste/1330 Custom_BiscuitDrum 6 13 2 Bea_Chop/1600 Custom_BiscuitDrum 14 13 0 Bea_Stir/1800 Custom_BiscuitDrum 13 13 2 Bea_Taste/2000 Custom_BiscuitDrum 16 5 2 square_3_5/2200 Custom_BiscuitDrum 6 4 3 Bea_Sleep",
+  "spring_Mon": "610 Custom_BiscuitDrum 10 13 2 Bea_Chop/900 Custom_BuyCo 15 22 0 \"Characters\\Dialogue\\{{ModId}}_Bea:Bea.Mon.Shop\"/1300 Custom_BiscuitDrum 14 13 0 Bea_Stir/1500 Custom_BiscuitDrum 5 13 2 Bea_Taste/1800 Custom_BiscuitDrum 14 13 0 Bea_Stir/2100 Custom_BiscuitDrum 6 4 3 Bea_Sleep",
+  "spring_Tue": "GOTO spring",
+  "spring_Wed": "610 Custom_BiscuitDrum 14 13 0 Bea_Stir/930 Custom_BiscuitDrum 10 13 2 Bea_Chop/1200 Custom_BiscuitDrum 5 13 2 Bea_Taste/1500 Custom_StationOffice 6 5 0 \"Characters\\Dialogue\\{{ModId}}_Bea:Bea.Wed.Station\"/1800 Custom_BiscuitDrum 13 13 2 Bea_Taste/2100 Custom_BiscuitDrum 6 4 3 Bea_Sleep",
+  "spring_Thu": "610 Custom_BiscuitDrum 10 13 2 Bea_Chop/1100 Custom_Clinic 14 15 0 \"Characters\\Dialogue\\{{ModId}}_Bea:Bea.Thu.ClinicCheck\"/1400 Custom_BiscuitDrum 5 13 2 Bea_Taste/1600 Custom_BiscuitDrum 14 13 0 Bea_Stir/2000 Custom_BiscuitDrum 6 4 3 Bea_Sleep",
+  "spring_Fri": "610 Custom_BiscuitDrum 6 12 2 Bea_Chop/900 Custom_BiscuitDrum 13 13 2 Bea_Taste/1200 Custom_BiscuitDrum 14 13 0 Bea_Stir/1600 Custom_JettGarage 21 20 1 \"Characters\\Dialogue\\{{ModId}}_Bea:Bea.Fri.Garage\"/1900 Custom_BiscuitDrum 10 13 0/2100 Custom_BiscuitDrum 6 4 3 Bea_Sleep",
+  "spring_Sat": "610 Custom_BiscuitDrum 6 13 2 Bea_Chop/900 Custom_BiscuitDrum 13 13 2 Bea_Taste/1200 Custom_BiscuitDrum 14 13 0 Bea_Stir/1530 Custom_BiscuitDrum 10 13 2 Bea_Chop/1830 Custom_BiscuitDrum 5 13 2 Bea_Taste/2200 Custom_BiscuitDrum 6 4 3 Bea_Sleep",
+  "spring_Sun": "800 Custom_HikingPath 22 15 2 \"Characters\\Dialogue\\{{ModId}}_Bea:Bea.Sun.Walk\"/1100 Custom_BiscuitDrum 5 13 2 Bea_Taste/1400 Custom_BiscuitDrum 14 13 0 Bea_Stir/1800 Custom_BiscuitDrum 6 4 3 Bea_Sleep",
+  "rain": "610 Custom_BiscuitDrum 14 13 0 Bea_Stir/1000 Custom_BiscuitDrum 5 13 2 Bea_Taste/1400 Custom_BiscuitDrum 10 13 2 Bea_Chop/1800 Custom_BiscuitDrum 14 13 0 Bea_Stir/2100 Custom_BiscuitDrum 6 4 3 Bea_Sleep",
+  "summer": "GOTO spring",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring",
+  "winter_16": "800 Custom_Clinic 13 15 0 \"Characters\\Dialogue\\{{ModId}}_Bea:Bea.AnnualCheckup\"/1230 Custom_Clinic 4 6 1/1600 Custom_BiscuitDrum 14 13 0 Bea_Stir/2200 Custom_BiscuitDrum 6 4 3 Bea_Sleep"
+}}]}

@@ -1,0 +1,17 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Julius",
+			"Entries":
+{
+  "spring": "600 Custom_Clinic 12 4 3/800 Custom_Clinic 14 6 0 julius_scrubbing \"Strings\\schedules\\{{ModId}}_Julius:Schedule.Scrubbing\"/1000 Custom_Clinic 10 8 2 julius_charting \"Strings\\schedules\\{{ModId}}_Julius:Schedule.Triage\"/1300 Custom_Clinic 10 8 2/1500 Custom_Clinic 14 6 0 julius_scrubbing/1700 Custom_Clinic 6 10 1 \"Strings\\schedules\\{{ModId}}_Julius:Schedule.Inventory\"/2000 Custom_Clinic 12 4 3",
+  "summer": "GOTO spring",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring",
+  "Wed": "600 Custom_Clinic 12 4 3/800 Custom_Clinic 14 6 0 julius_scrubbing/1000 Custom_Clinic 10 8 2/1300 Custom_Buyco 8 18 0 \"Strings\\schedules\\{{ModId}}_Julius:Schedule.BuyCo\"/1600 Custom_Clinic 14 6 0 julius_scrubbing/1800 Custom_Clinic 10 8 2/2200 Custom_Clinic 12 4 3",
+  "Fri": "600 Custom_Clinic 12 4 3/800 Custom_Clinic 14 6 0 julius_scrubbing/1000 Custom_Clinic 10 8 2/1400 Custom_BiscuitDrum 5 5 2 \"Strings\\schedules\\{{ModId}}_Julius:Schedule.Infiltration\"/1700 Custom_Clinic 14 6 0/2100 Custom_Clinic 12 4 3",
+  "rain": "600 Custom_Clinic 12 4 3/800 Custom_Clinic 14 6 0 julius_scrubbing/1000 Custom_Clinic 10 8 2 julius_charting \"Strings\\schedules\\{{ModId}}_Julius:Schedule.Rain\"/1400 Custom_Clinic 6 10 1/1900 Custom_Clinic 12 4 3",
+  "8Heart_Tue": "600 Custom_Clinic 12 4 3/800 Custom_Clinic 14 6 0 julius_scrubbing/1000 Custom_Clinic 10 8 2/1230 Custom_TimberlineFalls 40 50 2 \"Strings\\schedules\\{{ModId}}_Julius:Schedule.Brooding\"/1500 Custom_Clinic 14 6 0 julius_scrubbing/1700 Custom_Clinic 10 8 2/2200 Custom_Clinic 12 4 3",
+  "8Heart_Thu": "GOTO 8Heart_Tue"
+}}]}

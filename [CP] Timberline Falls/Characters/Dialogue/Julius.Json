@@ -1,0 +1,129 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModId}}_Julius",
+			"Entries": {
+				
+				// BASE
+				"Mon": "{{i18n:Julius.Day.Mon}}",
+				"Tue": "{{i18n:Julius.Day.Tue}}",
+				"Wed": "{{i18n:Julius.Day.Wed}}",
+				"Thu": "{{i18n:Julius.Day.Thu}}",
+				"Fri": "{{i18n:Julius.Day.Fri}}",
+				"Sat": "{{i18n:Julius.Day.Sat}}",
+				"Sun": "{{i18n:Julius.Day.Sun}}",
+				
+				// MISC INTERACTIONS
+				"Introduction": "{{i18n:Julius.Introduction}}",
+				"DumpsterDiveComment": "{{i18n:Julius.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Julius.HitBySlingshot}}",
+				"WipedMemory": "{{i18n:Julius.WipedMemory}}",
+				
+				// WEATHER
+				"Rain": "{{i18n:Julius.Weather.Rain}}",
+				"Snow": "{{i18n:Julius.Weather.Snow}}",
+				"GreenRain": "{{i18n:Julius.Weather.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Julius.Weather.GreenRainFinished}}",
+				
+				// DAILY DIALOGUE BY HEARTS
+				"Mon2": "{{i18n:Julius.Hearts2.Mon}}",
+				"Tue2": "{{i18n:Julius.Hearts2.Tue}}",
+				"Wed2": "{{i18n:Julius.Hearts2.Wed}}",
+				"Thu2": "{{i18n:Julius.Hearts2.Thu}}",
+				"Fri2": "{{i18n:Julius.Hearts2.Fri}}",
+				"Sat2": "{{i18n:Julius.Hearts2.Sat}}",
+				"Sun2": "{{i18n:Julius.Hearts2.Sun}}",
+				"Mon4": "{{i18n:Julius.Hearts4.Mon}}",
+				"Tue4": "{{i18n:Julius.Hearts4.Tue}}",
+				"Wed4": "{{i18n:Julius.Hearts4.Wed}}",
+				"Thu4": "{{i18n:Julius.Hearts4.Thu}}",
+				"Fri4": "{{i18n:Julius.Hearts4.Fri}}",
+				"Sat4": "{{i18n:Julius.Hearts4.Sat}}",
+				"Sun4": "{{i18n:Julius.Hearts4.Sun}}",
+				"Mon6": "{{i18n:Julius.Hearts6.Mon}}",
+				"Tue6": "{{i18n:Julius.Hearts6.Tue}}",
+				"Wed6": "{{i18n:Julius.Hearts6.Wed}}",
+				"Thu6": "{{i18n:Julius.Hearts6.Thu}}",
+				"Fri6": "{{i18n:Julius.Hearts6.Fri}}",
+				"Sat6": "{{i18n:Julius.Hearts6.Sat}}",
+				"Sun6": "{{i18n:Julius.Hearts6.Sun}}",
+				"Mon8": "{{i18n:Julius.Hearts8.Mon}}",
+				"Tue8": "{{i18n:Julius.Hearts8.Tue}}",
+				"Wed8": "{{i18n:Julius.Hearts8.Wed}}",
+				"Thu8": "{{i18n:Julius.Hearts8.Thu}}",
+				"Fri8": "{{i18n:Julius.Hearts8.Fri}}",
+				"Sat8": "{{i18n:Julius.Hearts8.Sat}}",
+				"Sun8": "{{i18n:Julius.Hearts8.Sun}}",
+				"Mon10": "{{i18n:Julius.Hearts10.Mon}}",
+				"Tue10": "{{i18n:Julius.Hearts10.Tue}}",
+				"Wed10": "{{i18n:Julius.Hearts10.Wed}}",
+				"Thu10": "{{i18n:Julius.Hearts10.Thu}}",
+				"Fri10": "{{i18n:Julius.Hearts10.Fri}}",
+				"Sat10": "{{i18n:Julius.Hearts10.Sat}}",
+				"Sun10": "{{i18n:Julius.Hearts10.Sun}}",
+				
+				// SEASONAL DAILY
+				"spring_Mon": "{{i18n:Julius.Day.Spring.Mon}}",
+				"spring_Tue": "{{i18n:Julius.Day.Spring.Tue}}",
+				"spring_Wed": "{{i18n:Julius.Day.Spring.Wed}}",
+				"spring_Thu": "{{i18n:Julius.Day.Spring.Thu}}",
+				"spring_Fri": "{{i18n:Julius.Day.Spring.Fri}}",
+				"spring_Sat": "{{i18n:Julius.Day.Spring.Sat}}",
+				"spring_Sun": "{{i18n:Julius.Day.Spring.Sun}}",
+				"summer_Mon": "{{i18n:Julius.Day.Summer.Mon}}",
+				"summer_Tue": "{{i18n:Julius.Day.Summer.Tue}}",
+				"summer_Wed": "{{i18n:Julius.Day.Summer.Wed}}",
+				"summer_Thu": "{{i18n:Julius.Day.Summer.Thu}}",
+				"summer_Fri": "{{i18n:Julius.Day.Summer.Fri}}",
+				"summer_Sat": "{{i18n:Julius.Day.Summer.Sat}}",
+				"summer_Sun": "{{i18n:Julius.Day.Summer.Sun}}",
+				"fall_Mon": "{{i18n:Julius.Day.Fall.Mon}}",
+				"fall_Tue": "{{i18n:Julius.Day.Fall.Tue}}",
+				"fall_Wed": "{{i18n:Julius.Day.Fall.Wed}}",
+				"fall_Thu": "{{i18n:Julius.Day.Fall.Thu}}",
+				"fall_Fri": "{{i18n:Julius.Day.Fall.Fri}}",
+				"fall_Sat": "{{i18n:Julius.Day.Fall.Sat}}",
+				"fall_Sun": "{{i18n:Julius.Day.Fall.Sun}}",
+				"winter_Mon": "{{i18n:Julius.Day.Winter.Mon}}",
+				"winter_Tue": "{{i18n:Julius.Day.Winter.Tue}}",
+				"winter_Wed": "{{i18n:Julius.Day.Winter.Wed}}",
+				"winter_Thu": "{{i18n:Julius.Day.Winter.Thu}}",
+				"winter_Fri": "{{i18n:Julius.Day.Winter.Fri}}",
+				"winter_Sat": "{{i18n:Julius.Day.Winter.Sat}}",
+				"winter_Sun": "{{i18n:Julius.Day.Winter.Sun}}",
+				
+				// GIFTS
+				"AcceptGift_StardropTea": "{{i18n:Julius.Gift.StardropTea}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Julius.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Positive": "{{i18n:Julius.AcceptBirthdayGift_Positive}}",
+				"AcceptBirthdayGift": "{{i18n:Julius.AcceptBirthdayGift}}",
+				
+				
+				// MOVIES
+				"MovieInvitation": "{{i18n:Julius.MovieInvitation}}",
+				"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Julius.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+				"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Julius.RejectMovieTicket_AlreadyWatchedThisWeek}}",
+				"RejectMovieTicket_Divorced": "{{i18n:Julius.RejectMovieTicket_Divorced}}",
+				"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:Julius.RejectMovieTicket_DontWantToSeeThatMovie}}",
+				"RejectMovieTicket": "{{i18n:Julius.RejectMovieTicket}}",
+				
+			}
+		},
+	//	{
+	//		"Action": "EditData",
+	//		"Target": "Strings/schedules/{{ModId}}_Julius",
+	//		"Entries": {
+	//			
+	//		}
+	//	},
+		{
+			"LogName": "Summit Dialogue",
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"SummitEvent_Dialogue3_{{ModId}}_Julius": "{{i18n:Julius.SummitEvent}}"
+			}
+		},
+	]
+}

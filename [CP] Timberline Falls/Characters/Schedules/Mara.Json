@@ -1,0 +1,29 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Mara",
+			"Entries":
+{
+    "spring": "GOTO Mon",
+    "summer": "GOTO Mon",
+    "fall": "GOTO Mon",
+    "winter": "GOTO Mon",
+    "spring_18": "610 Custom_MaraCabin 4 6 2/800 Custom_Clinic 14 14 0 \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.Clinic.Entry\"/1330 Custom_Clinic 14 15 1/1600 Custom_MaraCabin 4 6 3 \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.Clinic.Leave\"/2100 Custom_MaraCabin 2 1 0/2300 Custom_MaraCabin 4 6 3 mara_sleep",
+    "winter_2": "610 Custom_MaraCabin 4 6 2/1600 Beach 12 30 2 \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.NightMarket\"/2330 Custom_MaraCabin 4 6 3 mara_sleep",
+    "GreenRain": "610 Custom_MaraCabin 4 6 2/800 Custom_TimberlineFalls 45 50 2 \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.GreenRain.River\"/1200 Custom_HikingPath 16 19 2 \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.GreenRain.Forest\"/1800 Custom_MaraCabin 2 1 0/2200 Custom_MaraCabin 4 6 3 mara_sleep",
+    "rain": "610 Custom_MaraCabin 4 6 2/800 Custom_TimberlineFalls 40 45 2 mara_fishing/1300 Mountain 45 10 2 mara_fishing \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.Rain.Mountain\"/1800 Custom_MaraCabin 2 1 0/2300 Custom_MaraCabin 4 6 3 mara_sleep",
+    "Mon": "610 Custom_MaraCabin 4 6 2/800 Custom_TimberlineFalls 40 45 2 mara_fishing/1400 Custom_HikingPath 16 19 2/1800 Custom_MaraCabin 2 1 0/2200 Custom_MaraCabin 4 6 3 mara_sleep",
+    "Tue": "610 Custom_MaraCabin 4 6 2/900 ArchaeologyHouse 4 15 0 \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.Library\"/1600 Custom_MaraCabin 4 6 3/2100 Custom_MaraCabin 4 6 3 mara_sleep",
+    "Wed": "610 Custom_MaraCabin 4 6 2/900 Railroad 10 20 2 \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.Railroad\"/1400 Custom_TimberlineFalls 20 20 2/1800 Custom_MaraCabin 2 1 0/2200 Custom_MaraCabin 4 6 3 mara_sleep",
+    "Thu": "610 Custom_MaraCabin 4 6 2/800 Custom_HikingPath 29 10 2 mara_fishing \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.HikingPath\"/1500 Custom_TimberlineFalls 107 52 2/2000 Custom_MaraCabin 4 6 3 mara_sleep",
+    "Fri": "610 Custom_MaraCabin 4 6 2/900 Custom_Antiquary 2 15 0 \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.Antiquary\"/1500 Custom_TimberlineFalls 40 45 2/2000 Custom_MaraCabin 4 6 3 mara_sleep",
+    "Sat": "610 Custom_MaraCabin 4 6 2/830 Beach 40 35 2 mara_fishing \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.Beach\"/1700 Custom_MaraCabin 4 6 0/2200 Custom_MaraCabin 4 6 3 mara_sleep",
+    "Sun": "800 Custom_Cemetery 10 10 2 \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.Cemetery\"/1200 Custom_HikingPath 28 5 1/1700 Custom_MaraCabin 2 1 0/2200 Custom_MaraCabin 4 6 3 mara_sleep",
+    "Resort": "900 Custom_MaraCabin 4 6 2/1100 IslandSouth 21 29 2 mara_fishing \"Characters\\Dialogue\\{{ModId}}_Mara:Location.Resort\"/1800 Custom_MaraCabin 4 6 3 mara_sleep",
+    "marriage_Mon": "800 Custom_MaraCabin 4 6 0/1300 Custom_HikingPath 16 19 2/1700 bed",
+    "marriage_Fri": "900 Custom_Antiquary 2 15 0 \"Characters\\Dialogue\\{{ModId}}_Mara:Marriage.Fri\"/1500 Custom_TimberlineFalls 40 45 2/1900 bed",
+    "marriage_Rainy": "800 Custom_TimberlineFalls 40 45 2/1400 Farm_FishPond 1 1 2/1800 bed",
+    "marriage_default": "900 Farm_SpousePatio 2 1 0/1200 Custom_TimberlineFalls 40 45 2 mara_fishing/1700 Custom_HikingPath 16 19 2/2200 bed",
+    "marriage_spring_18": "800 Custom_Clinic 14 14 0 \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.Clinic.Entry\"/1330 Custom_Clinic 14 15 1/1600 Custom_MaraCabin 4 6 3 \"Characters\\Dialogue\\{{ModId}}_Mara:Schedule.Clinic.Leave\"/2200 bed"
+}}]}

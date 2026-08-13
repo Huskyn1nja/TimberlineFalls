@@ -1,0 +1,117 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Orson",
+      "FromFile": "characters/Sprites/Orson.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Orson",
+      "FromFile": "characters/Portraits/Orson.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Orson.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Orson.json"
+    },
+    {
+      "LogName": "Orson Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Orson": {
+          "DisplayName": "{{i18n:Orson.Name}}",
+          "TextureName": "{{ModId}}_Orson",
+          "BirthSeason": "Fall",
+          "BirthDay": 17,
+          "HomeRegion": "Other",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Negative",
+          "CanBeRomanced": false,
+          "CanReceiveGifts": true,
+          "IntroductionsQuest": false,
+          "PerfectionScore": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_GageCottage",
+              "Tile": { "X": 4, "Y": 4 },
+              "Direction": "left"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Orson Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Orson": "{{i18n:Orson.Gift.Love}}/709 346 303/{{i18n:Orson.Gift.Like}}/category_artisan_goods 388/{{i18n:Orson.Gift.Dislike}}/category_flowers 787/{{i18n:Orson.Gift.Hate}}/167 168 169 220 221/{{i18n:Orson.Gift.Neutral}}/category_forage"
+      }
+    },
+    {
+      "LogName": "Orson Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "orson_reading": "16/16 16 16 17 17 17/16/Strings\\animationDescriptions:Orson.Reading",
+        "orson_whittling": "20/20 20 21 21 21 20 22 22/20/Strings\\animationDescriptions:Orson.Whittling"
+      }
+    },
+    {
+      "LogName": "Orson Animation Strings",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "Orson.Reading": "{{i18n:Orson.Animation.Reading}}",
+        "Orson.Whittling": "{{i18n:Orson.Animation.Whittling}}"
+      }
+    },
+    {
+      "LogName": "Orson Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Orson": {
+          "Name": "{{ModId}}_Orson",
+          "LovedTags": [ "BlackCoffee", "Salty" ],
+          "LikedTags": [ "Healthy" ],
+          "DislikedTags": [ "Sweet", "Candy" ],
+          "HatedTags": [ "Jojacorn", "Spicy" ]
+        }
+      }
+    },
+    {
+      "LogName": "Orson Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Orson": {
+          "NPCName": "{{ModId}}_Orson",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "love"
+            },
+            {
+              "Tag": "summer_movie_0",
+              "Response": "dislike"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

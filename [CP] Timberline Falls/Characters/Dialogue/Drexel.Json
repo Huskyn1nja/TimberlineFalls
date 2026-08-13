@@ -1,0 +1,129 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{ModId}}_Drexel",
+			"Entries": {
+				
+				// BASE
+				"Mon": "{{i18n:Drexel.Day.Mon}}",
+				"Tue": "{{i18n:Drexel.Day.Tue}}",
+				"Wed": "{{i18n:Drexel.Day.Wed}}",
+				"Thu": "{{i18n:Drexel.Day.Thu}}",
+				"Fri": "{{i18n:Drexel.Day.Fri}}",
+				"Sat": "{{i18n:Drexel.Day.Sat}}",
+				"Sun": "{{i18n:Drexel.Day.Sun}}",
+				
+				// MISC INTERACTIONS
+				"Introduction": "{{i18n:Drexel.Introduction}}",
+				"DumpsterDiveComment": "{{i18n:Drexel.DumpsterDiveComment}}",
+				"HitBySlingshot": "{{i18n:Drexel.HitBySlingshot}}",
+				"WipedMemory": "{{i18n:Drexel.WipedMemory}}",
+				
+				// WEATHER
+				"Rain": "{{i18n:Drexel.Weather.Rain}}",
+				"Snow": "{{i18n:Drexel.Weather.Snow}}",
+				"GreenRain": "{{i18n:Drexel.Weather.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Drexel.Weather.GreenRainFinished}}",
+				
+				// DAILY DIALOGUE BY HEARTS
+				"Mon2": "{{i18n:Drexel.Hearts2.Mon}}",
+				"Tue2": "{{i18n:Drexel.Hearts2.Tue}}",
+				"Wed2": "{{i18n:Drexel.Hearts2.Wed}}",
+				"Thu2": "{{i18n:Drexel.Hearts2.Thu}}",
+				"Fri2": "{{i18n:Drexel.Hearts2.Fri}}",
+				"Sat2": "{{i18n:Drexel.Hearts2.Sat}}",
+				"Sun2": "{{i18n:Drexel.Hearts2.Sun}}",
+				"Mon4": "{{i18n:Drexel.Hearts4.Mon}}",
+				"Tue4": "{{i18n:Drexel.Hearts4.Tue}}",
+				"Wed4": "{{i18n:Drexel.Hearts4.Wed}}",
+				"Thu4": "{{i18n:Drexel.Hearts4.Thu}}",
+				"Fri4": "{{i18n:Drexel.Hearts4.Fri}}",
+				"Sat4": "{{i18n:Drexel.Hearts4.Sat}}",
+				"Sun4": "{{i18n:Drexel.Hearts4.Sun}}",
+				"Mon6": "{{i18n:Drexel.Hearts6.Mon}}",
+				"Tue6": "{{i18n:Drexel.Hearts6.Tue}}",
+				"Wed6": "{{i18n:Drexel.Hearts6.Wed}}",
+				"Thu6": "{{i18n:Drexel.Hearts6.Thu}}",
+				"Fri6": "{{i18n:Drexel.Hearts6.Fri}}",
+				"Sat6": "{{i18n:Drexel.Hearts6.Sat}}",
+				"Sun6": "{{i18n:Drexel.Hearts6.Sun}}",
+				"Mon8": "{{i18n:Drexel.Hearts8.Mon}}",
+				"Tue8": "{{i18n:Drexel.Hearts8.Tue}}",
+				"Wed8": "{{i18n:Drexel.Hearts8.Wed}}",
+				"Thu8": "{{i18n:Drexel.Hearts8.Thu}}",
+				"Fri8": "{{i18n:Drexel.Hearts8.Fri}}",
+				"Sat8": "{{i18n:Drexel.Hearts8.Sat}}",
+				"Sun8": "{{i18n:Drexel.Hearts8.Sun}}",
+				"Mon10": "{{i18n:Drexel.Hearts10.Mon}}",
+				"Tue10": "{{i18n:Drexel.Hearts10.Tue}}",
+				"Wed10": "{{i18n:Drexel.Hearts10.Wed}}",
+				"Thu10": "{{i18n:Drexel.Hearts10.Thu}}",
+				"Fri10": "{{i18n:Drexel.Hearts10.Fri}}",
+				"Sat10": "{{i18n:Drexel.Hearts10.Sat}}",
+				"Sun10": "{{i18n:Drexel.Hearts10.Sun}}",
+				
+				// SEASONAL DAILY
+				"spring_Mon": "{{i18n:Drexel.Day.Spring.Mon}}",
+				"spring_Tue": "{{i18n:Drexel.Day.Spring.Tue}}",
+				"spring_Wed": "{{i18n:Drexel.Day.Spring.Wed}}",
+				"spring_Thu": "{{i18n:Drexel.Day.Spring.Thu}}",
+				"spring_Fri": "{{i18n:Drexel.Day.Spring.Fri}}",
+				"spring_Sat": "{{i18n:Drexel.Day.Spring.Sat}}",
+				"spring_Sun": "{{i18n:Drexel.Day.Spring.Sun}}",
+				"summer_Mon": "{{i18n:Drexel.Day.Summer.Mon}}",
+				"summer_Tue": "{{i18n:Drexel.Day.Summer.Tue}}",
+				"summer_Wed": "{{i18n:Drexel.Day.Summer.Wed}}",
+				"summer_Thu": "{{i18n:Drexel.Day.Summer.Thu}}",
+				"summer_Fri": "{{i18n:Drexel.Day.Summer.Fri}}",
+				"summer_Sat": "{{i18n:Drexel.Day.Summer.Sat}}",
+				"summer_Sun": "{{i18n:Drexel.Day.Summer.Sun}}",
+				"fall_Mon": "{{i18n:Drexel.Day.Fall.Mon}}",
+				"fall_Tue": "{{i18n:Drexel.Day.Fall.Tue}}",
+				"fall_Wed": "{{i18n:Drexel.Day.Fall.Wed}}",
+				"fall_Thu": "{{i18n:Drexel.Day.Fall.Thu}}",
+				"fall_Fri": "{{i18n:Drexel.Day.Fall.Fri}}",
+				"fall_Sat": "{{i18n:Drexel.Day.Fall.Sat}}",
+				"fall_Sun": "{{i18n:Drexel.Day.Fall.Sun}}",
+				"winter_Mon": "{{i18n:Drexel.Day.Winter.Mon}}",
+				"winter_Tue": "{{i18n:Drexel.Day.Winter.Tue}}",
+				"winter_Wed": "{{i18n:Drexel.Day.Winter.Wed}}",
+				"winter_Thu": "{{i18n:Drexel.Day.Winter.Thu}}",
+				"winter_Fri": "{{i18n:Drexel.Day.Winter.Fri}}",
+				"winter_Sat": "{{i18n:Drexel.Day.Winter.Sat}}",
+				"winter_Sun": "{{i18n:Drexel.Day.Winter.Sun}}",
+				
+				// GIFTS
+				"AcceptGift_StardropTea": "{{i18n:Drexel.Gift.StardropTea}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Drexel.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Positive": "{{i18n:Drexel.AcceptBirthdayGift_Positive}}",
+				"AcceptBirthdayGift": "{{i18n:Drexel.AcceptBirthdayGift}}",
+				
+				
+				// MOVIES
+				"MovieInvitation": "{{i18n:Drexel.MovieInvitation}}",
+				"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Drexel.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+				"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Drexel.RejectMovieTicket_AlreadyWatchedThisWeek}}",
+				"RejectMovieTicket_Divorced": "{{i18n:Drexel.RejectMovieTicket_Divorced}}",
+				"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:Drexel.RejectMovieTicket_DontWantToSeeThatMovie}}",
+				"RejectMovieTicket": "{{i18n:Drexel.RejectMovieTicket}}",
+				
+			}
+		},
+	//	{
+	//		"Action": "EditData",
+	//		"Target": "Strings/schedules/{{ModId}}_Drexel",
+	//		"Entries": {
+	//			
+	//		}
+	//	},
+		{
+			"LogName": "Summit Dialogue",
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"SummitEvent_Dialogue3_{{ModId}}_Drexel": "{{i18n:Drexel.SummitEvent}}"
+			}
+		},
+	]
+}

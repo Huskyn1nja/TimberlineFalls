@@ -1,0 +1,196 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Jett",
+      "FromFile": "characters/Sprites/Jett.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Jett",
+      "FromFile": "characters/Portraits/Jett.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Jett.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Jett.json"
+    },
+
+	{
+  "Action": "EditData",
+  "Target": "Data/SpousePatios",
+  "Entries": {
+    "{{ModId}}_Jett_Patio": {
+      "MapPath": "Maps/{{ModId}}_spousePatios",
+      "MapSourceRect": { "X": 0, "Y": 0, "Width": 4, "Height": 4 }
+    }
+  }
+},
+    {
+      "LogName": "Jett Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Jett": {
+          "DisplayName": "{{i18n:Jett.Name}}",
+          "BirthSeason": "Spring",
+          "BirthDay": 12,
+          "HomeRegion": "Town",
+          "Gender": "Undefined",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Neutral",
+          "CanBeRomanced": true,
+		  "KissSpriteIndex": 31,
+		  "KissSpriteFacingDirection": "right",
+          "EngagementItem": "{{ModId}}_AmberClasp",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_JettGarage",
+              "Tile": { "X": 13, "Y": 7 },
+              "Direction": "down"
+            }
+          ],
+          "WinterStarParticipant": true,
+          "CanVisitIsland": false,
+          "PerfectionScore": true,
+           "SpouseRoom": { 
+                        "MapAsset": "{{ModId}}_SpouseRooms",
+                        "MapSourceRect": {
+                            "X": 0, 
+                            "Y": 0,
+                            "Width": 6, 
+                            "Height": 9
+                        }
+                    },
+					"SpousePatio": { 
+                        "MapAsset": "{{ModId}}_SpousePatios", 
+                        "MapSourceRect": {
+                            "X": 0, 
+                            "Y": 0,
+                            "Width": 4, 
+                            "Height": 4 
+                        },
+					}
+        }
+      }
+    },
+    {
+      "LogName": "Jett Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Jett": "{{i18n:Jett.Gift.Love}}/395 787 {{ModId}}_GearNecklace/{{i18n:Jett.Gift.Like}}/-5 -79 422/{{i18n:Jett.Gift.Dislike}}/80 330/{{i18n:Jett.Gift.Hate}}/2/{{i18n:Jett.Gift.Neutral}}/"
+      }
+    },
+    {
+      "LogName": "Jett Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Jett": {
+          "Name": "{{ModId}}_Jett",
+          "LovedTags": ["Joja", "Salty"],
+          "LikedTags": ["Sour"],
+          "DislikedTags": ["Sweet", "Candy", "Healthy"]
+        }
+      }
+    },
+    {
+      "LogName": "Jett Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Jett": {
+          "NPCName": "{{ModId}}_Jett",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "dislike"
+            },
+            {
+              "Tag": "summer_movie_1",
+              "Response": "love"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Jett Engagement",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "{{ModId}}_Jett0": "{{i18n:Jett.Engagement.0}}",
+        "{{ModId}}_Jett1": "{{i18n:Jett.Engagement.1}}"
+      }
+    },
+    {
+      "LogName": "Jett Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "jett_engine": "16/16 16 16 16 16 17 17 17 17 17 17/16/Strings\\animationDescriptions:Jett.Engine",
+        "jett_tinkering": "18/18 18 18 18 19 19 19 19/18/Strings\\animationDescriptions:Jett.Tinkering/offset 0 -25",
+        "jett_coffee": "22/22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 23 24 24 24 24 24 24 24 23 22 21 21 21/21/Strings\\animationDescriptions:Jett.Coffee",
+        "jett_washing": "25/25 26 25 26 25 26 25 26 25 25 26 26/25/Strings\\animationDescriptions:Jett.Washing/offset 0 -12",
+        "jett_sleep": "20/20/20"
+      }
+    },
+    {
+      "LogName": "Jett Animation Strings",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "Jett.Engine": "{{i18n:Jett.Engine}}",
+        "Jett.Tinkering": "{{i18n:Jett.Tinkering}}",
+        "Jett.Coffee": "{{i18n:Jett.Coffee}}",
+        "Jett.Washing": "{{i18n:Jett.Washing}}"
+      }
+    },
+    {
+      "LogName": "Jett Schedule - Post 4 Heart",
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Jett",
+      "Entries": {
+        "Fri": "610 Custom_JettGarage 21 8 2 jett_coffee/900 Custom_CommunityCenter 20 10 0/1400 Custom_HikingTrail 15 40 2/2100 Custom_JettGarage 1 4 3 {{ModId}}_jett_sleep"
+      },
+      "When": {
+        "HasSeenEvent": "{{ModId}}_Jett4Heart",
+        "Hearts:{{ModId}}_Jett": "0, 1, 2, 3, 4, 5"
+      }
+    },
+    {
+      "LogName": "Jett Schedule - Social (6+ Hearts)",
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Jett",
+      "Entries": {
+        "Fri": "610 Custom_JettGarage 21 8 2 jett_coffee/900 Custom_JettGarage 12 5 0 jett_engine/1600 Custom_BiscuitDrum 10 10 1 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Schedule.BiscuitDrum\"/2000 Saloon 24 21 0 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Dialogue.Saloon_Fri\"/2330 Custom_JettGarage 13 7 3 jett_sleep",
+        "Tue": "610 Custom_JettGarage 21 8 2 jett_coffee/800 Custom_JettGarage 19 20 0/1200 Custom_JettGarage 12 5 0 jett_engine/1700 Custom_PepperPit 15 15 0 square_3_3 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Schedule.PepperPit.Work\"/2200 Custom_JettGarage 13 7 3 jett_sleep",
+        "Sat": "610 Custom_JettGarage 21 8 2 jett_coffee/1000 Custom_JettGarage 12 5 0 jett_engine/1600 Custom_TimberlineFalls 106 52 2 square_5_5 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Schedule.WorkSaturday\"/2000 Town 22 55 1/2300 Custom_JettGarage 13 7 3 jett_sleep"
+      },
+      "When": {
+        "Hearts:{{ModId}}_Jett": "6, 7, 8, 9, 10, 11, 12, 13, 14"
+      }
+    },
+    {
+      "LogName": "Jett Schedule - Married",
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Jett",
+      "Entries": {
+        "marriage_Mon": "800 Custom_JettGarage 11 16 0 jett_tinkering/1300 Custom_StationOffice 6 5 0/1700 bed",
+        "marriage_Fri": "900 Custom_Munitions 8 8 0 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Marriage.Schedule.Fri\"/1400 Custom_BiscuitDrum 10 10 1/1900 Saloon 20 20 0/2200 bed",
+        "marriage_Sun": "800 Custom_JettGarage 12 5 0 jett_engine/1400 Farm_SpousePatio 2 1 0/1900 bed",
+        "marriage_default": "900 Farm_SpousePatio 2 1 0/1100 Custom_JettGarage 12 5 0 jett_engine/1700 Custom_JettGarage 13 7 3/2000 Custom_TimberlineFalls 20 20 2/2200 bed"
+      },
+      "When": {
+        "Relationship:{{ModId}}_Jett": "Married"
+      }
+    }
+  ]
+}

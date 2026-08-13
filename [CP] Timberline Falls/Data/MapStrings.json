@@ -1,0 +1,35 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"TF_Town_Gorilla": "{{i18n:TF.Town.Gorilla}}",
+				"TF_West_Closed": "{{i18n:TF.TFWest.Closed}}",
+				"TF_Broken_Half": "{{i18n:String.Cemetery.Half}}",
+				"TF_TTLobby_Elevator": "{{i18n:TF.TTLobby.Elevator}}",
+				"TF_Antequary1": "{{i18n:String.Antequary1}}",
+				"TF_Antequary2": "{{i18n:String.Antequary2}}",
+				"TF_Antequary3": "{{i18n:String.Antequary3}}",
+				"TF_Antequary4": "{{i18n:String.Antequary4}}",
+				"TF_Antequary5": "{{i18n:String.Antequary5}}",
+				"TF_Antequary6": "{{i18n:String.Antequary6}}",
+				"TF_Antequary7": "{{i18n:String.Antequary7}}",
+				"TF_BiscuitDrum1": "{{i18n:String.BiscuitDrum1}}",
+				"TF_BiscuitDrum2": "{{i18n:String.BiscuitDrum2}}",
+				"TF_QuarryCave": "{{i18n:String.QuarryCave}}",
+				"TF_Clinic1": "{{i18n:String.Clinic1}}",
+				"TF_Clinic2": "{{i18n:String.Clinic2}}",
+				"TF_Clinic3": "{{i18n:String.Clinic3}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			"Entries": {
+				"DoorUnlock_NotFriend_Undefined": "You aren't good enough friends with {0} to enter their bedroom.",
+				"Character_Partner": "Partner"
+			}
+		}
+	]
+}

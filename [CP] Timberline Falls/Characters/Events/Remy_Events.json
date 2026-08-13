@@ -1,0 +1,38 @@
+{
+  "Changes": [
+    {
+      "LogName": "Remy Events - Timberline Falls",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_TimberlineFalls",
+      "Entries": {
+        "{{ModId}}_Remy2Heart/f {{ModId}}_Remy 500/t 600 1700/w sunny": "none/-1000 -1000/farmer 48 45 0 {{ModId}}_Remy 48 40 2/skippable/pause 1000/speak {{ModId}}_Remy \"{{i18n:Remy.Event.2Heart.1}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.2Heart.2}}\"/move farmer 0 -4 0/speak {{ModId}}_Remy \"{{i18n:Remy.Event.2Heart.3}}\"/quickQuestion {{i18n:Remy.Event.2Heart.Q}}#{{i18n:Remy.Event.2Heart.A1}}#{{i18n:Remy.Event.2Heart.A2}}(break)speak {{ModId}}_Remy \"{{i18n:Remy.Event.2Heart.R1}}\"\\friendship {{ModId}}_Remy 50(break)speak {{ModId}}_Remy \"{{i18n:Remy.Event.2Heart.R2}}\"\\friendship {{ModId}}_Remy 20/end",
+        "{{ModId}}_Remy10Heart/f {{ModId}}_Remy 2500/t 1800 2400/w sunny": "none/-1000 -1000/farmer 48 46 0 {{ModId}}_Remy 48 40 2/skippable/pause 1000/move farmer 0 -5 0/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.10Heart.1}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.10Heart.2}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.10Heart.3}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.10Heart.4}}\"/pause 1000/showFrame {{ModId}}_Remy 28/pause 2000/end"
+      }
+    },
+    {
+      "LogName": "Remy Events - Hiking Path",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_HikingPath",
+      "Entries": {
+        "{{ModId}}_Remy4Heart/f {{ModId}}_Remy 1000/t 600 1600": "none/-1000 -1000/farmer 15 30 0 {{ModId}}_Remy 15 25 2/skippable/pause 1000/speak {{ModId}}_Remy \"{{i18n:Remy.Event.4Heart.1}}\"/pause 500/move farmer 0 -4 0/speak {{ModId}}_Remy \"{{i18n:Remy.Event.4Heart.2}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.4Heart.3}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.4Heart.4}}\"/end"
+      }
+    },
+    {
+      "LogName": "Remy Events - Remy Van",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_RemyVan",
+      "Entries": {
+        "{{ModId}}_Remy6Heart/f {{ModId}}_Remy 1500/t 1600 2000": "none/-1000 -1000/farmer 14 14 0 {{ModId}}_Remy 14 9 2/skippable/pause 1000/move farmer 0 -4 0/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.6Heart.1}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.6Heart.2}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.6Heart.3}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.6Heart.4}}\"/end",
+        "{{ModId}}_Remy8Heart/f {{ModId}}_Remy 2000": "none/-1000 -1000/farmer 14 14 0 {{ModId}}_Remy 14 9 2/skippable/pause 1000/move farmer 0 -4 0/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.8Heart.1}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.8Heart.2}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.8Heart.3}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.8Heart.4}}\"/end"
+      }
+    },
+    {
+      "LogName": "Remy Events - FarmHouse",
+      "Action": "EditData",
+      "Target": "Data/Events/FarmHouse",
+      "Entries": {
+        "{{ModId}}_Remy12Heart/f {{ModId}}_Remy 3000/e {{ModId}}_Remy10Heart": "none/-1000 -1000/farmer 10 10 0 {{ModId}}_Remy 10 6 2/skippable/pause 1000/move farmer 0 -3 0/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.12Heart.1}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.12Heart.2}}\"/pause 500/speak {{ModId}}_Remy \"{{i18n:Remy.Event.12Heart.3}}\"/pause 1000/showFrame {{ModId}}_Remy 28/pause 2000/end"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Jett",
+			"Entries":
+{
+  "spring": "GOTO Mon",
+  "spring_20": "610 Custom_JettGarage 21 8 2 jett_coffee/900 Custom_StationOffice 6 5 0 square_2_2/1400 Custom_JettGarage 10 3 0 jett_engine/1800 Custom_JettGarage 11 16 0 jett_tinkering/2200 Custom_JettGarage 13 7 3 jett_sleep",
+  "summer_20": "GOTO spring_20",
+  "fall_20": "GOTO spring_20",
+  "winter_20": "GOTO spring_20",
+  "summer_18": "610 Custom_JettGarage 21 8 2 jett_coffee/730 Custom_JettGarage 21 8 0/800 Custom_Clinic 14 15 0 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Schedule.Clinic.Entry\"/1330 Custom_Clinic 14 15 1/1600 Custom_TimberlineFalls 106 52 2 square_5_5 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Schedule.Clinic.Leave\"/2100 Custom_JettGarage 19 9 2 square_3_3/2200 Custom_JettGarage 14 16 0 jett_washing/2300 Custom_JettGarage 13 7 3 jett_sleep",
+  "winter_15": "610 Custom_JettGarage 21 8 2 jett_coffee/730 Custom_JettGarage 21 8 0/800 Custom_JettGarage 19 20 0/1700 Beach 12 30 2 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Schedule.NightMarket\"/2300 Custom_JettGarage 14 16 0 jett_washing/2400 Custom_JettGarage 13 7 3 jett_sleep",
+  "GreenRain": "610 Custom_JettGarage 21 8 2 jett_coffee/730 Custom_JettGarage 21 8 0/1000 Custom_JettGarage 13 7 2 jett_tinkering/1800 Custom_JettGarage 19 9 2 square_3_3/2200 Custom_JettGarage 13 7 3 jett_sleep",
+  "rain": "610 Custom_JettGarage 21 8 2 jett_coffee/800 Custom_JettGarage 5 21 0 jett_engine/1300 Custom_JettGarage 11 16 0 jett_tinkering/1700 Custom_JettGarage 19 20 0 square_5_5 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Schedule.Rain.Work\"/2100 Custom_JettGarage 14 16 0 jett_washing/2300 Custom_JettGarage 13 7 3 jett_sleep",
+  "Mon": "610 Custom_JettGarage 21 8 2 jett_coffee/730 Custom_JettGarage 21 8 0/830 Custom_StationOffice 6 5 0 square_2_2 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Location.Station\"/1500 Custom_JettGarage 11 16 0 jett_tinkering/2000 Custom_JettGarage 13 7 3 jett_sleep",
+  "Tue": "610 Custom_JettGarage 21 8 2 jett_coffee/1200 Custom_JettGarage 10 3 0 jett_engine/1800 Custom_JettGarage 19 9 2 square_3_3/2200 Custom_JettGarage 13 7 3 jett_sleep",
+  "Wed": "610 Custom_JettGarage 21 8 2 jett_coffee/900 Custom_Buyco 14 21 0 square_4_4 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Schedule.Buyco\"/1300 Custom_JettGarage 11 16 0 jett_tinkering/1800 Custom_JettGarage 19 9 2 square_3_3/2200 Custom_JettGarage 13 7 3 jett_sleep",
+  "Thu": "610 Custom_JettGarage 21 8 2 jett_coffee/1000 Custom_Munitions 14 6 0 jett_engine \"Strings\\schedules\\{{ModId}}_Jett:Jett.Location.Munitions\"/1400 Custom_JettGarage 10 3 0 jett_engine/1900 Custom_JettGarage 13 7 3 jett_sleep",
+  "Fri": "610 Custom_JettGarage 21 8 2 jett_coffee/900 Custom_JettGarage 10 3 0 jett_engine/1600 Custom_JettGarage 11 16 0 jett_tinkering/2100 Custom_JettGarage 13 7 3 jett_sleep",
+  "Sat": "610 Custom_JettGarage 21 8 2 jett_coffee/1100 Custom_JettGarage 10 3 0 jett_engine/1500 Custom_JettGarage 11 16 0 jett_tinkering \"Strings\\schedules\\{{ModId}}_Jett:Jett.Schedule.WorkSaturday\"/2300 Custom_JettGarage 14 16 0 jett_washing/2400 Custom_JettGarage 13 7 3 jett_sleep",
+  "Sun": "610 Custom_JettGarage 21 8 2 jett_coffee/800 Custom_HikingPath 20 15 2 \"Strings\\schedules\\{{ModId}}_Jett:Jett.Schedule.Hiking\"/1200 Custom_HikingPath 29 10 1/1600 Custom_HikingPath 20 15 2/1800 Custom_JettGarage 11 16 0 jett_tinkering/2200 Custom_JettGarage 13 7 3 jett_sleep",
+  "Resort": "900 Custom_JettGarage 21 8 2 jett_coffee/1100 IslandSouth 21 19 2 \"Strings\\schedules\\{{ModId}}_Jett:Resort_Entering\"/1800 Custom_JettGarage 13 7 3 jett_sleep"
+}}]}

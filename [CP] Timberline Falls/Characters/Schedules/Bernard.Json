@@ -1,0 +1,21 @@
+{
+	"Changes": [  
+  {
+			"Action": "EditData",
+			"Target": "Characters/Schedules/{{ModId}}_Bernard",
+			"Entries":
+{
+  "spring": "610 Custom_BernardShack 3 5 2/800 Custom_Cemetery 19 9 2 Bernard_Dig/1300 Custom_Cemetery 6 4 2 Bernard_Sit/1600 Custom_BernardShack 10 6 0/2000 Custom_BernardShack 3 5 3 Bernard_Sleep",
+
+  "spring_Mon": "610 Custom_BernardShack 3 5 2/900 Custom_Cemetery 4 7 2 Bernard_Dig/1500 Custom_Cemetery 8 14 2 Bernard_Dig/1900 Custom_BernardShack 3 5 3 Bernard_Sleep",
+
+  "spring_Tue": "610 Custom_BernardShack 3 5 2/1000 Custom_BernardShack 7 5 0/1400 Custom_BernardShack 9 8 1/1800 Custom_BernardShack 3 5 3 Bernard_Sleep",
+
+  "spring_Fri": "610 Custom_BernardShack 3 5 2/1200 Custom_Cemetery 22 15 2 Bernard_Dig/1700 Custom_Buyco 22 11 0/1900 Custom_BernardShack 3 5 3 Bernard_Sleep",
+
+  "rain": "610 Custom_BernardShack 6 7 2/900 Custom_BernardShack 8 5 0/1500 Custom_Cemetery 13 2 2 Bernard_Sit/2000 Custom_BernardShack 3 5 3 Bernard_Sleep",
+
+  "summer": "GOTO spring",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring"
+}}]}

@@ -1,0 +1,116 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Drexel",
+      "FromFile": "characters/Sprites/Drexel.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Drexel",
+      "FromFile": "characters/Portraits/Drexel.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Dialogue/Drexel.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "characters/Schedules/Drexel.json"
+    },
+    {
+      "LogName": "Drexel Profile Data",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Drexel": {
+          "DisplayName": "{{i18n:Drexel.Name}}",
+          "TextureName": "{{ModId}}_Drexel",
+          "BirthSeason": "Winter",
+          "BirthDay": 4,
+          "HomeRegion": "Other",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Rude",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Negative",
+          "CanBeRomanced": false,
+          "CanReceiveGifts": true,
+          "IntroductionsQuest": false,
+          "PerfectionScore": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_DrexelOffice",
+              "Tile": { "X": 18, "Y": 9 },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Drexel Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Drexel": "{{i18n:Drexel.Gift.Love}}/72 220 221/{{i18n:Drexel.Gift.Like}}/category_gems 395/{{i18n:Drexel.Gift.Dislike}}/category_flowers category_forage/{{i18n:Drexel.Gift.Hate}}/168 169 167 152/{{i18n:Drexel.Gift.Neutral}}/category_junk"
+      }
+    },
+    {
+      "LogName": "Drexel Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "drexel_ledger": "16/16 16 16 17 17 17/16/Strings\\animationDescriptions:Drexel.Ledger",
+        "drexel_sleep": "20/20/20"
+      }
+    },
+    {
+      "LogName": "Drexel Animation Strings",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+        "Drexel.Ledger": "{{i18n:Drexel.Animation.Ledger}}"
+      }
+    },
+    {
+      "LogName": "Drexel Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "{{ModId}}_Drexel": {
+          "Name": "{{ModId}}_Drexel",
+          "LovedTags": [ "Salty", "Expensive" ],
+          "LikedTags": [ "Healthy" ],
+          "DislikedTags": [ "Sweet", "Candy" ],
+          "HatedTags": [ "Jojacorn", "Cheap" ]
+        }
+      }
+    },
+    {
+      "LogName": "Drexel Movie Reactions",
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+        "{{ModId}}_Drexel": {
+          "NPCName": "{{ModId}}_Drexel",
+          "Reactions": [
+            {
+              "Tag": "summer_movie_0",
+              "Response": "dislike"
+            },
+            {
+              "Tag": "fall_movie_0",
+              "Response": "like"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

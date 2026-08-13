@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="18" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="15">
+ <properties>
+  <property name="AmbientLight" value=""/>
+  <property name="Light" value=""/>
+  <property name="Warp" value="5 18 Custom_TimberlineFalls 111 13 4 18 Custom_TimberlineFalls 111 13"/>
+ </properties>
+ <tileset firstgid="1" name="ElliottHouseIndoors" tilewidth="16" tileheight="16" tilecount="56" columns="4">
+  <image source="ElliottHouseTiles.png" width="64" height="224"/>
+ </tileset>
+ <tileset firstgid="57" name="path" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="121" name="HuskySheet.TfallsIndoor" tilewidth="16" tileheight="16" tilecount="1426" columns="31">
+  <image source="HuskySheet.TfallsIndoor.png" width="508" height="739"/>
+ </tileset>
+ <tileset firstgid="1547" name="furniture" tilewidth="16" tileheight="16" tilecount="2976" columns="32">
+  <image source="../TileSheets/furniture.png" width="512" height="1488"/>
+ </tileset>
+ <tileset firstgid="4523" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="6699" name="townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="8011" name="furniture_2" tilewidth="16" tileheight="16" tilecount="512" columns="16">
+  <image source="../TileSheets/furniture_2.png" width="256" height="512"/>
+ </tileset>
+ <layer id="1" name="Back" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBg+CRIGWYGmqEOxJcEKcPqUHModQ+1zVEBYlMsGJc4OoaZw4aGNdBoQnLI5qDr0SDBXJg52PTg4mMTQ/cXLvOwmYWsH4b7pTExMf5DN2e9NCYmxm3o5pyXxsT4/IMevjCMLU0QE/bo5pASN/jCmVBaITZ8iHEPNrNo5R5sbsOnBhsGAIpaYj4=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="11" name="Back 2" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzd0kkOglAQhOEKxBE04AnYO1xUvYcKirdw9hhOgGfwX78FGli8xE6+ZVU66Zb+f6aRNMM8srzID7NwpCVWiJ3qPTuyexxwrNFzI3vHA88aPQ1XaqKFtlu9x+ZsB7Y3kBJusMYGqXGPLJByFHgH5T0nsmdccDV6vFDy0UM/LO95kc2QozB6hmRHGGPypafDT3Thwbf4Hx95Xhut
+  </data>
+ </layer>
+ <layer id="3" name="Buildings" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzbIsjAsJVCvA2IXwOxPAMmsGaEiMcIMTAYSjMwGElDxE/LMDCckYHInQfSF4D4PdQcZajeagUGhhogrlWA8EHi0UBzAoFmBEHNeQ3U90YGIvdeBiIGM0eRgTIMM2e3NKa/NgtD6A9QWluWgUEHinWBWA+I9YHYQBZhDgysBvpnDRCvVcASYHgAujnkApA53sBwPAzlvwP64b0wcXr3QMNiFlC9LtCMLVjSQ64Qdr2iMqhuUGdAYGz+moDDHHS/IANs5mwAmvMXyW4RIDsQiIOAOBiIQ2Swm4MtTcjKkueeFmC4HRdhYDgBxDY4wrpGHJjWxXGbk4SWDr8CzfmGZFYyOwNDCjuCfxiHOU1o5ogC3SQmgt1N30Vwu4cYUAX0T7U4go9uDicevfjSJTcaHzktsSKJs6PJoWN0AADRxlue
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="12" name="Buildings2" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAu8ONhYPDnodycPKAZ+VQwhxDYKEp7OwY74BJmYDARGWhXMDA08DMwNPIj+NaM5JmzAGjGQn7C6kbB4AbcwDRpJUxfOwGbtgX8
+  </data>
+ </layer>
+ <layer id="5" name="Front" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzbIsjAsJVCvA2IXwMxpeA91JxqafLN+CCDMGc2FnMmC0PoC1CaW5aBgQeKeYGYD4j5gVhAFmEODMxWYGCYA8RzFUhzE7o5pIAaJD+gm/NKiHhz5kDNqRKGmOMN1OsDxAFI2BeHeV+R3OCHpF6XBPsFgfEiBMTCMgi/IANkf6WLMDBkiEDYd2UQ4l+A7jAE8o2A2BiITWTwm9MONKNDhDj34TInBWjncqAZK4BYRhi73hhxBoZYcdzmOKGlw6tAc64hmeXMzsDgwk6ce0gF5JoTBfRPtDjt3cONI/35oaVNdIwv7SG7Dd0+QgAAlTpKtQ==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRAAIABRAAAQ==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="AlwaysFront" width="18" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj+oE+BgaEfiCcA8WphVLmNohD6PRNhc+YB9c8H4gUK5LmjlTxtGGAJlcyhNnAXYWDwEBloV2AHUcKE1VAKhnv8jgQAAAUjCjY=
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

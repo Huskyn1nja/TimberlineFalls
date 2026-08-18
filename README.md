@@ -12,6 +12,18 @@ Husky's Alpha Repository for his Expansion Mod
 
 ## Join the Community
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
+---
+  ## Alpha Release v1.16
+
+### New
+* Added the canner
+* Added recipes for tin cans, glass, and foods
+* Added the Deep Fryer
+* Added quest to rebuild Timberline park
+* Added Special Orders
+* Added Custom dialogue for all marriage candidates.
+* Probably a lot more. I lost my notes a bunch of times.
+  
   ---
   ## Alpha Release v1.15
 

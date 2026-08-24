@@ -21,7 +21,7 @@ Husky's Alpha Repository for his Expansion Mod
 * Vance now sells the vacuum Dehydrator at 6 hearts
 * Added a half dozen MRE recipes
 * Added general Queer Pride Flag Rug
-* Added local town map season changes. Will not change / recolor based on season
+* Added local town map season changes. Will now change / recolor based on season
 * Updated timberline outdoor tile sheet to align with seasonality. 
 
 ### Changes

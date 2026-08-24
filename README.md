@@ -13,6 +13,30 @@ Husky's Alpha Repository for his Expansion Mod
 ## Join the Community
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
 ---
+  ## Alpha Release v1.17 - Not yet released
+
+### New
+* Added Jett's Dilemma quest chain - Activated by reaching 4 hearts with Jett
+* Added Crafting recipe to canner - Gained by reaching 5 hearts with Mabel
+* Vance now sells the vacuum Dehydrator at 6 hearts
+* Added a half dozen MRE recipes
+* Added general Queer Pride Flag Rug
+* Added local town map season changes. Will not change / recolor based on season
+* Updated timberline outdoor tile sheet to align with seasonality. 
+
+### Changes
+* Reworked several special orders to align with NPC personality slightly better
+* Changed rug textures
+* Added Changed schedules for several NPCs (Thanks Toado!!)
+* Reworked several NPC dialogue lines
+* Moved Jax into her apartment so she doesn't sit in the lobby all day
+
+### Bug fixes
+* Fixed a secret wall gap on Buyco letting you walk into the void
+* Fixed a bug where Remy busking would sometimes throw an error.
+  
+  ---
+---
   ## Alpha Release v1.16
 
 ### New

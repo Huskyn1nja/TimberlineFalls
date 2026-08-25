@@ -33,7 +33,9 @@ Husky's Alpha Repository for his Expansion Mod
 * Changed the Gorilla house.
 * Updated Schedules for the following NPCs
 	- Jax
-	- Blaise 
+	- Blaise
+* Updated Gift Tastes for the following NPCs
+	- Jax
 
 ### Bug fixes
 * Fixed a secret wall gap on Buyco letting you walk into the void

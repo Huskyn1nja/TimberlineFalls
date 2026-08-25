@@ -30,6 +30,7 @@ Husky's Alpha Repository for his Expansion Mod
 * Added Changed schedules for several NPCs (Thanks Toado!!)
 * Reworked several NPC dialogue lines
 * Moved Jax into her apartment so she doesn't sit in the lobby all day
+* Changed the Gorilla house.
 * Updated Schedules for the following NPCs
 	- Jax
 	- Blaise 

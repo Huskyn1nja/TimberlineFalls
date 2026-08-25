@@ -30,6 +30,9 @@ Husky's Alpha Repository for his Expansion Mod
 * Added Changed schedules for several NPCs (Thanks Toado!!)
 * Reworked several NPC dialogue lines
 * Moved Jax into her apartment so she doesn't sit in the lobby all day
+* Updated Schedules for the following NPCs
+- Jax
+- Blaise 
 
 ### Bug fixes
 * Fixed a secret wall gap on Buyco letting you walk into the void

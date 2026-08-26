@@ -35,6 +35,7 @@ Husky's Alpha Repository for his Expansion Mod
 ### Bug fixes
 * Fixed a secret wall gap on Buyco letting you walk into the void
 * Fixed a bug where Remy busking would sometimes throw an error.
+* Fixed FTM throwing errors regarding tin nodes. This was an idea that was scrapped.
   
   ---
 ---

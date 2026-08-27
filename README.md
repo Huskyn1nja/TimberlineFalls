@@ -13,6 +13,17 @@ Husky's Alpha Repository for his Expansion Mod
 ## Join the Community
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
 ---
+  ## Alpha Release v1.18
+### New
+
+
+### Changes
+* Changed Tilesheet loading. Seasonal tiles and buildings will now load accordingly
+
+### Bug fixes
+* Fixed new schedule issues with NPCs. They should be better now
+
+  ---
   ## Alpha Release v1.17
 
 ### New
@@ -36,8 +47,6 @@ Husky's Alpha Repository for his Expansion Mod
 * Fixed a secret wall gap on Buyco letting you walk into the void
 * Fixed a bug where Remy busking would sometimes throw an error.
 * Fixed FTM throwing errors regarding tin nodes. This was an idea that was scrapped.
-  
-  ---
 ---
   ## Alpha Release v1.16
 

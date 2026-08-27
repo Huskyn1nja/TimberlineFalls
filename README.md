@@ -15,13 +15,18 @@ Husky's Alpha Repository for his Expansion Mod
 ---
   ## Alpha Release v1.18
 ### New
-
+* Fixed NPC schedules (again) this time they work!
+* Drew Summer, fall, and winter tilesheets for Timberline
+* Added compatibility for Event lookup
+* Added Compatibility for NPC Locations
 
 ### Changes
 * Changed Tilesheet loading. Seasonal tiles and buildings will now load accordingly
+* Changed / redrew several sprites to help them stand out less
+* Removed some duplicate files that were unnecessary and made the file bigger than it needed to be
 
 ### Bug fixes
-* Fixed new schedule issues with NPCs. They should be better now
+* Fixed Issue where Game would sometimes crash when you access the world map inside of a building
 
   ---
   ## Alpha Release v1.17

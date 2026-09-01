@@ -29,7 +29,7 @@ Husky's Alpha Repository for his Expansion Mod
   * NPCs will not be unlocked or present until Summer 1. This resolves an issue of them magically phasing through the rockslide.
   * Reworked all NPC Gift tastes
   * Updated Forage and ore to not start spawning in Timberline until Summer of year 1
-  * Updated Hisstopher's schedule to be his own person and stop following Bea everywhere
+  * Minor schedule changes have been made for all NPCS
     
 ### Bug fixes
   * Fixed a bug where park rebuild quest would trigger before you had enough hearts with Bea

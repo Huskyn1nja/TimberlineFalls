@@ -13,6 +13,14 @@ Husky's Alpha Repository for his Expansion Mod
 ## Join the Community
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
 ---
+  ## Alpha Release v1.19
+  * Reworked all NPC Gift tastes
+  * added gift and birthday dialogue for all NPCs
+  * all romanceable NPCs now have spouse rooms and patios
+  * added a number of new events
+  * the penthouse can now be purchased
+  * added movie and concessions tastes for all NPCs 
+---
   ## Alpha Release v1.18
 ### New
 * Fixed NPC schedules (again) this time they work!

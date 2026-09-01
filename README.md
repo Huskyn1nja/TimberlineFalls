@@ -14,12 +14,25 @@ Husky's Alpha Repository for his Expansion Mod
 * [Timberline Falls Discord](https://discord.gg/B6u6fRxz5Z)
 ---
   ## Alpha Release v1.19
-  * Reworked all NPC Gift tastes
+  
+### New
+
+  * Added the new Security Clearance Power indicating Vance has cleared you for access.
   * added gift and birthday dialogue for all NPCs
   * all romanceable NPCs now have spouse rooms and patios
   * added a number of new events
   * the penthouse can now be purchased
-  * added movie and concessions tastes for all NPCs 
+  * added movie and concessions tastes for all NPCs
+
+### Changes
+  * Fixed All NPCs to  not be part of welcome quest.
+  * NPCs will not be unlocked or present until Summer 1. This resolves an issue of them magically phasing through the rockslide.
+  * Reworked all NPC Gift tastes
+    
+### Bug fixes
+  * Fixed a bug where park rebuild quest would trigger before you had enough hearts with Bea
+  * Fixed a bug where park progress was not updating as you completed the bundles
+
 ---
   ## Alpha Release v1.18
 ### New

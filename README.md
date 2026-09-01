@@ -30,6 +30,7 @@ Husky's Alpha Repository for his Expansion Mod
   * Reworked all NPC Gift tastes
   * Updated Forage and ore to not start spawning in Timberline until Summer of year 1
   * Minor schedule changes have been made for all NPCS
+  * Decorated Elara's Office / Home
     
 ### Bug fixes
   * Fixed a bug where park rebuild quest would trigger before you had enough hearts with Bea

@@ -33,6 +33,8 @@ Husky's Alpha Repository for his Expansion Mod
 ### Bug fixes
   * Fixed a bug where park rebuild quest would trigger before you had enough hearts with Bea
   * Fixed a bug where park progress was not updating as you completed the bundles
+  * Fixed a visual bug on the exterior of the station office
+  * Fixed a bug where a tile was impassable in the Pepper Pit
 
 ---
   ## Alpha Release v1.18
